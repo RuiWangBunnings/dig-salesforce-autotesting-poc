@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_ad_hoc_TS_Calls_AU</fullName>
+    <columns>Power_Pass_Account_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Customer_Tier__c</columns>
+    <columns>Last_3_Months_Trend__c</columns>
+    <columns>Secondary_Segment__c</columns>
+    <columns>R12_Total_Transaction_Numbers__c</columns>
+    <columns>R12_Sales__c</columns>
+    <columns>R12_Growth__c</columns>
+    <columns>Assigned_Store__c</columns>
+    <columns>R12_Top_Spend_Location_1__c</columns>
+    <columns>Business_Determined_Call_Reason__c</columns>
+    <columns>Include_in_Call_Cycle__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.AU_Customer</value>
+    </filters>
+    <filters>
+        <field>Business_Determined_Call_Reason__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Inactive,Terminated</value>
+    </filters>
+    <label>Manual/ad-hoc TS Calls</label>
+    <sharedTo>
+        <role>AU_NSW_North_Trade_Specialist</role>
+        <role>AU_NSW_South_ACT_Trade_Specialist</role>
+        <role>AU_QLD_North_Trade_Specialist</role>
+        <role>AU_QLD_South_Trade_Specialist</role>
+        <role>AU_SA_NT_TAS_Trade_Specialist</role>
+        <role>AU_VIC_East_Trade_Specialist</role>
+        <role>AU_VIC_West_Trade_Specialist</role>
+        <role>AU_WA_Trade_Specialist</role>
+    </sharedTo>
+</ListView>

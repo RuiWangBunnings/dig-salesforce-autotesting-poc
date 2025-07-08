@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Segment__c</fullName>
+    <description>Secondary segment associated to the price list. Flat text field association. Any updates to segments on price lists to be catered by source system integration.</description>
+    <externalId>false</externalId>
+    <label>Secondary Segment</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

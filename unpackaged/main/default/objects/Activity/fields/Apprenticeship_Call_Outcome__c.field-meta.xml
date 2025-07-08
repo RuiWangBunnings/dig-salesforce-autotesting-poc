@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apprenticeship_Call_Outcome__c</fullName>
+    <description>Manually updated field to extend Apprentice Account End Date</description>
+    <label>Apprenticeship Call Outcome</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Extend Apprenticeship</fullName>
+                <default>false</default>
+                <label>Extend Apprenticeship</label>
+            </value>
+            <value>
+                <fullName>Apprenticeship has Ended</fullName>
+                <default>false</default>
+                <label>Apprenticeship has Ended</label>
+            </value>
+            <value>
+                <fullName>Convert to Full PowerPass Account</fullName>
+                <default>false</default>
+                <label>Convert to Full PowerPass Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

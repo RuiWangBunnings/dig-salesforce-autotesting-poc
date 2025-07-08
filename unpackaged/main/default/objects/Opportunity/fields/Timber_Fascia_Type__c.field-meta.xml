@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timber_Fascia_Type__c</fullName>
+    <label>Timber Fascia Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Timber_Fascia__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>RAD PP</fullName>
+                <default>false</default>
+                <label>RAD PP</label>
+            </value>
+            <value>
+                <fullName>MPRO PP</fullName>
+                <default>false</default>
+                <label>MPRO PP</label>
+            </value>
+            <value>
+                <fullName>Cedar</fullName>
+                <default>false</default>
+                <label>Cedar</label>
+            </value>
+            <value>
+                <fullName>Axent</fullName>
+                <default>false</default>
+                <label>Axent</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+            <value>
+                <fullName>Scyon PP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scyon PP</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>RAD PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>MPRO PP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Cedar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Axent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

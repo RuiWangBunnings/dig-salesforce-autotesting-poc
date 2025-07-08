@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Type__c</fullName>
+    <description>Unrestricted list of location types</description>
+    <label>Location Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Area</fullName>
+                <default>false</default>
+                <label>Area</label>
+            </value>
+            <value>
+                <fullName>Department</fullName>
+                <default>false</default>
+                <label>Department</label>
+            </value>
+            <value>
+                <fullName>Distribution Centre</fullName>
+                <default>false</default>
+                <label>Distribution Centre</label>
+            </value>
+            <value>
+                <fullName>Frame and Truss Plant</fullName>
+                <default>false</default>
+                <label>Frame and Truss Plant</label>
+            </value>
+            <value>
+                <fullName>Function</fullName>
+                <default>false</default>
+                <label>Function</label>
+            </value>
+            <value>
+                <fullName>Logical</fullName>
+                <default>false</default>
+                <label>Logical</label>
+            </value>
+            <value>
+                <fullName>Region</fullName>
+                <default>false</default>
+                <label>Region</label>
+            </value>
+            <value>
+                <fullName>Section</fullName>
+                <default>false</default>
+                <label>Section</label>
+            </value>
+            <value>
+                <fullName>Small Format Store</fullName>
+                <default>false</default>
+                <label>Small Format Store</label>
+            </value>
+            <value>
+                <fullName>Trade Distribution Centre</fullName>
+                <default>false</default>
+                <label>Trade Distribution Centre</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Integration_User__c</fullName>
+    <description>Used as filter for SF outbound integ. If the record was last updated by this user, SF won&#39;t publish a Platform Event</description>
+    <externalId>false</externalId>
+    <label>Integration User</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for defining expiry date, close date, and follow up date notifications for Special Buys and Opportunities</description>
+    <label>Notification Date</label>
+    <pluralLabel>Notification Dates</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

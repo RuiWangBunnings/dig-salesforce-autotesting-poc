@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Auto_Approval_Eligibility__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that the line item qualifies for automatic approval.</description>
+    <label>Auto Approval Eligibility</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

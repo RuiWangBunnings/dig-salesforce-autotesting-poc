@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile__c</fullName>
+    <label>Profile</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Garage_Door_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ranch (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Ranch (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Heritage (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Heritage (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Slimline (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Slimline (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Glacier (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Glacier (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Flatline (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Flatline (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Fineline (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Fineline (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Ribline (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Ribline (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Stanford (Standard Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Stanford (Standard Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Acrylic (Aluminium Sectional)</fullName>
+                <default>false</default>
+                <label>Acrylic (Aluminium Sectional)</label>
+            </value>
+            <value>
+                <fullName>Composite (Aluminium Sectional)</fullName>
+                <default>false</default>
+                <label>Composite (Aluminium Sectional)</label>
+            </value>
+            <value>
+                <fullName>Standard Roller Door (Steel)</fullName>
+                <default>false</default>
+                <label>Standard Roller Door (Steel)</label>
+            </value>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Louvre</fullName>
+                <default>false</default>
+                <label>Louvre</label>
+            </value>
+            <value>
+                <fullName>Amplimesh</fullName>
+                <default>false</default>
+                <label>Amplimesh</label>
+            </value>
+            <value>
+                <fullName>Perspex</fullName>
+                <default>false</default>
+                <label>Perspex</label>
+            </value>
+            <value>
+                <fullName>Perforated</fullName>
+                <default>false</default>
+                <label>Perforated</label>
+            </value>
+            <value>
+                <fullName>75mm (Steel roller shutter)</fullName>
+                <default>false</default>
+                <label>75mm (Steel roller shutter)</label>
+            </value>
+            <value>
+                <fullName>100mm  (Steel roller shutter)</fullName>
+                <default>false</default>
+                <label>100mm  (Steel roller shutter)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Ranch (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Heritage (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Slimline (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Glacier (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Flatline (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Fineline (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Ribline (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Stanford (Standard Sectional - Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Acrylic (Aluminium Sectional)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Composite (Aluminium Sectional)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Standard Roller Door (Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Bar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Louvre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Amplimesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Perspex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Perforated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>75mm (Steel roller shutter)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>100mm  (Steel roller shutter)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

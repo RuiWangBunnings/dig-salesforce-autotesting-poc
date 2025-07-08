@@ -1,0 +1,4901 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Store_Initiated_Opportunity</fullName>
+    <active>true</active>
+    <businessProcess>NZ Standard Process</businessProcess>
+    <compactLayoutAssignment>NZ_Store_Initiated</compactLayoutAssignment>
+    <description>Store / COS initiated opportunities in New Zealand</description>
+    <label>NZ Store Initiated Opportunity</label>
+    <picklistValues>
+        <picklist>Accepted_Sub_Status__c</picklist>
+        <values>
+            <fullName>Pending - Additional Items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - Delivery Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - Payment%09Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending - Stock Availability</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Acoustic__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active_States__c</picklist>
+        <values>
+            <fullName>%22NATIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appliances_As_Per_Plan__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Appliances_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Architraves__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BTI__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Balcony_Flooring_Type__c</picklist>
+        <values>
+            <fullName>19mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same as Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Balcony_and_Deck_Coverings__c</picklist>
+        <values>
+            <fullName>2700x600x19mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2700x600x22mm Scyon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bath_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bath__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bathroom_Plumbing__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Beyond_Tile__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blockwork_incl_of_Retaining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Box_Gutter_Detail__c</picklist>
+        <values>
+            <fullName>No - Loose Parapet Timbers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Box Gutter Board Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Plated Vertical Member</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brick_Qty_per_m2__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Build_Type__c</picklist>
+        <values>
+            <fullName>Multi Dwelling Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Level Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Dwelling Site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Builder_Type__c</picklist>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Building_Type__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Townhouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Carport__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling_Lining_Rating__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elephant Board 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elephant Board 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gib 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gib 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling_Pack__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concrete_Patios__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concrete__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Corner_Flashings__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Contact_Time__c</picklist>
+        <values>
+            <fullName>1 - 4 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - 8 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over 8 Hours</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under 1 Hour</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Debrief__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_And_Balcony_Joists_CAD__c</picklist>
+        <values>
+            <fullName>Yes - KDHW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - LVL %28Default%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - MGP 10 H3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_Membrane_Flooring__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_Or_Balcony_Joist_Centres__c</picklist>
+        <values>
+            <fullName>450c</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600c</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_Patio__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_Specification__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ekologix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jambu 140x19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jambu 90x19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kwila 140x19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kwila 90x19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permadeck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Clears 88x21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Clears 88x32</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Merch 88x21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Merch 88x32</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Prem 88x21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rad Prem 88x32</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deck_Type__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Composite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Furniture_Type__c</picklist>
+        <values>
+            <fullName>Allegion - Tiva</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Furniture__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Height__c</picklist>
+        <values>
+            <fullName>1980 Std</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Type__c</picklist>
+        <values>
+            <fullName>4mm Polycore - HNZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF Paint 3mm skin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pressed Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V-Groove</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dragon_Board__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dwelling_Type__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Evacare__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exterior__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FF_LB__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FF_NLB__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fibre_Cement_Weatherboard_Supplier__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BGC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fibre_Cement_Weatherboard_Type__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frontier 245</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frontier 310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linea 135</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linea 150</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linea 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuline Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oblique 200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oblique 300</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rustic 205</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smooth 180</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smooth 240</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smooth 305</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stratum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stria</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fibre_Cement_Weatherboard__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Floor_Comparison_Approver__c</picklist>
+        <values>
+            <fullName>Daniel Trainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luke Taylor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richard Harris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wade Kill</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Floor_Joist_Centres__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Floor_Truss_Centres__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Floor_Truss_Depth__c</picklist>
+        <values>
+            <fullName>260</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>370</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>420</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Floor_Truss_Type__c</picklist>
+        <values>
+            <fullName>Longreach %28Timber Web%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pryda Span %28Metal Web%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flooring_As_Per_Plan__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Foundations__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frame_Specifications__c</picklist>
+        <values>
+            <fullName>Builders Scope of Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Australian Standards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Engineering</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frame_Truss__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fully_Enclosed_or_Open_Front__c</picklist>
+        <values>
+            <fullName>Fully Enclosed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Front</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GF_LB__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GF_NLB__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garage_Door__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gib_Cove__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Girder_Locations__c</picklist>
+        <values>
+            <fullName>Best Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Layout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Girder to Garage Lintel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>House_Type__c</picklist>
+        <values>
+            <fullName>Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Rise Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi Detached Townhouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hydrapanel__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Installation_Required__c</picklist>
+        <values>
+            <fullName>Supply %26 Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply ONLY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insulation_As_Per_Plan__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Insulation_Type__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Earthwool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenstuff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mammoth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interior_Doors__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interior_Finishings__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Interior_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Dry_Areas__c</picklist>
+        <values>
+            <fullName>3600x900x19mm Termiflor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3600x900x19mm Y%2FT Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3600x900x22mm Red Tongue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Wet_Area_Coverings__c</picklist>
+        <values>
+            <fullName>2700x600x19mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2700x600x22mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3600x900x19mm Termiflor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3600x900x19mm Y%2FT Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3600x900x22mm Red Tongue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Jambs_Type__c</picklist>
+        <values>
+            <fullName>2-pc Jamb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF Groove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine Groove</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Joist_Centres__c</picklist>
+        <values>
+            <fullName>450c %28Default%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600c</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Bench_Top_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Bench_Top_Type__c</picklist>
+        <values>
+            <fullName>AGB Stone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amorini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaboodle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Bench_Top__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Cabinetry_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Cabinetry_Type__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaboodle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Cabinetry__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Sink_Tapware_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen_Sink_Tapware__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Kitchen__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Landscaping_As_Per_Plan__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Bench_Top_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Bench_Top_Type__c</picklist>
+        <values>
+            <fullName>AGB Stone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amorini</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaboodle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Bench_Top__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Cabinetry_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Cabinetry_Type__c</picklist>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kaboodle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Cabinetry__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Sink_Tapware_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry_Sink_Tapware__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Laundry__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Austrade%2FDFAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Feedback System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Export Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Country Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Delegations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>CLOSED_EXPIRED_OVER_30_DAYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_BETR_SUPP_DIR_AVAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_BUNN_DELV_AVAIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_PRICING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_PRIC_TENDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_PUR_NETWORK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_QUOTE_TURNAROUND</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_STOCK_AVAIL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_SUPP_ETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSED_LOST_SUPP_INSR_DIR_AVAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOSS_PREVENTION_REQUESTED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORDER_ENTRY_ERROR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mammoth__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Maxraft__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metal_Ceiling_Batten__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mid_Floor_Framing__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mid_Floor__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mirror_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mirror__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_or_Existing_Customer__c</picklist>
+        <values>
+            <fullName>Existing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Offer__c</picklist>
+        <values>
+            <fullName>AAC - Nasahi Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balustrading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cladding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insulation Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Available in this State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasterboard %26 Insulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Render %26 Texture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential Lifts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shower Screens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staircases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tactile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wardrobe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waterproofing%2FSealing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Window Furnishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_BTI__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Bathroom_Plumbing_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Bathroom_Plumbing__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Cladding__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Interior_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Kitchen_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Kitchen__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Overhang_if_Required_At_Front__c</picklist>
+        <values>
+            <fullName>1000mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>700mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>800mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>900mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Downpipes_Colour__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grey Friars</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ironsand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Titanium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Downpipes_Type__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magnum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stormcloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typhoon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Downpipes__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Roofing__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Spouting_System_Colour__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grey Friars</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ironsand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Titanium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Spouting_System_Type__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magnum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stormcloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Typhoon</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PVC_Spouting_System__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pacific_Footings__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pergola__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ply_to_Membrane_Roofs__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ply_to_Shingle_Roofs__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Posts__c</picklist>
+        <values>
+            <fullName>No - By Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posts per Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - 88x88 LOSP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Mix__c</picklist>
+        <values>
+            <fullName>300 AUTO COMPRESS GENERATORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 BATHROOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 BBQ AND OUTDOOR HEATING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 BUILDING MATERIALS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 BUILDING SUPPLIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 CAFE DEPARTMENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 CLEANING AND ACCESSORIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 CRAFT AND PROJECTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 DOOR WINDOW GATE HARDWARE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 DOORS AND WINDOWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 ELECTRICAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 FENCE SCREEN AND GATES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 FIXINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 FURNITURE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 GARAGE ORGANISATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 GARDEN CARE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 GARDEN DECOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 GARDEN HAND TOOLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 GREENLIFE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 HAND TOOLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 HARD FLOORING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 HOOKS LEGS PROTECT SAFETY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 INDOOR LIGHTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 INDOOR TIMBER AND BOARDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 KITCHEN AND LAUNDRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 LADDERS SITE SAFETY N PPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 LANDSCAPING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 OUTDOOR LIGHTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 OUTDOOR PLAY KIDS AND PETS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 OUTDOOR TIMBER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 PAINT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 PAINT ACCESSORIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 PEST CONTROL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 PLUMBING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 POOL SPA SHEDS AND SHADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 POWER GARDEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 POWER TOOLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 ROOM FURN SHELV AND STORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 SOFT FLOORING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 STEEL AND ROOFING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 STRUCTURAL TIMBER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 TOOL ACCESSORIES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 TRANSPORT AND MOVING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 WATERING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 WINDOW FURNISHINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300 WOODCARE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACQUISITIONS D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIRE SHOP DT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KITCHEN COLLECTIVE D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTHER DEPARTMENT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Promenaid__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pryda_Floor_Truss_System__c</picklist>
+        <values>
+            <fullName>Longreach Timber Web Floor Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pryda Span Metal Web Floor Truss</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RVP_Flooring__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rafter_Centres__c</picklist>
+        <values>
+            <fullName>600mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>900mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rafters_Type__c</picklist>
+        <values>
+            <fullName>600 Centres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>900 Centres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rafters__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rainwater_System__c</picklist>
+        <values>
+            <fullName>Coloursteel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marley PVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zincalume</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reinforcing__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Replace_Rafters__c</picklist>
+        <values>
+            <fullName>All</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lower Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upper Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rib_Raft_Pods_Accessories__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Flashings__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Pack__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Treatment__c</picklist>
+        <values>
+            <fullName>T2 Treated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Untreated %28Default%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Type__c</picklist>
+        <values>
+            <fullName>Gable Pole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gable Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lean-To</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sheet_Supplier__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BGC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ply</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sheet_Type_Size__c</picklist>
+        <values>
+            <fullName>2440x1220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2700x1200</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Durabarrier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duracom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duragrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duragroove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duraplank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Durascape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy Lap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exotec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HardieFlex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Titan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sheet__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shelving__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shower_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shower__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Skirting__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Skylight_Suntubes__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Slab_Insulation__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Smart_Grid__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Soffit_Size__c</picklist>
+        <values>
+            <fullName>1200 x 4%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E5mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E0mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 x 4%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E5mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Square edge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Soffit_Type__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eclipsa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HardieGroove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HardieSoffit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardieflex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Villaboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Soffit__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specialty_Classification__c</picklist>
+        <values>
+            <fullName>Specialist Disability Accommodation %28SDA%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Standard_Flooring_Type__c</picklist>
+        <values>
+            <fullName>19mm Yellowtongue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22mm Redtongue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25mm Bluetongue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75mm Hebel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>State__c</picklist>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stone_Cladding_Substrate__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strapped_Walls__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Street_Type__c</picklist>
+        <values>
+            <fullName>Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alleyway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anchorage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arcade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Artery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Block</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boulevard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Break</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broadway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bypass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Byway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Causeway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centreway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circlet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colonnade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Common</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concourse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courtyard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crescent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crossing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crossroad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crossway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cruiseway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cul-De-Sac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cutting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deviation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driveway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elbow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esplanade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expressway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fairway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire Track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Firetrail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Footway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freeway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highroad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intersection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laneway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Line</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Little</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lookout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Motorway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outlook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parklands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parkway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Path</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pathway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piazza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Place</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plateau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plaza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pocket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Point</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promenade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quadrangle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quadrant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ramble</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ramp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retreat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ride</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ridgeway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Right of way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>River</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riverway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riviera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roadside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roadway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ronde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rosebowl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Round</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Route</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Row</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Run</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Siding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Square</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State highway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strip</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thoroughfare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tollway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Towers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trailer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triangle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trunkway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underpass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viaduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Villas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vista</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walkway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wharf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wynd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stud_Centres__c</picklist>
+        <values>
+            <fullName>450</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Floor_Framing__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Floor__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier_Region__c</picklist>
+        <values>
+            <fullName>Area 1 - Northland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 1%2C 2%2C 3 - Auckland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Area 8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier__c</picklist>
+        <values>
+            <fullName>Bunnings Preferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dindas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tillings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wesbeam</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tapware_As_Per_Plan__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tapware_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tender_Approver__c</picklist>
+        <values>
+            <fullName>Bec Caccaviello</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Trainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karin Mullenger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Mazzarolo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharon Doalman</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tender_or_Live__c</picklist>
+        <values>
+            <fullName>Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tender</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Cornice__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Fascia_Size__c</picklist>
+        <values>
+            <fullName>135 x 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 x 18%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 x 28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>135 x 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 x 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 x 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 x 18%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 x 28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>180 x 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 x 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 x 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 x 28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>230 x 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280 x 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>280 x 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Fascia_Type__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cedar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPRO PP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAD PP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Fascia__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Floor__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Retaining_Walls__c</picklist>
+        <values>
+            <fullName>As Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Weatherboard_Size__c</picklist>
+        <values>
+            <fullName>142x18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>187x18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Weatherboard_Type__c</picklist>
+        <values>
+            <fullName>A-Lign - BBWB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A-Lign - Rusticated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cedar BBWB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cedar Rustic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cedar Vert Shiplap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAD BBWB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAD Rustic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAD Rustic BBWB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RAD Vert Shiplap</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_Weatherboard__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Toilet_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Toilet__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Towel_Rail_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Towel_Rail__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Truss_Centres__c</picklist>
+        <values>
+            <fullName>600c</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>900c</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Export</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Tender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply %26 Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tender</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vanity_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Vanity__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Cabinet_Quality__c</picklist>
+        <values>
+            <fullName>Best</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Better</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Cabinet__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Framing_Design_Spec__c</picklist>
+        <values>
+            <fullName>Yes - As Per Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - As Per Standards and AS1684</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Framing__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Lining_Rating__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elephant Board 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elephant Board 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gib 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gib 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Material__c</picklist>
+        <values>
+            <fullName>Coloursteel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zincalume</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Area_Flooring_Type__c</picklist>
+        <values>
+            <fullName>19mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22mm Scyon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Same as Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Area_Flooring__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Area_Setdown_PL__c</picklist>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Showers Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whole Wet Area</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Area_Underlay__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Areas_Type__c</picklist>
+        <values>
+            <fullName>300C to Full Wet Area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>300C to Shower Only</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Areas__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Ceiling_Lining_Rating__c</picklist>
+        <values>
+            <fullName>Aquaboard 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aquaboard 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aqualine 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aqualine 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Ceiling_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Wall_Lining_Rating__c</picklist>
+        <values>
+            <fullName>Aquaboard 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aquaboard 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aqualine 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aqualine 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardiglaze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Villaboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Wall_Lining__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required - Different to Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wind_Category__c</picklist>
+        <values>
+            <fullName>C1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Windoware__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

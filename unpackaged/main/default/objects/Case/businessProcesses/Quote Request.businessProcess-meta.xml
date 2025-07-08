@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote Request</fullName>
+    <description>This Support process is used for Quote Requests</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Awaiting Info</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Sent to Customer</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Sent to Requestor</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

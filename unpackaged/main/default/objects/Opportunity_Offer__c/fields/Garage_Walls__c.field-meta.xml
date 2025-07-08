@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garage_Walls__c</fullName>
+    <label>Garage Walls</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gyprock Plus 10mm</fullName>
+                <default>false</default>
+                <label>Gyprock Plus 10mm</label>
+            </value>
+            <value>
+                <fullName>Not Plastered</fullName>
+                <default>false</default>
+                <label>Not Plastered</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Other - Please Specify</fullName>
+                <default>false</default>
+                <label>Other - Please Specify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_WOB_Has_Beaumont_Quote_Requirements__c</fullName>
+    <formula>Bathroom_Walls__c || Bathroom_Floors__c || Kitchen_Walls__c || Kitchen_Floors__c || Laundry_Walls__c || Laundry_Floors__c || Living_Areas__c || External__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH WOB Has Beaumont Quote Requirements</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Transfer</fullName>
+    <active>true</active>
+    <label>Account Transfer</label>
+    <picklistValues>
+        <picklist>Approval_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partially Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validation Check</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Validation Failed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transfer_approval_status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Bulk Account Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Account Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

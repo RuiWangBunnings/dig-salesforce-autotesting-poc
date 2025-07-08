@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Segment_B__c</fullName>
+    <label>Target Segment B</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Slab</fullName>
+                <default>false</default>
+                <label>Slab</label>
+            </value>
+            <value>
+                <fullName>Frame</fullName>
+                <default>false</default>
+                <label>Frame</label>
+            </value>
+            <value>
+                <fullName>Lock Up</fullName>
+                <default>false</default>
+                <label>Lock Up</label>
+            </value>
+            <value>
+                <fullName>Fix</fullName>
+                <default>false</default>
+                <label>Fix</label>
+            </value>
+            <value>
+                <fullName>Fit Out</fullName>
+                <default>false</default>
+                <label>Fit Out</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Ancillary</fullName>
+                <default>false</default>
+                <label>Ancillary</label>
+            </value>
+            <value>
+                <fullName>Beaumont Tiles</fullName>
+                <default>false</default>
+                <label>Beaumont Tiles</label>
+            </value>
+            <value>
+                <fullName>S&amp;I</fullName>
+                <default>false</default>
+                <label>S&amp;I</label>
+            </value>
+            <value>
+                <fullName>Prefab F&amp;T</fullName>
+                <default>false</default>
+                <label>Prefab F&amp;T</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

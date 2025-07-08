@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_100__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that this account is one of the Trade Specialists Top 100</description>
+    <label>Top 100</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

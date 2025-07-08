@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Building_Substrate_s_for_rendering__c</fullName>
+    <label>Building Substrate(s) for rendering</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EPS cavity</fullName>
+                <default>false</default>
+                <label>EPS cavity</label>
+            </value>
+            <value>
+                <fullName>EPS Direct Fix</fullName>
+                <default>false</default>
+                <label>EPS Direct Fix</label>
+            </value>
+            <value>
+                <fullName>FC Recessed</fullName>
+                <default>false</default>
+                <label>FC Recessed</label>
+            </value>
+            <value>
+                <fullName>FC Expressed</fullName>
+                <default>false</default>
+                <label>FC Expressed</label>
+            </value>
+            <value>
+                <fullName>Brick/Block work</fullName>
+                <default>false</default>
+                <label>Brick/Block work</label>
+            </value>
+            <value>
+                <fullName>AAC/Hebel</fullName>
+                <default>false</default>
+                <label>AAC/Hebel</label>
+            </value>
+            <value>
+                <fullName>MgO</fullName>
+                <default>false</default>
+                <label>MgO</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Combination of the above</fullName>
+                <default>false</default>
+                <label>Combination of the above</label>
+            </value>
+            <value>
+                <fullName>EPS</fullName>
+                <default>false</default>
+                <label>EPS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

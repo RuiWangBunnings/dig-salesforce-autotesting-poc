@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_open_spend_band_reviews</fullName>
+    <booleanFilter>(1 AND 3) OR (2 AND 4)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>A1</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>A2</value>
+    </filters>
+    <filters>
+        <field>Level_1_Approver__c</field>
+        <operation>equals</operation>
+        <value>$USER</value>
+    </filters>
+    <filters>
+        <field>Level_2_Approver__c</field>
+        <operation>equals</operation>
+        <value>$USER</value>
+    </filters>
+    <label>My open spend band reviews</label>
+</ListView>

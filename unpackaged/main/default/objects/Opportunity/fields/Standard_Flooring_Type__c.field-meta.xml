@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_Flooring_Type__c</fullName>
+    <label>Standard Flooring Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>19mm Yellowtongue</fullName>
+                <default>false</default>
+                <label>19mm Yellowtongue</label>
+            </value>
+            <value>
+                <fullName>22mm Redtongue</fullName>
+                <default>false</default>
+                <label>22mm Redtongue</label>
+            </value>
+            <value>
+                <fullName>25mm Bluetongue</fullName>
+                <default>false</default>
+                <label>25mm Bluetongue</label>
+            </value>
+            <value>
+                <fullName>75mm Hebel</fullName>
+                <default>false</default>
+                <label>75mm Hebel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

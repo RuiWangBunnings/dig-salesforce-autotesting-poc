@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_3_Months_Trend__c</fullName>
+    <description>Used in AM Call Cycle</description>
+    <label>Last 3 Months Trend</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No spend</fullName>
+                <default>false</default>
+                <label>No spend</label>
+            </value>
+            <value>
+                <fullName>Spend</fullName>
+                <default>false</default>
+                <label>Spend</label>
+            </value>
+            <value>
+                <fullName>Accelerating</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Accelerating</label>
+            </value>
+            <value>
+                <fullName>Decelerating</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Decelerating</label>
+            </value>
+            <value>
+                <fullName>Up and Down</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Up and Down</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

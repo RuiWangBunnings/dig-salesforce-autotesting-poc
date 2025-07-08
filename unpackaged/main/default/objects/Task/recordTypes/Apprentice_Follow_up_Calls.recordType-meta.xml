@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apprentice_Follow_up_Calls</fullName>
+    <active>true</active>
+    <description>Used for Apprentice Follow Up Call Task Records</description>
+    <label>Apprentice Follow up Calls</label>
+    <picklistValues>
+        <picklist>Apprenticeship_Call_Outcome__c</picklist>
+        <values>
+            <fullName>Apprenticeship has Ended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convert to Full PowerPass Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extend Apprenticeship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_Outcome__c</picklist>
+        <values>
+            <fullName>Apprenticeship Ending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convert to full powerpass account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extend Apprenticeship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Continue_to_Decline__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Growth_Reason__c</picklist>
+        <values>
+            <fullName>Bunnings has stock available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expanding business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growing their team so completing more work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Happy with Bunnings experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to identify reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unable to understand reason due to language barrier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winning more work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won big project - once off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work in the area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work is steady</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Know_about_TS__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Likely_to_Return__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Main_Reason_Expanded__c</picklist>
+        <values>
+            <fullName>Bunnings has insufficient stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bunnings is not competitive on price %28Price%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished project %2F job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forgetting to scan card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware needs are reducing so shopping less</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with PowerPass app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location of store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs a new %2F additional card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not operating this business anymore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the right product selection %28Range%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - please specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocated %2F moved away</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired or slowing down for retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopping with a different account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special orders %28CSO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub-contracting and not using personal PowerPass account as much</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taking personal leave from work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work slowing because of external impacts %28e%2Eg COVID%2C fires%2C floods%2C economic downturn%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Main_Reason__c</picklist>
+        <values>
+            <fullName>Business has closed due to covid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t feel valued by Bunnings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have better relationships elsewhere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inadequate quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost my card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not good enough service%2Fexpertise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not operating this business anymore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the best price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the right product selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopping with a different account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still shopping%2C but I don%E2%80%99t scan my card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too slow to get what they need</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Maintain_Growth_Spend__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Outcome__c</picklist>
+        <values>
+            <fullName>Busy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Left voicemail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested Call Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong number</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Reason_Expanded__c</picklist>
+        <values>
+            <fullName>Bunnings has insufficient stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bunnings is not competitive on price %28Price%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished project %2F job</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forgetting to scan card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware needs are reducing so shopping less</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with PowerPass app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue with credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location of store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs a new %2F additional card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not operating this business anymore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the right product selection %28Range%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - please specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocated %2F moved away</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired or slowing down for retirement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopping with a different account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special orders %28CSO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub-contracting and not using personal PowerPass account as much</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Taking personal leave from work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work slowing because of external impacts %28e%2Eg COVID%2C fires%2C floods%2C economic downturn%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Reason__c</picklist>
+        <values>
+            <fullName>Business has closed due to covid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%E2%80%99t feel valued by Bunnings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Have better relationships elsewhere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inadequate quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost my card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not good enough service%2Fexpertise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not operating this business anymore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the best price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not the right product selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopping with a different account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still shopping%2C but I don%E2%80%99t scan my card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Too slow to get what they need</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_type__c</picklist>
+        <values>
+            <fullName>Apprentice Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Store Vibe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FOrder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Joint Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>In Store%2FTC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_are_you_using_it_for__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quoting %28Customer quote production%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Take Offs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_technology_are_you_using__c</picklist>
+        <values>
+            <fullName>BuildSoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BuilderTrend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CoConstruct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Databuild</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Excel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Builders Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

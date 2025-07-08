@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Buy_Fields</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Label__c</columns>
+    <columns>Field_Name__c</columns>
+    <columns>Field_Type__c</columns>
+    <columns>Field_Order__c</columns>
+    <columns>Cost_Zone__c</columns>
+    <columns>Price_Field_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Table_Type__c</field>
+        <operation>equals</operation>
+        <value>Special Buy Line</value>
+    </filters>
+    <label>Special Buy Fields</label>
+</ListView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_RecordType</fullName>
+    <active>true</active>
+    <description>This rule ensures that only System Admin and Integrations Users are able to edit the Contact Record Type.</description>
+    <errorConditionFormula>AND(ISCHANGED( RecordTypeId ),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorMessage>You cannot update the Record Type of a Contact.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SourceCustomerId__c</fullName>
+    <description>To reference customer number from hire shop HS_CUSTOMERS.CUSTOMER_ID</description>
+    <externalId>false</externalId>
+    <label>Source Customer Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Reason_Other_Is_Required</fullName>
+    <active>true</active>
+    <description>Secondary Reason Other is required when Secondary Reason is other.</description>
+    <errorConditionFormula>AND(ISPICKVAL( Secondary_Reason__c , &quot;Other&quot;),
+    ISBLANK( Secondary_Reason_Other__c ))</errorConditionFormula>
+    <errorDisplayField>Secondary_Reason_Other__c</errorDisplayField>
+    <errorMessage>Secondary Reason (Other) is required when Secondary Reason is Other</errorMessage>
+</ValidationRule>

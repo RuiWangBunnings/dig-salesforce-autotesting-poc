@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Referral</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Power_Pass_Account_Number__c</columns>
+    <columns>On_Referral_Date__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Credit_Limit__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Spend_Band__c</columns>
+    <columns>R12_Sales__c</columns>
+    <columns>Assigned_Store__c</columns>
+    <columns>Account_State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>equals</operation>
+        <value>Referred</value>
+    </filters>
+    <label>All On Referral Accounts</label>
+</ListView>

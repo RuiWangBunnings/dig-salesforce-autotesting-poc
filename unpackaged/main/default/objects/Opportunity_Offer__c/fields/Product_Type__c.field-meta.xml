@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Type__c</fullName>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Render &amp; Texture</fullName>
+                <default>false</default>
+                <label>Render &amp; Texture</label>
+            </value>
+            <value>
+                <fullName>Fibre Cement</fullName>
+                <default>false</default>
+                <label>Fibre Cement</label>
+            </value>
+            <value>
+                <fullName>Hebel</fullName>
+                <default>false</default>
+                <label>Hebel</label>
+            </value>
+            <value>
+                <fullName>Loxo</fullName>
+                <default>false</default>
+                <label>Loxo</label>
+            </value>
+            <value>
+                <fullName>Exsulite</fullName>
+                <default>false</default>
+                <label>Exsulite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

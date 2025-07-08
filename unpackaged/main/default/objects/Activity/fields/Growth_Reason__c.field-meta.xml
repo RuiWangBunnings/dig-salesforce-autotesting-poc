@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Growth_Reason__c</fullName>
+    <label>Growing Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Winning more work</fullName>
+                <default>false</default>
+                <label>Winning more work</label>
+            </value>
+            <value>
+                <fullName>Won big project - once off</fullName>
+                <default>false</default>
+                <label>Won big project - once off</label>
+            </value>
+            <value>
+                <fullName>Personal project</fullName>
+                <default>false</default>
+                <label>Personal project</label>
+            </value>
+            <value>
+                <fullName>Expanding business</fullName>
+                <default>false</default>
+                <label>Expanding business</label>
+            </value>
+            <value>
+                <fullName>Growing their team so completing more work</fullName>
+                <default>false</default>
+                <label>Growing their team so completing more work</label>
+            </value>
+            <value>
+                <fullName>Bunnings has stock available</fullName>
+                <default>false</default>
+                <label>Bunnings has stock available</label>
+            </value>
+            <value>
+                <fullName>Happy with Bunnings experience</fullName>
+                <default>false</default>
+                <label>Happy with Bunnings experience</label>
+            </value>
+            <value>
+                <fullName>Work in the area</fullName>
+                <default>false</default>
+                <label>Work in the area</label>
+            </value>
+            <value>
+                <fullName>Unable to understand reason due to language barrier</fullName>
+                <default>false</default>
+                <label>Unable to understand reason due to language barrier</label>
+            </value>
+            <value>
+                <fullName>Unable to identify reason</fullName>
+                <default>false</default>
+                <label>Unable to identify reason</label>
+            </value>
+            <value>
+                <fullName>Work is steady</fullName>
+                <default>false</default>
+                <label>Work is steady</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

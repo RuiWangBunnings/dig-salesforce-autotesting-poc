@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_edit_Mobile_unless_cash_account</fullName>
+    <active>true</active>
+    <description>Validation rule ensures that users cannot edit Business Mobile field unless account is Type Cash</description>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Type , &quot;Cash&quot;)) ,
+ISCHANGED(Business_Mobile__c ), 
+Contains($RecordType.Name, &quot;Customer&quot;),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorDisplayField>Business_Mobile__c</errorDisplayField>
+    <errorMessage>You can only update the Business Mobile for Cash Customer Accounts. Please contact Credit to update the Account.</errorMessage>
+</ValidationRule>

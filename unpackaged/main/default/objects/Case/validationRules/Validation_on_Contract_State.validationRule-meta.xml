@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Contract_State</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that if Users select NATIONAL for Contract State, no other states can be selected. Subtype must be New Contract</description>
+    <errorConditionFormula>AND(
+INCLUDES( Contract_States__c ,&#39;NATIONAL&#39;),
+OR(
+ISPICKVAL( Subtype__c ,&#39;New Contract&#39;),
+ISPICKVAL( Subtype__c ,&#39;New Project Contract&#39;)
+),
+OR(
+INCLUDES( Contract_States__c ,&#39;ACT&#39;),
+INCLUDES( Contract_States__c ,&#39;NQ&#39;),
+INCLUDES( Contract_States__c ,&#39;NSW&#39;),
+INCLUDES( Contract_States__c ,&#39;NT&#39;),
+INCLUDES( Contract_States__c ,&#39;QLD&#39;),
+INCLUDES( Contract_States__c ,&#39;SA&#39;),
+INCLUDES( Contract_States__c ,&#39;TAS&#39;),
+INCLUDES( Contract_States__c ,&#39;VIC&#39;),
+INCLUDES( Contract_States__c ,&#39;NI&#39;),
+INCLUDES( Contract_States__c ,&#39;WA&#39;),
+INCLUDES( Contract_States__c ,&#39;SI&#39;)))</errorConditionFormula>
+    <errorDisplayField>Contract_States__c</errorDisplayField>
+    <errorMessage>You have selected National. 
+You are unable to select additional states.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retail_Spare_Parts_Support</fullName>
+    <active>true</active>
+    <businessProcess>Retail Customer Support Process</businessProcess>
+    <description>Record type to capture the Spare parts cases</description>
+    <label>Retail Spare Parts Support</label>
+    <picklistValues>
+        <picklist>Amendment_Type__c</picklist>
+        <values>
+            <fullName>Addition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deletion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price Change</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Awaiting_Information_Reason__c</picklist>
+        <values>
+            <fullName>Awaiting customer info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting internal team info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting store info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting supplier info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting supplier quote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason_Subtype__c</picklist>
+        <values>
+            <fullName>Account Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Managed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assisted Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Card Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Limit Queries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discount Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice Queries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loss Prevention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchandise Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PP App Query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Powerpass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promos %26 Trials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote%2FOrder Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Sub_Reason__c</picklist>
+        <values>
+            <fullName>Damage to customer site%2Fproperty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered in wrong location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery not on time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect product delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect product delivered %26 installed on site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing items from delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order not ready for pick-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsatisfactory delivery outcome</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buyers %26 Buyers assistants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General customer enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Istash Accounts Receivable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Istash enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP Store enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Assist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Close_Reason__c</picklist>
+        <values>
+            <fullName>Closed - Customer Abandoned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - First Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Internal Team Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Internal Team Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Supplier Follow up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - With Customer Follow up</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_States__c</picklist>
+        <values>
+            <fullName>ACT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NATIONAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NSW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cost_Zones__c</picklist>
+        <values>
+            <fullName>ALL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AU CZ 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AU CZ 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AU CZ 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ CZ 7</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Division__c</picklist>
+        <values>
+            <fullName>East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impact_Grading__c</picklist>
+        <values>
+            <fullName>Customer impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No customer impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety impact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_deal_for_a_valid_NCQ_Category__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_quote_greater_than_20k__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Root_Cause__c</picklist>
+        <values>
+            <fullName>Communication Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Couldn%E2%80%99t Meet Delivery Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered to Wrong Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery was Late</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goods Were Damaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keying Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed Call-Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMS Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ordered the Wrong Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ordered the Wrong Quantity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Picking Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Positive Feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Not Followed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quote Took too Long</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Issue_Source__c</picklist>
+        <values>
+            <fullName>Beaumont Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Services Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame %26 Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fulfilment Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hybrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Commercial Quotes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock not Available %28Internal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply %26 Install</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Assist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NZ_Region__c</picklist>
+        <values>
+            <fullName>Region 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Region 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Region 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Region 4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow up order%2Fquote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Order%2FQuote Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PowerPass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Enquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rejection_Reason__c</picklist>
+        <values>
+            <fullName>Can%E2%80%99t meet program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consolidated with other offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Credit%2FAccount related issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Did not meet Specifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insufficient information to provide quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service offer unavailable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tender request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Category__c</picklist>
+        <values>
+            <fullName>Additional information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blutide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bosch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breakdown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Briggs %26 Stratton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COS do not replies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COS replies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel%2Frefund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drake report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free of charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General product information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Item Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logan Arms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ozito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing and availabilty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process query</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spiro Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier contact information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TTI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype__c</picklist>
+        <values>
+            <fullName>New Contract</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier__c</picklist>
+        <values>
+            <fullName>ACM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Absco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adeval%2FGarth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adventure Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allegion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amalgamated Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ames%2FCyclone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aquatec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arlec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assa Abloy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bedford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bosch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Briggs %26 Stratton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caroma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DATS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daytek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Everhard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiskars</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fiskars%2FHorticom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitzone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flurida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GAF control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gale Pacific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genesis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harkness and Young</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hartman Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heingier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Husqvarna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyclor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IXL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Install %26 Fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KCI%2FSolventum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kincrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kinetic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newell%2FColeman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nilfisk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ozito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific Trends</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parmco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pillar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residentia Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riverlea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scandia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silvan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sitro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stanley B%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steelfort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stefani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Techtronic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tradeware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wagner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wagner%2FPaintworx</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Werner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yotrio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Customer Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ Customer Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ Internal Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ Istash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NZ Supplier Enquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supplier Enquiry</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>medallia_xm__PotentialLiability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

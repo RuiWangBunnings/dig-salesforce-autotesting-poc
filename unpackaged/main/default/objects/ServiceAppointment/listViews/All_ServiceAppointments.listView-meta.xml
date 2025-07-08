@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_ServiceAppointments</fullName>
+    <columns>Name</columns>
+    <columns>SchedStartTime</columns>
+    <columns>SchedEndTime</columns>
+    <columns>LastModifiedDate</columns>
+    <columns>ServiceTerritory</columns>
+    <columns>Status</columns>
+    <columns>WorkType</columns>
+    <columns>AdditionalInformation</columns>
+    <columns>Account</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Service Appointments</label>
+    <language>en_US</language>
+</ListView>

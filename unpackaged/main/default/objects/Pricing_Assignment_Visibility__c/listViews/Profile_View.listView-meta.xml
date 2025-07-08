@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile_View</fullName>
+    <columns>NAME</columns>
+    <columns>Profile__c</columns>
+    <columns>Country__c</columns>
+    <columns>Family_Tree_Discount__c</columns>
+    <columns>Price_List_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Price_List_Name__c</field>
+        <operation>contains</operation>
+        <value>Landscape</value>
+    </filters>
+    <label>Profile View</label>
+</ListView>

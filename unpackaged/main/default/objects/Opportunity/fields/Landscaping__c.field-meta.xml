@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Landscaping__c</fullName>
+    <description>Checked if any landscaping offer is checked</description>
+    <formula>OR
+(Retaining__c = TRUE,
+Turf__c = TRUE,
+Letterbox__c = TRUE,
+Fencing__c = TRUE,
+Irrigation__c = TRUE,
+Plants__c = TRUE,
+Clothesline__c = TRUE,
+Pavers__c = TRUE,
+Outdoor_kitchens_BBQs__c = TRUE,
+Pool_fencing__c = TRUE,
+Bulk_supply_items__c = TRUE,
+Garden_lighting__c = TRUE,
+Sheds_structures__c = TRUE,
+Decking__c = TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Landscaping</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

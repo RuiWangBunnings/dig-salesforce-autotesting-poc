@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wet_Areas_Type__c</fullName>
+    <label>Wet Areas Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>300C to Shower Only</fullName>
+                <default>false</default>
+                <label>300C to Shower Only</label>
+            </value>
+            <value>
+                <fullName>300C to Full Wet Area</fullName>
+                <default>false</default>
+                <label>300C to Full Wet Area</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

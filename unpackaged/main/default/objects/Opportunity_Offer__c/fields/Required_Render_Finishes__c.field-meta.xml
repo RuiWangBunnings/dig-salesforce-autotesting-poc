@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Render_Finishes__c</fullName>
+    <label>Required Render Finishes</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Approx. Render M2</fullName>
+                <default>false</default>
+                <label>Approx. Render M2</label>
+            </value>
+            <value>
+                <fullName>Approx. Paint M2</fullName>
+                <default>false</default>
+                <label>Approx. Paint M2</label>
+            </value>
+            <value>
+                <fullName>Other M2</fullName>
+                <default>false</default>
+                <label>Other M2</label>
+            </value>
+            <value>
+                <fullName>Specialty Finishes M2</fullName>
+                <default>false</default>
+                <label>Specialty Finishes M2</label>
+            </value>
+            <value>
+                <fullName>Cladding - Dulux Exsulite System</fullName>
+                <default>false</default>
+                <label>Cladding - Dulux Exsulite System</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

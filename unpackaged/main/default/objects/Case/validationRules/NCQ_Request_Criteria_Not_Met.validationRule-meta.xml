@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCQ_Request_Criteria_Not_Met</fullName>
+    <active>false</active>
+    <description>This rule ensures that the NCQ Request meets the criteria to be created.If Is this quote greater than $20k? and Is this deal for a valid NCQ Category? are both &lt;&gt; Yes&quot; the record will not create.</description>
+    <errorConditionFormula>ISNEW()&amp;&amp;
+ RecordType.DeveloperName = &quot;NCQ_Request&quot; &amp;&amp;
+NOT(ISPICKVAL( Is_this_deal_for_a_valid_NCQ_Category__c , &quot;Yes&quot;))&amp;&amp;
+NOT(ISPICKVAL( Is_this_quote_greater_than_20k__c,&quot;Yes&quot;))</errorConditionFormula>
+    <errorMessage>This opportunity does not meet the criteria for the National Commercial Quote team. Please request your quote via the normal channels.</errorMessage>
+</ValidationRule>

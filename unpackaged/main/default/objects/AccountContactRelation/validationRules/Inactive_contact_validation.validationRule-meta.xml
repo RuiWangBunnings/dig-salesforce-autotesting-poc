@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive_contact_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+TEXT(Contact.Status__c) &lt;&gt; &#39;Active&#39;,
+AND(Contact.RecordType.DeveloperName = &#39;NZ_AR_Contact&#39;
+||
+Contact.RecordType.DeveloperName = &#39;AU_AR_Contact&#39;
+,
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)
+)</errorConditionFormula>
+    <errorDisplayField>ContactId</errorDisplayField>
+    <errorMessage>The contact is inactive . Please choose a different contact</errorMessage>
+</ValidationRule>

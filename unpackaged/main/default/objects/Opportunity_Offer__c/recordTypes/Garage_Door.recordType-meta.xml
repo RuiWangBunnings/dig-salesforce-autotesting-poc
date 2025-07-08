@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garage_Door</fullName>
+    <active>true</active>
+    <label>Garage Door</label>
+    <picklistValues>
+        <picklist>Alfresco_Battens__c</picklist>
+        <values>
+            <fullName>Battens Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cornice by CSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Fix to Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Furring Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Level on Clips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Alfresco_Board_Type__c</picklist>
+        <values>
+            <fullName>Aquachek 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aquachek 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supaceil 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallboard 6mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Aluminium_Frame_Colour__c</picklist>
+        <values>
+            <fullName>Chrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matte Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>BAL_requirements__c</picklist>
+        <values>
+            <fullName>BAL12%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bal_Rating__c</picklist>
+        <values>
+            <fullName>12%2E5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Balcony_Battens__c</picklist>
+        <values>
+            <fullName>Battens Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cornice by CSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Fix to Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Furring Channel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Level on Clips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Balcony_Board_Type__c</picklist>
+        <values>
+            <fullName>Aquachek 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aquachek 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supaceil 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallboard 6mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Balcony_Trim__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Builder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Baluster__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrought Iron</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brush_Seals__c</picklist>
+        <values>
+            <fullName>BAL 12%2E5 Available for Steel and Aluminium Sectional Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL 19 %28Not Available For Aluminium Sectional Doors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL 29 %28Not Available For Aluminium Sectional Doors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BAL 40 %28Not Available For Aluminium Sectional Doors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Building_Substrate_s_for_rendering__c</picklist>
+        <values>
+            <fullName>AAC%2FHebel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brick%2FBlock work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combination of the above</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS Direct Fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS cavity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FC Expressed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FC Recessed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MgO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Building_Type_Storey__c</picklist>
+        <values>
+            <fullName>Double Story</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Story</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Building_Type__c</picklist>
+        <values>
+            <fullName>Brick Veneer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid Brick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weatherboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling_Heights_d_stairs__c</picklist>
+        <values>
+            <fullName>2%2E40m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E50m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E70m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E00m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ceiling_Heights_u_stairs__c</picklist>
+        <values>
+            <fullName>2%2E40m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E50m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E70m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E00m</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cladding_Dulux_Exsulite__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cladding__c</picklist>
+        <values>
+            <fullName>Sections Mentioned in Comments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whole Project</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Colour__c</picklist>
+        <values>
+            <fullName>Colourbond Standard %28Sectional Steel %2F Roller Door%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decowood %28Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Finish %28Sectional Steel %2F Roller Door%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Colours %28Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unitcote Lux %28Sectional Steel %2F Roller Door%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Colour_of_EAC_unit__c</picklist>
+        <values>
+            <fullName>Beige</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Colours__c</picklist>
+        <values>
+            <fullName>1950mm Height - Matte black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2000mm Height - Chrome</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cornice_Sub_Selection__c</picklist>
+        <values>
+            <fullName>55mm Cove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75mm Cove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90mm Cove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paper Tape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perfect Angle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cornice__c</picklist>
+        <values>
+            <fullName>Cove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Square-set</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Material__c</picklist>
+        <values>
+            <fullName>9mm White melamine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onyx grey%2Fblack mirror</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other specify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver mirror</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White glass</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Door_Type__c</picklist>
+        <values>
+            <fullName>Aluminium Roller Shutter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aluminium Sectional Door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grilles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roller Door  %28Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sectional Door - Standard %28Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sectional Door -Aluminium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Tilt Door %28Excluding WA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Timber door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Roller Shutte</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dulux_Acratex_Details__c</picklist>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Efficiency_of_Gas_Furnace__c</picklist>
+        <values>
+            <fullName>3 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Star</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flooring_Direction__c</picklist>
+        <values>
+            <fullName>No - Unsure of direction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes - Marked on plan attached</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flooring_Type__c</picklist>
+        <values>
+            <fullName>Engineered Oak - 14%2E3mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hybrid Flooring - 6mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laminate Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oslek %28Only available in Vic%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD Only - LVT Vinyl Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLD Only - WPC Vinyl Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TopDeck %28Only available in NSW%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Flydoor_Options__c</picklist>
+        <values>
+            <fullName>Barrier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STD flydoor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security doors</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frameless_Hardware_Colour__c</picklist>
+        <values>
+            <fullName>Brushed Brass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brushed Nickel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gunmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matte Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polished Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Framework_Studwork__c</picklist>
+        <values>
+            <fullName>Metal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timber</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuel_Type__c</picklist>
+        <values>
+            <fullName>Electricity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LPG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Full_Height_Tiling__c</picklist>
+        <values>
+            <fullName>Full Height Tiling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garage_Ceiling_Spec__c</picklist>
+        <values>
+            <fullName>450mm Gyprock Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battens Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cornice by CSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Fix to Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Levelled on Clips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Plastered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supaceil 10mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garage_Ceilings__c</picklist>
+        <values>
+            <fullName>450 Centres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600 Centres</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garage_Door_Type__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Garage_Walls__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gyprock Plus 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Plastered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Handrail__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hardware_Colour_Balustrading__c</picklist>
+        <values>
+            <fullName>Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brushed Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Hardware_Colour__c</picklist>
+        <values>
+            <fullName>Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chrome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Install_Method__c</picklist>
+        <values>
+            <fullName>Direct Stick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floating</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Ceilings_Detail__c</picklist>
+        <values>
+            <fullName>Battens Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Fit to Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laser Levelled on Clips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Ceilings__c</picklist>
+        <values>
+            <fullName>450mm Centres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600mm Centres</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Heights__c</picklist>
+        <values>
+            <fullName>1700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1800</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Levels__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Material_Selected__c</picklist>
+        <values>
+            <fullName>Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar Filter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mount_Type__c</picklist>
+        <values>
+            <fullName>Channel Fixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spigots %28Pools%2C Stairs%2C Balcony%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standoff %28Stairs Only%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Newel_Post__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stainless Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Opening_heights__c</picklist>
+        <values>
+            <fullName>2100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2700</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Optima_High_Wall_Split__c</picklist>
+        <values>
+            <fullName>2%2E5kW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E5kW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E0kW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E0kW</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Panel_size__c</picklist>
+        <values>
+            <fullName>50mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partiwalls__c</picklist>
+        <values>
+            <fullName>BRC or BGC%2E Comments below</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaftliner Setup</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plans_Attached__c</picklist>
+        <values>
+            <fullName>NO - Cannot Provide Quote At This Stage%2C Must Have Plans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Power_Supply_available__c</picklist>
+        <values>
+            <fullName>Single Phase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Three Phase</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Selection_Cladding__c</picklist>
+        <values>
+            <fullName>Cladding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cladding %26 Render</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Selection__c</picklist>
+        <values>
+            <fullName>AAC-Nasahi Panel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AAC-Nasahi Panel %26 Render</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Type__c</picklist>
+        <values>
+            <fullName>Exsulite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fibre Cement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hebel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loxo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Render %26 Texture</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Profile__c</picklist>
+        <values>
+            <fullName>100mm  %28Steel roller shutter%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75mm %28Steel roller shutter%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acrylic %28Aluminium Sectional%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amplimesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Composite %28Aluminium Sectional%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fineline %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flatline %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Glacier %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heritage %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louvre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perforated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perspex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ranch %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ribline %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slimline %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Roller Door %28Steel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stanford %28Standard Sectional - Steel%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quick_options__c</picklist>
+        <values>
+            <fullName>European Beech stair for polish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum stair for polish</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine %26 MDF stair for paint and carpet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine %26 MDF stair for paint and overlayed flooring</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Required_Render_Finishes__c</picklist>
+        <values>
+            <fullName>Approx%2E Paint M2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Approx%2E Render M2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cladding - Dulux Exsulite System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other M2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty Finishes M2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Requirement_Type__c</picklist>
+        <values>
+            <fullName>Sealing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waterproofing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Return_Air_Grill_Type__c</picklist>
+        <values>
+            <fullName>Egg Crate Filtered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egg Crate Plain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic Grille Filtered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plastic Grille Plain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Return_Air_position__c</picklist>
+        <values>
+            <fullName>Ceiling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Return_Format__c</picklist>
+        <values>
+            <fullName>Break Down Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Break Down by Type Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Break Down by Unit %2F House Individually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>See Notes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reveals__c</picklist>
+        <values>
+            <fullName>Hardwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primed Hwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primed Pine Reveals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Riser__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Type_Other__c</picklist>
+        <values>
+            <fullName>Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pitched and Degree</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Roof_Type__c</picklist>
+        <values>
+            <fullName>Colourbond %28Color%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SHanging_Rail__c</picklist>
+        <values>
+            <fullName>Double</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Semi_frameless_Shower_Screen_Type__c</picklist>
+        <values>
+            <fullName>Semi-frameless 6mm Pivot Telescopic door</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sliding custom semi frameless 6mm shower screen</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shower_Screen_Style__c</picklist>
+        <values>
+            <fullName>%22Semi-Frameless Shower Screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bath Screens%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frameless Shower Screen</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Skirting__c</picklist>
+        <values>
+            <fullName>Skirting Off - Quad Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skirting On - Quad Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skirting not required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skirting to be removed %26 refit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Staircase_Rail__c</picklist>
+        <values>
+            <fullName>Continuous top rail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Handrail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Standard_3_Draw_Unit_standard_widths__c</picklist>
+        <values>
+            <fullName>458mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>608mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Steel_stringer__c</picklist>
+        <values>
+            <fullName>Beam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stringer__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Style__c</picklist>
+        <values>
+            <fullName>Framed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Framed%2FFrameless</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subfloor_Material__c</picklist>
+        <values>
+            <fullName>Concrete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Particle Board</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Surface_Installing_into__c</picklist>
+        <values>
+            <fullName>Concrete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timber</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>System_Detail__c</picklist>
+        <values>
+            <fullName>Overhead In Ceiling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underfloor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>System_Type__c</picklist>
+        <values>
+            <fullName>Ducted Evaporative Cooling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ducted Reverse Cycle %28Electric%2FSplit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Ducted Heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gas Ducted with Add-On Refrige</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hi-wall Split System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi System</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Technical_Information__c</picklist>
+        <values>
+            <fullName>Balcony Balustrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool Fencing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stair Balustrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Timber_stringer__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cut</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Top_Hat__c</picklist>
+        <values>
+            <fullName>24mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tracks__c</picklist>
+        <values>
+            <fullName>Double</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triple Track</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tread_Addition__c</picklist>
+        <values>
+            <fullName>Carpet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooring on MDF Tread</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tread__c</picklist>
+        <values>
+            <fullName>European Beech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flooded Gum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MDF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trim__c</picklist>
+        <values>
+            <fullName>As Per Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Builder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trims__c</picklist>
+        <values>
+            <fullName>Concave Flooring Trim - 2400x26x12mm %28Colour to match specified Flooring Type%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Framed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frameless</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_EAC_unit__c</picklist>
+        <values>
+            <fullName>Integra II</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SBB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Windows__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Underlay_Required__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underlay Acoustic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underlay Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unit_Location__c</picklist>
+        <values>
+            <fullName>External at Ground Level %28note location on plan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External on Roof %28note location on plan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal In Ceiling %28note location on plan%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Underfloor %28note location on plan%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Venue_Type__c</picklist>
+        <values>
+            <fullName>Entertainment Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retirement Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wall_Centres__c</picklist>
+        <values>
+            <fullName>450mm Stud Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>600mm Stud Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Please Specify</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Walls__c</picklist>
+        <values>
+            <fullName>Gyprock Plus 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gyprock Plus 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soundchek 13mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Superchek 10mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wet_Areas_Baths_Ensuites__c</picklist>
+        <values>
+            <fullName>Aquachek 10mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wallboard 6mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wind_Ratings__c</picklist>
+        <values>
+            <fullName>N2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Wind_Zone__c</picklist>
+        <values>
+            <fullName>As per plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Window_Covering_Type__c</picklist>
+        <values>
+            <fullName>Panel Tracks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roller Blinds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roman Blinds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vertical Blinds</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Window_Installation_Method__c</picklist>
+        <values>
+            <fullName>Flush Mount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside Mount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Mount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Windows_Doors__c</picklist>
+        <values>
+            <fullName>Aluminium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPVC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Zoning_Requirements__c</picklist>
+        <values>
+            <fullName>Common</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

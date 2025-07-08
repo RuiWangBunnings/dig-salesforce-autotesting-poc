@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Optima_High_Wall_Split__c</fullName>
+    <label>Optima High Wall Split</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2.5kW</fullName>
+                <default>false</default>
+                <label>2.5kW</label>
+            </value>
+            <value>
+                <fullName>3.5kW</fullName>
+                <default>false</default>
+                <label>3.5kW</label>
+            </value>
+            <value>
+                <fullName>5.0kW</fullName>
+                <default>false</default>
+                <label>5.0kW</label>
+            </value>
+            <value>
+                <fullName>7.0kW</fullName>
+                <default>false</default>
+                <label>7.0kW</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

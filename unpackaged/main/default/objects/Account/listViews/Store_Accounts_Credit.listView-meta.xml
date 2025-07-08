@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Accounts_Credit</fullName>
+    <booleanFilter>1 AND (2 OR 3) AND 4</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Power_Pass_Account_Number__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>R12_Sales__c</columns>
+    <columns>Assigned_Store__c</columns>
+    <columns>Spend_Band__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>contains</operation>
+        <value>Credit,30 Day</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Profile_Name__c</field>
+        <operation>equals</operation>
+        <value>Trade Specialist</value>
+    </filters>
+    <filters>
+        <field>Account_Owner_Profile_Name__c</field>
+        <operation>equals</operation>
+        <value>NZ Trade Specialist</value>
+    </filters>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Inactive,Terminated</value>
+    </filters>
+    <label>Store Accounts - Credit</label>
+</ListView>

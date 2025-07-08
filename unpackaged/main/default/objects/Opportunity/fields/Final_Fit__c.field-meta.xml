@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Fit__c</fullName>
+    <description>Checked if any Final Fit offers are checked</description>
+    <formula>OR
+(
+Appliances__c = TRUE,
+Fly_screens_barrier_doors__c = TRUE,
+Garage_doors__c = TRUE,
+Hot_water_service__c = TRUE,
+Decorative_external_lighting__c = TRUE,
+Smart_home__c = TRUE,
+Shower_screens_mirrors__c = TRUE,
+Tapware__c = TRUE,
+Air_conditioners__c = TRUE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Final Fit</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

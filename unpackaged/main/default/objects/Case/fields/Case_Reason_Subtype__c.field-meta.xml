@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_Subtype__c</fullName>
+    <label>Case Reason Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Reason</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Online Access</fullName>
+                <default>false</default>
+                <label>Online Access</label>
+            </value>
+            <value>
+                <fullName>Card Query</fullName>
+                <default>false</default>
+                <label>Card Query</label>
+            </value>
+            <value>
+                <fullName>PP App Query</fullName>
+                <default>false</default>
+                <label>PP App Query</label>
+            </value>
+            <value>
+                <fullName>Loss Prevention</fullName>
+                <default>false</default>
+                <label>Loss Prevention</label>
+            </value>
+            <value>
+                <fullName>Invoice Queries</fullName>
+                <default>false</default>
+                <label>Invoice Queries</label>
+            </value>
+            <value>
+                <fullName>Account Info</fullName>
+                <default>false</default>
+                <label>Account Info</label>
+            </value>
+            <value>
+                <fullName>Credit Limit Queries</fullName>
+                <default>false</default>
+                <label>Credit Limit Queries</label>
+            </value>
+            <value>
+                <fullName>Discount Enquiry</fullName>
+                <default>false</default>
+                <label>Discount Enquiry</label>
+            </value>
+            <value>
+                <fullName>Promos &amp; Trials</fullName>
+                <default>false</default>
+                <label>Promos &amp; Trials</label>
+            </value>
+            <value>
+                <fullName>Merchandise Enquiry</fullName>
+                <default>false</default>
+                <label>Merchandise Enquiry</label>
+            </value>
+            <value>
+                <fullName>Standard Quote</fullName>
+                <default>false</default>
+                <label>Standard Quote</label>
+            </value>
+            <value>
+                <fullName>Account Managed</fullName>
+                <default>false</default>
+                <label>Account Managed</label>
+            </value>
+            <value>
+                <fullName>Non Account</fullName>
+                <default>false</default>
+                <label>Non Account</label>
+            </value>
+            <value>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+                <label>Marketplace</label>
+            </value>
+            <value>
+                <fullName>Assisted Living</fullName>
+                <default>false</default>
+                <label>Assisted Living</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Quote/Order Amendment</fullName>
+                <default>false</default>
+                <label>Quote/Order Amendment</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Delivery Query</fullName>
+                <default>false</default>
+                <label>Delivery Query</label>
+            </value>
+            <value>
+                <fullName>Collection Query</fullName>
+                <default>false</default>
+                <label>Collection Query</label>
+            </value>
+            <value>
+                <fullName>Promotions</fullName>
+                <default>false</default>
+                <label>Promotions</label>
+            </value>
+            <value>
+                <fullName>Outbound Campaign</fullName>
+                <default>false</default>
+                <label>Outbound Campaign</label>
+            </value>
+            <value>
+                <fullName>Powerpass</fullName>
+                <default>false</default>
+                <label>Powerpass</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Store Request</fullName>
+                <default>false</default>
+                <label>Store Request</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Standard Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Account Managed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Non Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Assisted Living</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Quote Request</controllingFieldValue>
+            <controllingFieldValue>New Order/Quote Request</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <valueName>New</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <valueName>Duplicate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Form Lead</controllingFieldValue>
+            <valueName>Store Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Online Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Card Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>PP App Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Loss Prevention</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Invoice Queries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Account Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Credit Limit Queries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Discount Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Promos &amp; Trials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PowerPass</controllingFieldValue>
+            <valueName>Merchandise Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Follow up order/quote</controllingFieldValue>
+            <valueName>Quote/Order Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Follow up order/quote</controllingFieldValue>
+            <valueName>Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Follow up order/quote</controllingFieldValue>
+            <valueName>Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Follow up order/quote</controllingFieldValue>
+            <valueName>Delivery Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Follow up order/quote</controllingFieldValue>
+            <valueName>Collection Query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Promotions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Outbound Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Campaign</controllingFieldValue>
+            <valueName>Powerpass</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

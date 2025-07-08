@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Ceilings__c</fullName>
+    <label>Internal Ceilings</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>450mm Centres</fullName>
+                <default>false</default>
+                <label>450mm Centres</label>
+            </value>
+            <value>
+                <fullName>600mm Centres</fullName>
+                <default>false</default>
+                <label>600mm Centres</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

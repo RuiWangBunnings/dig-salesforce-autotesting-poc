@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retail_Zone__c</fullName>
+    <description>Unrestricted list of retail zones</description>
+    <label>Retail Zone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AU RZ 1</fullName>
+                <default>false</default>
+                <label>AU RZ 1</label>
+            </value>
+            <value>
+                <fullName>AU RZ 2</fullName>
+                <default>false</default>
+                <label>AU RZ 2</label>
+            </value>
+            <value>
+                <fullName>AU RZ 3</fullName>
+                <default>false</default>
+                <label>AU RZ 3</label>
+            </value>
+            <value>
+                <fullName>AU RZ 4</fullName>
+                <default>false</default>
+                <label>AU RZ 4</label>
+            </value>
+            <value>
+                <fullName>AU RZ 5</fullName>
+                <default>false</default>
+                <label>AU RZ 5</label>
+            </value>
+            <value>
+                <fullName>AU RZ 6</fullName>
+                <default>false</default>
+                <label>AU RZ 6</label>
+            </value>
+            <value>
+                <fullName>AU RZ 7 - 1</fullName>
+                <default>false</default>
+                <label>AU RZ 7 - 1</label>
+            </value>
+            <value>
+                <fullName>AU RZ 7 - 2</fullName>
+                <default>false</default>
+                <label>AU RZ 7 - 2</label>
+            </value>
+            <value>
+                <fullName>AU RZ 7 - 3</fullName>
+                <default>false</default>
+                <label>AU RZ 7 - 3</label>
+            </value>
+            <value>
+                <fullName>AU RZ 7 - 4</fullName>
+                <default>false</default>
+                <label>AU RZ 7 - 4</label>
+            </value>
+            <value>
+                <fullName>AU RZ 7 - 5</fullName>
+                <default>false</default>
+                <label>AU RZ 7 - 5</label>
+            </value>
+            <value>
+                <fullName>AU RZ 8</fullName>
+                <default>false</default>
+                <label>AU RZ 8</label>
+            </value>
+            <value>
+                <fullName>AU RZ 9</fullName>
+                <default>false</default>
+                <label>AU RZ 9</label>
+            </value>
+            <value>
+                <fullName>AU RZ 10</fullName>
+                <default>false</default>
+                <label>AU RZ 10</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 1</fullName>
+                <default>false</default>
+                <label>NZ RZ 1</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 2</fullName>
+                <default>false</default>
+                <label>NZ RZ 2</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 3</fullName>
+                <default>false</default>
+                <label>NZ RZ 3</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 4</fullName>
+                <default>false</default>
+                <label>NZ RZ 4</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 5</fullName>
+                <default>false</default>
+                <label>NZ RZ 5</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 6</fullName>
+                <default>false</default>
+                <label>NZ RZ 6</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 7</fullName>
+                <default>false</default>
+                <label>NZ RZ 7</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 8</fullName>
+                <default>false</default>
+                <label>NZ RZ 8</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 9</fullName>
+                <default>false</default>
+                <label>NZ RZ 9</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 10</fullName>
+                <default>false</default>
+                <label>NZ RZ 10</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 11</fullName>
+                <default>false</default>
+                <label>NZ RZ 11</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 12</fullName>
+                <default>false</default>
+                <label>NZ RZ 12</label>
+            </value>
+            <value>
+                <fullName>NZ RZ 13</fullName>
+                <default>false</default>
+                <label>NZ RZ 13</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

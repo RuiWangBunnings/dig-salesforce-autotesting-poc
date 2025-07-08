@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Owner_Validation_On_Updation</fullName>
+    <active>false</active>
+    <description>Only Project owner can update existing project records.</description>
+    <errorConditionFormula>OR (
+AND(ISCHANGED(OwnerId),PRIORVALUE(OwnerId)!= $User.Id),
+AND(NOT(ISNEW()), OwnerId != $User.Id, NOT(ISCHANGED(OwnerId)))
+)</errorConditionFormula>
+    <errorMessage>Only Project Owner is allowed to update existing projects.</errorMessage>
+</ValidationRule>

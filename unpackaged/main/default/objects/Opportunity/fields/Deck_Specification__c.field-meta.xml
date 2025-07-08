@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deck_Specification__c</fullName>
+    <label>Deck Specification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Deck_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Rad Prem 88x21</fullName>
+                <default>false</default>
+                <label>Rad Prem 88x21</label>
+            </value>
+            <value>
+                <fullName>Rad Prem 88x32</fullName>
+                <default>false</default>
+                <label>Rad Prem 88x32</label>
+            </value>
+            <value>
+                <fullName>Rad Merch 88x21</fullName>
+                <default>false</default>
+                <label>Rad Merch 88x21</label>
+            </value>
+            <value>
+                <fullName>Rad Merch 88x32</fullName>
+                <default>false</default>
+                <label>Rad Merch 88x32</label>
+            </value>
+            <value>
+                <fullName>Rad Clears 88x21</fullName>
+                <default>false</default>
+                <label>Rad Clears 88x21</label>
+            </value>
+            <value>
+                <fullName>Rad Clears 88x32</fullName>
+                <default>false</default>
+                <label>Rad Clears 88x32</label>
+            </value>
+            <value>
+                <fullName>Jambu 90x19</fullName>
+                <default>false</default>
+                <label>Jambu 90x19</label>
+            </value>
+            <value>
+                <fullName>Jambu 140x19</fullName>
+                <default>false</default>
+                <label>Jambu 140x19</label>
+            </value>
+            <value>
+                <fullName>Kwila 90x19</fullName>
+                <default>false</default>
+                <label>Kwila 90x19</label>
+            </value>
+            <value>
+                <fullName>Kwila 140x19</fullName>
+                <default>false</default>
+                <label>Kwila 140x19</label>
+            </value>
+            <value>
+                <fullName>Ekologix</fullName>
+                <default>false</default>
+                <label>Ekologix</label>
+            </value>
+            <value>
+                <fullName>Biform</fullName>
+                <default>false</default>
+                <label>Biform</label>
+            </value>
+            <value>
+                <fullName>Permadeck</fullName>
+                <default>false</default>
+                <label>Permadeck</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Prem 88x21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Prem 88x32</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Merch 88x21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Merch 88x32</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Clears 88x21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <valueName>Rad Clears 88x32</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pine</controllingFieldValue>
+            <controllingFieldValue>Hardwood</controllingFieldValue>
+            <controllingFieldValue>Composite</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardwood</controllingFieldValue>
+            <valueName>Jambu 90x19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardwood</controllingFieldValue>
+            <valueName>Jambu 140x19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardwood</controllingFieldValue>
+            <valueName>Kwila 90x19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardwood</controllingFieldValue>
+            <valueName>Kwila 140x19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Composite</controllingFieldValue>
+            <valueName>Ekologix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Composite</controllingFieldValue>
+            <valueName>Biform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Composite</controllingFieldValue>
+            <valueName>Permadeck</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

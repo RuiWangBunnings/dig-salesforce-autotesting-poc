@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Contract_Request_Creation_Conditions</fullName>
+    <active>true</active>
+    <description>This rule ensures that a New Contract Request case can only be created by the related Account Owner if the user profile is NOT Trade Specialist or NZ Trade Specialist</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+Account.Is_Owner_Logged_in_User__c = FALSE ||
+Account.Owner.Is_TS__c = TRUE,
+ ISPICKVAL( Subtype__c ,&#39;New Contract&#39;) ,
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorMessage>A new contract can only be requested by the Account owner.</errorMessage>
+</ValidationRule>

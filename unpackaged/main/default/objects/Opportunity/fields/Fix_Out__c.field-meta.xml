@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fix_Out__c</fullName>
+    <description>Checked if any Fix Out offers are checked</description>
+    <formula>OR
+(
+Waterproofing__c = TRUE,
+Tiles__c = TRUE,
+Fixing_hardware__c = TRUE,
+Wardrobe_fit_out__c = TRUE,
+Engineered_hard_flooring__c = TRUE,
+Solid_timber_flooring__c = TRUE,
+Internal_doors__c = TRUE,
+Internal_door_furniture__c = TRUE,
+Skirting_architraves__c = TRUE,
+Internal_stairs__c = TRUE,
+Fix_Out_Joinery__c = TRUE,
+Sink_basins_toilet_suites__c = TRUE,
+Stone_bench_tops__c = TRUE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Fix Out</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

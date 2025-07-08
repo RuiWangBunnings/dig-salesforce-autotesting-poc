@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Information__c</fullName>
+    <label>Technical Information</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pool Fencing</fullName>
+                <default>false</default>
+                <label>Pool Fencing</label>
+            </value>
+            <value>
+                <fullName>Balcony Balustrade</fullName>
+                <default>false</default>
+                <label>Balcony Balustrade</label>
+            </value>
+            <value>
+                <fullName>Stair Balustrade</fullName>
+                <default>false</default>
+                <label>Stair Balustrade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

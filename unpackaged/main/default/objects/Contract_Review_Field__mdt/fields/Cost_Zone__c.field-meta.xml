@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Zone__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Cost Zone</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALL</fullName>
+                <default>true</default>
+                <label>ALL</label>
+            </value>
+            <value>
+                <fullName>CZ 1</fullName>
+                <default>false</default>
+                <label>CZ 1</label>
+            </value>
+            <value>
+                <fullName>CZ 2</fullName>
+                <default>false</default>
+                <label>CZ 2</label>
+            </value>
+            <value>
+                <fullName>CZ 3</fullName>
+                <default>false</default>
+                <label>CZ 3</label>
+            </value>
+            <value>
+                <fullName>CZ 4</fullName>
+                <default>false</default>
+                <label>CZ 4</label>
+            </value>
+            <value>
+                <fullName>CZ 5</fullName>
+                <default>false</default>
+                <label>CZ 5</label>
+            </value>
+            <value>
+                <fullName>CZ 6</fullName>
+                <default>false</default>
+                <label>CZ 6</label>
+            </value>
+            <value>
+                <fullName>CZ 7</fullName>
+                <default>false</default>
+                <label>CZ 7</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

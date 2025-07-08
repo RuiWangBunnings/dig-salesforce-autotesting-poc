@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <description>BCI differentiator in a project is now a Source field on the Project object</description>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BCI</fullName>
+                <default>false</default>
+                <label>BCI</label>
+            </value>
+            <value>
+                <fullName>PLS</fullName>
+                <default>false</default>
+                <label>PLS</label>
+            </value>
+            <value>
+                <fullName>Cordell</fullName>
+                <default>false</default>
+                <label>Cordell</label>
+            </value>
+            <value>
+                <fullName>Estimate One</fullName>
+                <default>false</default>
+                <label>Estimate One</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>true</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contract_Header_ID__c</field>
+        <operation>equals</operation>
+        <value>160592</value>
+    </filters>
+    <label>Admin</label>
+    <sharedTo>
+        <group>System_Administrator</group>
+    </sharedTo>
+</ListView>

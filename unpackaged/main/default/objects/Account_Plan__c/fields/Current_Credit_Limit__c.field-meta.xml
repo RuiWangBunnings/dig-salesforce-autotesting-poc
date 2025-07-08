@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Credit_Limit__c</fullName>
+    <formula>IF( Account__r.ParentId  &lt;&gt; null,  Account__r.Parent.Credit_Limit__c ,  Account__r.Credit_Limit__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Target Sales PA &gt; Current Credit Limit</inlineHelpText>
+    <label>Current Credit Limit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

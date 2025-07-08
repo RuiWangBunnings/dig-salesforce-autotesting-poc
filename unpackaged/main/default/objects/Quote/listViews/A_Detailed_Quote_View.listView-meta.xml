@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A_Detailed_Quote_View</fullName>
+    <columns>Account_PowerPass_Number__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>QUOTE.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>QUOTE.ISSYNCING</columns>
+    <columns>QUOTE.EXPIRATIONDATE</columns>
+    <columns>Total_Value_excl_GST__c</columns>
+    <columns>Total_Value_incl_GST__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>A Detailed Quote View</label>
+</ListView>

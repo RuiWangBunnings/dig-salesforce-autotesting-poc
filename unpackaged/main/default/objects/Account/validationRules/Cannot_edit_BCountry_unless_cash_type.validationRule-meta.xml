@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_edit_BCountry_unless_cash_type</fullName>
+    <active>true</active>
+    <description>Validation rule ensures that users cannot edit Billing Country field unless account is Type Cash</description>
+    <errorConditionFormula>AND(
+NOT($RecordType.Name = &quot;Person Account&quot;),
+NOT(ISCHANGED(Is_Lead_Converted__c)),
+NOT(Is_Lead_Converted__c),
+NOT(ISPICKVAL(Type , &quot;Cash&quot;) ),
+ISCHANGED( BillingCountry ),
+NOT($RecordType.Name = &quot;AU Prospect&quot;),
+NOT($RecordType.Name = &quot;NZ Prospect&quot;),
+NOT(
+OR ($Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;CPQ Integration User&quot;,
+$Profile.Name = &quot;Integrations User&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>BillingCountry</errorDisplayField>
+    <errorMessage>You cannot edit this field for this account type</errorMessage>
+</ValidationRule>

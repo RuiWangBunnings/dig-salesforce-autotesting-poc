@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Mix__c</fullName>
+    <label>Product Mix</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>300 AUTO COMPRESS GENERATORS</fullName>
+                <default>false</default>
+                <label>300 AUTO COMPRESS GENERATORS</label>
+            </value>
+            <value>
+                <fullName>300 BATHROOM</fullName>
+                <default>false</default>
+                <label>300 BATHROOM</label>
+            </value>
+            <value>
+                <fullName>300 BBQ AND OUTDOOR HEATING</fullName>
+                <default>false</default>
+                <label>300 BBQ AND OUTDOOR HEATING</label>
+            </value>
+            <value>
+                <fullName>300 BUILDING MATERIALS</fullName>
+                <default>false</default>
+                <label>300 BUILDING MATERIALS</label>
+            </value>
+            <value>
+                <fullName>300 BUILDING SUPPLIES</fullName>
+                <default>false</default>
+                <label>300 BUILDING SUPPLIES</label>
+            </value>
+            <value>
+                <fullName>300 CAFE DEPARTMENT</fullName>
+                <default>false</default>
+                <label>300 CAFE DEPARTMENT</label>
+            </value>
+            <value>
+                <fullName>300 CLEANING AND ACCESSORIES</fullName>
+                <default>false</default>
+                <label>300 CLEANING AND ACCESSORIES</label>
+            </value>
+            <value>
+                <fullName>300 CRAFT AND PROJECTS</fullName>
+                <default>false</default>
+                <label>300 CRAFT AND PROJECTS</label>
+            </value>
+            <value>
+                <fullName>300 DOOR WINDOW GATE HARDWARE</fullName>
+                <default>false</default>
+                <label>300 DOOR WINDOW GATE HARDWARE</label>
+            </value>
+            <value>
+                <fullName>300 DOORS AND WINDOWS</fullName>
+                <default>false</default>
+                <label>300 DOORS AND WINDOWS</label>
+            </value>
+            <value>
+                <fullName>300 ELECTRICAL</fullName>
+                <default>false</default>
+                <label>300 ELECTRICAL</label>
+            </value>
+            <value>
+                <fullName>300 FENCE SCREEN AND GATES</fullName>
+                <default>false</default>
+                <label>300 FENCE SCREEN AND GATES</label>
+            </value>
+            <value>
+                <fullName>300 FIXINGS</fullName>
+                <default>false</default>
+                <label>300 FIXINGS</label>
+            </value>
+            <value>
+                <fullName>300 FURNITURE</fullName>
+                <default>false</default>
+                <label>300 FURNITURE</label>
+            </value>
+            <value>
+                <fullName>300 GARAGE ORGANISATION</fullName>
+                <default>false</default>
+                <label>300 GARAGE ORGANISATION</label>
+            </value>
+            <value>
+                <fullName>300 GARDEN CARE</fullName>
+                <default>false</default>
+                <label>300 GARDEN CARE</label>
+            </value>
+            <value>
+                <fullName>300 GARDEN DECOR</fullName>
+                <default>false</default>
+                <label>300 GARDEN DECOR</label>
+            </value>
+            <value>
+                <fullName>300 GARDEN HAND TOOLS</fullName>
+                <default>false</default>
+                <label>300 GARDEN HAND TOOLS</label>
+            </value>
+            <value>
+                <fullName>300 GREENLIFE</fullName>
+                <default>false</default>
+                <label>300 GREENLIFE</label>
+            </value>
+            <value>
+                <fullName>300 HAND TOOLS</fullName>
+                <default>false</default>
+                <label>300 HAND TOOLS</label>
+            </value>
+            <value>
+                <fullName>300 HARD FLOORING</fullName>
+                <default>false</default>
+                <label>300 HARD FLOORING</label>
+            </value>
+            <value>
+                <fullName>300 HOOKS LEGS PROTECT SAFETY</fullName>
+                <default>false</default>
+                <label>300 HOOKS LEGS PROTECT SAFETY</label>
+            </value>
+            <value>
+                <fullName>300 INDOOR LIGHTING</fullName>
+                <default>false</default>
+                <label>300 INDOOR LIGHTING</label>
+            </value>
+            <value>
+                <fullName>300 INDOOR TIMBER AND BOARDS</fullName>
+                <default>false</default>
+                <label>300 INDOOR TIMBER AND BOARDS</label>
+            </value>
+            <value>
+                <fullName>300 KITCHEN AND LAUNDRY</fullName>
+                <default>false</default>
+                <label>300 KITCHEN AND LAUNDRY</label>
+            </value>
+            <value>
+                <fullName>300 LADDERS SITE SAFETY N PPE</fullName>
+                <default>false</default>
+                <label>300 LADDERS SITE SAFETY N PPE</label>
+            </value>
+            <value>
+                <fullName>300 LANDSCAPING</fullName>
+                <default>false</default>
+                <label>300 LANDSCAPING</label>
+            </value>
+            <value>
+                <fullName>300 OUTDOOR LIGHTING</fullName>
+                <default>false</default>
+                <label>300 OUTDOOR LIGHTING</label>
+            </value>
+            <value>
+                <fullName>300 OUTDOOR PLAY KIDS AND PETS</fullName>
+                <default>false</default>
+                <label>300 OUTDOOR PLAY KIDS AND PETS</label>
+            </value>
+            <value>
+                <fullName>300 OUTDOOR TIMBER</fullName>
+                <default>false</default>
+                <label>300 OUTDOOR TIMBER</label>
+            </value>
+            <value>
+                <fullName>300 PAINT</fullName>
+                <default>false</default>
+                <label>300 PAINT</label>
+            </value>
+            <value>
+                <fullName>300 PAINT ACCESSORIES</fullName>
+                <default>false</default>
+                <label>300 PAINT ACCESSORIES</label>
+            </value>
+            <value>
+                <fullName>300 PEST CONTROL</fullName>
+                <default>false</default>
+                <label>300 PEST CONTROL</label>
+            </value>
+            <value>
+                <fullName>300 PLUMBING</fullName>
+                <default>false</default>
+                <label>300 PLUMBING</label>
+            </value>
+            <value>
+                <fullName>300 POOL SPA SHEDS AND SHADE</fullName>
+                <default>false</default>
+                <label>300 POOL SPA SHEDS AND SHADE</label>
+            </value>
+            <value>
+                <fullName>300 POWER GARDEN</fullName>
+                <default>false</default>
+                <label>300 POWER GARDEN</label>
+            </value>
+            <value>
+                <fullName>300 POWER TOOLS</fullName>
+                <default>false</default>
+                <label>300 POWER TOOLS</label>
+            </value>
+            <value>
+                <fullName>300 ROOM FURN SHELV AND STORE</fullName>
+                <default>false</default>
+                <label>300 ROOM FURN SHELV AND STORE</label>
+            </value>
+            <value>
+                <fullName>300 SOFT FLOORING</fullName>
+                <default>false</default>
+                <label>300 SOFT FLOORING</label>
+            </value>
+            <value>
+                <fullName>300 STEEL AND ROOFING</fullName>
+                <default>false</default>
+                <label>300 STEEL AND ROOFING</label>
+            </value>
+            <value>
+                <fullName>300 STRUCTURAL TIMBER</fullName>
+                <default>false</default>
+                <label>300 STRUCTURAL TIMBER</label>
+            </value>
+            <value>
+                <fullName>300 TOOL ACCESSORIES</fullName>
+                <default>false</default>
+                <label>300 TOOL ACCESSORIES</label>
+            </value>
+            <value>
+                <fullName>300 TRANSPORT AND MOVING</fullName>
+                <default>false</default>
+                <label>300 TRANSPORT AND MOVING</label>
+            </value>
+            <value>
+                <fullName>300 WATERING</fullName>
+                <default>false</default>
+                <label>300 WATERING</label>
+            </value>
+            <value>
+                <fullName>300 WINDOW FURNISHINGS</fullName>
+                <default>false</default>
+                <label>300 WINDOW FURNISHINGS</label>
+            </value>
+            <value>
+                <fullName>300 WOODCARE</fullName>
+                <default>false</default>
+                <label>300 WOODCARE</label>
+            </value>
+            <value>
+                <fullName>ACQUISITIONS D</fullName>
+                <default>false</default>
+                <label>ACQUISITIONS D</label>
+            </value>
+            <value>
+                <fullName>HIRE SHOP DT</fullName>
+                <default>false</default>
+                <label>HIRE SHOP DT</label>
+            </value>
+            <value>
+                <fullName>KITCHEN COLLECTIVE D</fullName>
+                <default>false</default>
+                <label>KITCHEN COLLECTIVE D</label>
+            </value>
+            <value>
+                <fullName>OTHER DEPARTMENT</fullName>
+                <default>false</default>
+                <label>OTHER DEPARTMENT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

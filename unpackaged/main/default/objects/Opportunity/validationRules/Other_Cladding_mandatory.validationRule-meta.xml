@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Cladding_mandatory</fullName>
+    <active>true</active>
+    <description>Ensures that if a user selects Other Cladding with a value of Required - Different to Plan the Other Cladding Notes is mandatory.</description>
+    <errorConditionFormula>ISPICKVAL(Other_Cladding__c, &quot;Required - Different to Plan&quot; ) &amp;&amp;
+ISBLANK(Other_Cladding_Notes__c)&amp;&amp;
+RecordType.DeveloperName = &quot;NZ_Estimate_Opportunity&quot;&amp;&amp;
+NOT( CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))</errorConditionFormula>
+    <errorDisplayField>Other_Cladding_Notes__c</errorDisplayField>
+    <errorMessage>Please enter in Other Cladding Notes</errorMessage>
+</ValidationRule>

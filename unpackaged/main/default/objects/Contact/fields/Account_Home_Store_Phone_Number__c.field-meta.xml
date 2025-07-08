@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Home_Store_Phone_Number__c</fullName>
+    <description>This field is used in email templates</description>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(ISBLANK( Account.Assigned_Store__c )), 
+Account.Assigned_Store__r.Phone_Number__c, 
+Account.Home_Store__r.Phone_Number__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Home Store Phone Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kitchen_Bench_Top_Type__c</fullName>
+    <label>Kitchen Bench Top Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Kitchen_Bench_Top__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Kaboodle</fullName>
+                <default>false</default>
+                <label>Kaboodle</label>
+            </value>
+            <value>
+                <fullName>Amorini</fullName>
+                <default>false</default>
+                <label>Amorini</label>
+            </value>
+            <value>
+                <fullName>AGB Stone</fullName>
+                <default>false</default>
+                <label>AGB Stone</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Kaboodle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Amorini</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>AGB Stone</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

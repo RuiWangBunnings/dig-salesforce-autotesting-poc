@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SourceSystemModule__c</fullName>
+    <description>Consent related custom field. 	
+Value is provided in the payload from the integration layer e.g. “Hireshop”</description>
+    <externalId>false</externalId>
+    <label>Created by Source System Module</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fly_screens_barrier_doors__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Fly screens &amp; barrier doors offer</description>
+    <label>Fly screens &amp; barrier doors</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

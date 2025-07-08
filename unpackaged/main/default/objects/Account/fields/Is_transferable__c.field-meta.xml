@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_transferable__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Transfer_approval_status__c),
+
+&#39;Approved&#39;, &#39;Ready for transfer to &#39; &amp; Transfer_to__r.FirstName &amp; &#39; &#39; &amp; Transfer_to__r.LastName,
+&#39;In progress&#39;, &#39;Transfer request is awaiting approval&#39;,
+&#39;Not transferable&#39;)</formula>
+    <label>Is transferable</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

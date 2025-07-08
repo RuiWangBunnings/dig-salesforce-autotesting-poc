@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information_Guide</fullName>
+    <active>true</active>
+    <description>Articles that offer in-depth information on products, services, or policies to help agents provide accurate and consistent answers</description>
+    <label>Information Guide</label>
+</RecordType>

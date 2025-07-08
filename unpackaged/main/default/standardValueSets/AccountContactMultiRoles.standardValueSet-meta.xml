@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Accounts payable</fullName>
+        <default>false</default>
+        <label>Accounts payable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Architect</fullName>
+        <default>false</default>
+        <label>Architect</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Building Manager</fullName>
+        <default>false</default>
+        <label>Building Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Build Together</fullName>
+        <default>false</default>
+        <label>Build Together</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Carpenter</fullName>
+        <default>false</default>
+        <label>Carpenter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Construction Manager</fullName>
+        <default>false</default>
+        <label>Construction Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Delivery Driver</fullName>
+        <default>false</default>
+        <label>Delivery Driver</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Director</fullName>
+        <default>false</default>
+        <label>Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electrician</fullName>
+        <default>false</default>
+        <label>Electrician</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Estimating Manager</fullName>
+        <default>false</default>
+        <label>Estimating Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Estimator</fullName>
+        <default>false</default>
+        <label>Estimator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Manager</fullName>
+        <default>false</default>
+        <label>General Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High Potential Employee</fullName>
+        <default>false</default>
+        <label>High Potential Employee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Labourer</fullName>
+        <default>false</default>
+        <label>Labourer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Maintenance</fullName>
+        <default>false</default>
+        <label>Maintenance</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager</fullName>
+        <default>false</default>
+        <label>Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Office team</fullName>
+        <default>false</default>
+        <label>Office team</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OH&amp;S Manager</fullName>
+        <default>false</default>
+        <label>OH&amp;S Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Operations Manager</fullName>
+        <default>false</default>
+        <label>Operations Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plumber</fullName>
+        <default>false</default>
+        <label>Plumber</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Procurement manager</fullName>
+        <default>false</default>
+        <label>Procurement manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project manager</fullName>
+        <default>false</default>
+        <label>Project manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quoter</fullName>
+        <default>false</default>
+        <label>Quoter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reception</fullName>
+        <default>false</default>
+        <label>Reception</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supervisor</fullName>
+        <default>false</default>
+        <label>Supervisor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surveyor</fullName>
+        <default>false</default>
+        <label>Surveyor</label>
+    </standardValue>
+</StandardValueSet>

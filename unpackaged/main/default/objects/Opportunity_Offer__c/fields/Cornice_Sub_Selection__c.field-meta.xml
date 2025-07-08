@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cornice_Sub_Selection__c</fullName>
+    <label>Cornice Sub Selection</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cornice__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paper Tape</fullName>
+                <default>false</default>
+                <label>Paper Tape</label>
+            </value>
+            <value>
+                <fullName>Perfect Angle</fullName>
+                <default>false</default>
+                <label>Perfect Angle</label>
+            </value>
+            <value>
+                <fullName>55mm Cove</fullName>
+                <default>false</default>
+                <label>55mm Cove</label>
+            </value>
+            <value>
+                <fullName>75mm Cove</fullName>
+                <default>false</default>
+                <label>75mm Cove</label>
+            </value>
+            <value>
+                <fullName>90mm Cove</fullName>
+                <default>false</default>
+                <label>90mm Cove</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>As per plan or notes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>As per plan or notes</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Square-set</controllingFieldValue>
+            <valueName>Paper Tape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Square-set</controllingFieldValue>
+            <valueName>Perfect Angle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cove</controllingFieldValue>
+            <valueName>55mm Cove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cove</controllingFieldValue>
+            <valueName>75mm Cove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cove</controllingFieldValue>
+            <valueName>90mm Cove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cove</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

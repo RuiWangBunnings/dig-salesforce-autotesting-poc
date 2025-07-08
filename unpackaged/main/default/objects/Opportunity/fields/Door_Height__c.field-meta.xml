@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Door_Height__c</fullName>
+    <label>Door Height</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Interior_Doors__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>1980 Std</fullName>
+                <default>false</default>
+                <label>1980 Std</label>
+            </value>
+            <value>
+                <fullName>2100</fullName>
+                <default>false</default>
+                <label>2100</label>
+            </value>
+            <value>
+                <fullName>2200</fullName>
+                <default>false</default>
+                <label>2200</label>
+            </value>
+            <value>
+                <fullName>2400</fullName>
+                <default>false</default>
+                <label>2400</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>1980 Std</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>2100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>2200</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>2400</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

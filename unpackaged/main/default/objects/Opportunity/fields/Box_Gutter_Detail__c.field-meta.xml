@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Box_Gutter_Detail__c</fullName>
+    <label>Box Gutter Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - Plated Vertical Member</fullName>
+                <default>false</default>
+                <label>Yes - Plated Vertical Member</label>
+            </value>
+            <value>
+                <fullName>No - Loose Parapet Timbers</fullName>
+                <default>false</default>
+                <label>No - Loose Parapet Timbers</label>
+            </value>
+            <value>
+                <fullName>Yes - Box Gutter Board Required</fullName>
+                <default>false</default>
+                <label>Yes - Box Gutter Board Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

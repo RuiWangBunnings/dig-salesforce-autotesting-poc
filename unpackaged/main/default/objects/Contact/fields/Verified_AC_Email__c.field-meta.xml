@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verified_AC_Email__c</fullName>
+    <description>CCRM15-83</description>
+    <formula>Account.Verified_Email__c</formula>
+    <label>Verified Email</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

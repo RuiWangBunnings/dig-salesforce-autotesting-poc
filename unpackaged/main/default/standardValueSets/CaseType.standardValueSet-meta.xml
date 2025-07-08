@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Standard Quote</fullName>
+        <default>true</default>
+        <label>Standard Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Complex Quote</fullName>
+        <default>false</default>
+        <label>Complex Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Estimate</fullName>
+        <default>false</default>
+        <label>Estimate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract Request</fullName>
+        <default>false</default>
+        <label>Contract Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Project Contract Request</fullName>
+        <default>false</default>
+        <label>Project Contract Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Assist</fullName>
+        <default>false</default>
+        <label>Trade Assist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Powerpass</fullName>
+        <default>false</default>
+        <label>Powerpass</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketplace</fullName>
+        <default>false</default>
+        <label>Marketplace</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feedback</fullName>
+        <default>false</default>
+        <label>Feedback</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online Order</fullName>
+        <default>false</default>
+        <label>Online Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Policy &amp; FAQ</fullName>
+        <default>false</default>
+        <label>Policy &amp; FAQ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offers</fullName>
+        <default>false</default>
+        <label>Offers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hot Topic</fullName>
+        <default>false</default>
+        <label>Hot Topic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Merch</fullName>
+        <default>false</default>
+        <label>Merch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Enquiry</fullName>
+        <default>false</default>
+        <label>Product Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NZ Supplier Enquiry</fullName>
+        <default>false</default>
+        <label>NZ Supplier Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NZ Customer Enquiry</fullName>
+        <default>false</default>
+        <label>NZ Customer Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NZ Internal Enquiry</fullName>
+        <default>false</default>
+        <label>NZ Internal Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NZ Istash</fullName>
+        <default>false</default>
+        <label>NZ Istash</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supplier Enquiry</fullName>
+        <default>false</default>
+        <label>Supplier Enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal enquiry</fullName>
+        <default>false</default>
+        <label>Internal enquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Enquiry</fullName>
+        <default>false</default>
+        <label>Customer Enquiry</label>
+    </standardValue>
+</StandardValueSet>

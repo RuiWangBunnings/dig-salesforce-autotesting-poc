@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plant_Rooms_Waste_Rooms_Mail_Rooms__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Plant Rooms / Waste Rooms / Mail Rooms</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

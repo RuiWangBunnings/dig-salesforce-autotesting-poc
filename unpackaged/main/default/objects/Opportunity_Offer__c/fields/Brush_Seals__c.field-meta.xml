@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brush_Seals__c</fullName>
+    <label>Brush Seals</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Standard</fullName>
+                <default>false</default>
+                <label>Standard</label>
+            </value>
+            <value>
+                <fullName>BAL 12.5 Available for Steel and Aluminium Sectional Doors</fullName>
+                <default>false</default>
+                <label>BAL 12.5 Available for Steel and Aluminium Sectional Doors</label>
+            </value>
+            <value>
+                <fullName>BAL 19 (Not Available For Aluminium Sectional Doors)</fullName>
+                <default>false</default>
+                <label>BAL 19 (Not Available For Aluminium Sectional Doors)</label>
+            </value>
+            <value>
+                <fullName>BAL 29 (Not Available For Aluminium Sectional Doors)</fullName>
+                <default>false</default>
+                <label>BAL 29 (Not Available For Aluminium Sectional Doors)</label>
+            </value>
+            <value>
+                <fullName>BAL 40 (Not Available For Aluminium Sectional Doors)</fullName>
+                <default>false</default>
+                <label>BAL 40 (Not Available For Aluminium Sectional Doors)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

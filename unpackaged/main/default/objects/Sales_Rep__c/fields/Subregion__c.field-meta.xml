@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subregion__c</fullName>
+    <label>Subregion</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Contact Centre</fullName>
+                <default>false</default>
+                <label>Customer Contact Centre</label>
+            </value>
+            <value>
+                <fullName>Project Team</fullName>
+                <default>false</default>
+                <label>Project Team</label>
+            </value>
+            <value>
+                <fullName>Hunter</fullName>
+                <default>false</default>
+                <label>Hunter</label>
+            </value>
+            <value>
+                <fullName>Volume Builder Accounts</fullName>
+                <default>false</default>
+                <label>Volume Builder Accounts</label>
+            </value>
+            <value>
+                <fullName>Sydney West and Central West</fullName>
+                <default>false</default>
+                <label>Sydney West and Central West</label>
+            </value>
+            <value>
+                <fullName>South Coast, ACT &amp; Riverina</fullName>
+                <default>false</default>
+                <label>South Coast, ACT &amp; Riverina</label>
+            </value>
+            <value>
+                <fullName>ACT</fullName>
+                <default>false</default>
+                <label>ACT</label>
+            </value>
+            <value>
+                <fullName>North Coast</fullName>
+                <default>false</default>
+                <label>North Coast</label>
+            </value>
+            <value>
+                <fullName>Project Group</fullName>
+                <default>false</default>
+                <label>Project Group</label>
+            </value>
+            <value>
+                <fullName>Brisbane North and Wide Bay</fullName>
+                <default>false</default>
+                <label>Brisbane North and Wide Bay</label>
+            </value>
+            <value>
+                <fullName>Brisbane South and Western Regions</fullName>
+                <default>false</default>
+                <label>Brisbane South and Western Regions</label>
+            </value>
+            <value>
+                <fullName>Gold and Sunshine Coast</fullName>
+                <default>false</default>
+                <label>Gold and Sunshine Coast</label>
+            </value>
+            <value>
+                <fullName>Regional Queensland</fullName>
+                <default>false</default>
+                <label>Regional Queensland</label>
+            </value>
+            <value>
+                <fullName>Tasmania</fullName>
+                <default>false</default>
+                <label>Tasmania</label>
+            </value>
+            <value>
+                <fullName>SA / NT</fullName>
+                <default>false</default>
+                <label>SA / NT</label>
+            </value>
+            <value>
+                <fullName>NT</fullName>
+                <default>false</default>
+                <label>NT</label>
+            </value>
+            <value>
+                <fullName>West Victoria</fullName>
+                <default>false</default>
+                <label>West Victoria</label>
+            </value>
+            <value>
+                <fullName>North West Victoria</fullName>
+                <default>false</default>
+                <label>North West Victoria</label>
+            </value>
+            <value>
+                <fullName>Key Account Manager</fullName>
+                <default>false</default>
+                <label>Key Account Manager</label>
+            </value>
+            <value>
+                <fullName>North East Victoria</fullName>
+                <default>false</default>
+                <label>North East Victoria</label>
+            </value>
+            <value>
+                <fullName>North Perth / Regional WA</fullName>
+                <default>false</default>
+                <label>North Perth / Regional WA</label>
+            </value>
+            <value>
+                <fullName>Project Builders / Multi Res</fullName>
+                <default>false</default>
+                <label>Project Builders / Multi Res</label>
+            </value>
+            <value>
+                <fullName>South Perth / Regional WA</fullName>
+                <default>false</default>
+                <label>South Perth / Regional WA</label>
+            </value>
+            <value>
+                <fullName>Account Managed - NZ</fullName>
+                <default>false</default>
+                <label>Account Managed - NZ</label>
+            </value>
+            <value>
+                <fullName>ASM - Upper NI</fullName>
+                <default>false</default>
+                <label>ASM - Upper NI</label>
+            </value>
+            <value>
+                <fullName>ASM - Lower NI &amp; SI</fullName>
+                <default>false</default>
+                <label>ASM - Lower NI &amp; SI</label>
+            </value>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 1</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 1</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 2</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 2</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 3</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 3</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 4</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 4</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 5</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 5</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 6</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 6</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 7</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 7</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 8</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 8</label>
+            </value>
+            <value>
+                <fullName>NSW</fullName>
+                <default>false</default>
+                <label>NSW</label>
+            </value>
+            <value>
+                <fullName>Organisations</fullName>
+                <default>false</default>
+                <label>Organisations</label>
+            </value>
+            <value>
+                <fullName>South East Victoria</fullName>
+                <default>false</default>
+                <label>South East Victoria</label>
+            </value>
+            <value>
+                <fullName>Organisations 1</fullName>
+                <default>false</default>
+                <label>Organisations 1</label>
+            </value>
+            <value>
+                <fullName>Organisations 2</fullName>
+                <default>false</default>
+                <label>Organisations 2</label>
+            </value>
+            <value>
+                <fullName>Organisations 3</fullName>
+                <default>false</default>
+                <label>Organisations 3</label>
+            </value>
+            <value>
+                <fullName>Organisations 4</fullName>
+                <default>false</default>
+                <label>Organisations 4</label>
+            </value>
+            <value>
+                <fullName>Organisations 5</fullName>
+                <default>false</default>
+                <label>Organisations 5</label>
+            </value>
+            <value>
+                <fullName>Organisations 6</fullName>
+                <default>false</default>
+                <label>Organisations 6</label>
+            </value>
+            <value>
+                <fullName>Organisations 7</fullName>
+                <default>false</default>
+                <label>Organisations 7</label>
+            </value>
+            <value>
+                <fullName>B&amp;O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>B&amp;O</label>
+            </value>
+            <value>
+                <fullName>BDM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BDM</label>
+            </value>
+            <value>
+                <fullName>Sout East Victoria</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sout East Victoria</label>
+            </value>
+            <value>
+                <fullName>Underserviced Builders VIC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Underserviced Builders VIC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

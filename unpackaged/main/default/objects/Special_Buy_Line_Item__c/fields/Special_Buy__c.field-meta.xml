@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Buy__c</fullName>
+    <description>A lookup to the related Special Buy.</description>
+    <label>Special Buy</label>
+    <referenceTo>Special_Buy__c</referenceTo>
+    <relationshipLabel>Special Buy Line Items</relationshipLabel>
+    <relationshipName>Special_Buy_Line_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

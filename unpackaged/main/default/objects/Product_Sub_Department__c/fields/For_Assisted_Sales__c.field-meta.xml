@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>For_Assisted_Sales__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether this sub department is available for selection in assisted sales.</description>
+    <label>For Assisted Sales</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

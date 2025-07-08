@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balcony_Flooring_Type__c</fullName>
+    <label>Balcony Flooring Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Same as Standard</fullName>
+                <default>false</default>
+                <label>Same as Standard</label>
+            </value>
+            <value>
+                <fullName>19mm Scyon</fullName>
+                <default>false</default>
+                <label>19mm Scyon</label>
+            </value>
+            <value>
+                <fullName>22mm Scyon</fullName>
+                <default>false</default>
+                <label>22mm Scyon</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

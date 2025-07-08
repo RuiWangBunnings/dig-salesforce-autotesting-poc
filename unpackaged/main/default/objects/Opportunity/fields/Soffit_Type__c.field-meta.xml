@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soffit_Type__c</fullName>
+    <label>Soffit Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Soffit__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Eclipsa</fullName>
+                <default>false</default>
+                <label>Eclipsa</label>
+            </value>
+            <value>
+                <fullName>Hardieflex</fullName>
+                <default>false</default>
+                <label>Hardieflex</label>
+            </value>
+            <value>
+                <fullName>HardieGroove</fullName>
+                <default>false</default>
+                <label>HardieGroove</label>
+            </value>
+            <value>
+                <fullName>HardieSoffit</fullName>
+                <default>false</default>
+                <label>HardieSoffit</label>
+            </value>
+            <value>
+                <fullName>Villaboard</fullName>
+                <default>false</default>
+                <label>Villaboard</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Eclipsa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Hardieflex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>HardieGroove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>HardieSoffit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Villaboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

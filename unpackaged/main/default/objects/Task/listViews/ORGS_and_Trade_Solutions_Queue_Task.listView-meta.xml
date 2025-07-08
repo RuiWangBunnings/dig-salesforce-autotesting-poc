@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ORGS_and_Trade_Solutions_Queue_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>ORGS and Trade Solutions Queue</label>
+    <queue>ORGS_and_Trade_Solutions_Queue</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

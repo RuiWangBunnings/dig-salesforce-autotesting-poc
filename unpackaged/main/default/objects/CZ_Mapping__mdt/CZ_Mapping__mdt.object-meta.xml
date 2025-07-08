@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to determine applicable cost zones based on contract country, state and cost zone</description>
+    <label>Cost Zone Mapping</label>
+    <pluralLabel>Cost Zone Mapping</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

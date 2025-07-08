@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Take_Off_Category__c</fullName>
+    <label>Take-Off Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Slab</fullName>
+                <default>false</default>
+                <label>Slab</label>
+            </value>
+            <value>
+                <fullName>Frame and Truss</fullName>
+                <default>false</default>
+                <label>Frame and Truss</label>
+            </value>
+            <value>
+                <fullName>Lock Up</fullName>
+                <default>false</default>
+                <label>Lock Up</label>
+            </value>
+            <value>
+                <fullName>Fix Out</fullName>
+                <default>false</default>
+                <label>Fix Out</label>
+            </value>
+            <value>
+                <fullName>Final Fit</fullName>
+                <default>false</default>
+                <label>Final Fit</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Supply &amp; Install</fullName>
+                <default>false</default>
+                <label>Supply &amp; Install</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Update_Status_When_Not_Presented</fullName>
+    <active>true</active>
+    <description>Non Quote Office User CANNOT update the supplier quote status when the related opportunity is NOT in &quot;Presenting&quot;, &quot;Pending&quot;, &quot;Closed Won&quot;, or &quot;Closed Lost&quot; stage:</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&quot;NZ_Supplier_Quote&quot;,
+ISCHANGED(Status__c), 
+NOT(CONTAINS(&quot;System Administrator, NZ Quote Office, Integrations User&quot;, $Profile.Name)),
+CONTAINS(&quot;Estimate Opportunity, Farm Shed Opportunity, NZ Standard Opportunity, Schedule Opportunity&quot;, Opportunity__r.RecordType.Name),
+NOT(CONTAINS(&quot;Presenting, Pending, Closed Won, Closed Lost&quot;, TEXT(Opportunity__r.StageName)))
+)</errorConditionFormula>
+    <errorMessage>You cannot update the supplier quote status when the related opportunity has not been presented.</errorMessage>
+</ValidationRule>

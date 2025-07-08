@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Status</fullName>
+    <active>true</active>
+    <description>SFSUP-899</description>
+    <errorConditionFormula>OR(
+ISCHANGED( Status__c ) &amp;&amp; TEXT(Status__c ) = &#39;Active&#39; &amp;&amp;  Reviewed_with_Manager__c = FALSE,
+
+ISNEW()&amp;&amp; TEXT(Status__c ) = &#39;Active&#39; &amp;&amp;  Reviewed_with_Manager__c = FALSE
+)
+&amp;&amp;
+NOT(OR ($Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;CPQ Integration User&quot;,
+$Profile.Name = &quot;Integrations User&quot;))</errorConditionFormula>
+    <errorMessage>Please review the account plan with your manager and tick the field &#39;Review with Manager&#39; before making the account plan active.</errorMessage>
+</ValidationRule>

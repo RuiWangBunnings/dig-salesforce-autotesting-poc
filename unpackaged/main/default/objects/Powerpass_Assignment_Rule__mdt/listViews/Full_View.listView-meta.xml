@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Full_View</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Home_Store_Model__c</columns>
+    <columns>Account_Type__c</columns>
+    <columns>Segment__c</columns>
+    <columns>Credit_Limit_Floor__c</columns>
+    <columns>Credit_Limit_Ceiling__c</columns>
+    <columns>Assign_to_Store_Member__c</columns>
+    <columns>Create_Onboarding_Task__c</columns>
+    <columns>Set_Digitally_Managed_Flag__c</columns>
+    <columns>Days_from_Account_Creation__c</columns>
+    <columns>Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Full View</label>
+</ListView>

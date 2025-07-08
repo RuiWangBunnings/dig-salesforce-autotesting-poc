@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colour__c</fullName>
+    <label>Colour</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Colourbond Standard (Sectional Steel / Roller Door)</fullName>
+                <default>false</default>
+                <label>Colourbond Standard (Sectional Steel / Roller Door)</label>
+            </value>
+            <value>
+                <fullName>Unitcote Lux (Sectional Steel / Roller Door)</fullName>
+                <default>false</default>
+                <label>Unitcote Lux (Sectional Steel / Roller Door)</label>
+            </value>
+            <value>
+                <fullName>Premium Colours (Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Premium Colours (Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Decowood (Sectional - Steel)</fullName>
+                <default>false</default>
+                <label>Decowood (Sectional - Steel)</label>
+            </value>
+            <value>
+                <fullName>Matt Finish (Sectional Steel / Roller Door)</fullName>
+                <default>false</default>
+                <label>Matt Finish (Sectional Steel / Roller Door)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

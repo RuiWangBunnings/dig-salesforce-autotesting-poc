@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Posts__c</fullName>
+    <label>Posts</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - 88x88 LOSP</fullName>
+                <default>false</default>
+                <label>Yes - 88x88 LOSP</label>
+            </value>
+            <value>
+                <fullName>Posts per Engineering</fullName>
+                <default>false</default>
+                <label>Posts per Engineering</label>
+            </value>
+            <value>
+                <fullName>No - By Others</fullName>
+                <default>false</default>
+                <label>No - By Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

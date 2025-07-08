@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Colours__c</fullName>
+    <label>Colours</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2000mm Height - Chrome</fullName>
+                <default>false</default>
+                <label>2000mm Height - Chrome</label>
+            </value>
+            <value>
+                <fullName>1950mm Height - Matte black</fullName>
+                <default>false</default>
+                <label>1950mm Height - Matte black</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

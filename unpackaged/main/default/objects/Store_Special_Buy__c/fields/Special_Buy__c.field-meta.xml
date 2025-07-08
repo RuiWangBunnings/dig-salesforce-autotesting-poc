@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Buy__c</fullName>
+    <description>The Special Buy linked</description>
+    <label>Special Buy</label>
+    <referenceTo>Special_Buy__c</referenceTo>
+    <relationshipLabel>Store Special Buys</relationshipLabel>
+    <relationshipName>Store_Special_Buys</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

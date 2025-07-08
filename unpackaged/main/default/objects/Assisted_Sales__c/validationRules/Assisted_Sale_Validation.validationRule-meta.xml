@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assisted_Sale_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+	NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Assisted_Sale_Profile_Access__c , $Profile.Name)),  
+	$User.Id != Account__r.OwnerId
+)</errorConditionFormula>
+    <errorMessage>Only an account owner, ASM or higher can create or edit this record</errorMessage>
+</ValidationRule>

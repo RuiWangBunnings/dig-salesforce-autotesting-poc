@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTD_Growth_Percentage__c</fullName>
+    <formula>IF( OR(MTD_Sales__c=0, Last_Year_MTD_Sales__c=0, ISBLANK(MTD_Sales__c), ISBLANK(Last_Year_MTD_Sales__c)),0, ((MTD_Sales__c - Last_Year_MTD_Sales__c ) / Last_Year_MTD_Sales__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MTD Growth %</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

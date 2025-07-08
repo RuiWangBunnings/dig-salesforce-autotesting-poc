@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country__c</fullName>
+    <defaultValue>&quot;None&quot;</defaultValue>
+    <description>This field is used in sharing rules to define a AU User&#39;s and NZ User&#39;s</description>
+    <inlineHelpText>This field is used in sharing rules to define a AU User&#39;s and NZ User&#39;s</inlineHelpText>
+    <label>Country</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Australia</fullName>
+                <default>false</default>
+                <label>Australia</label>
+            </value>
+            <value>
+                <fullName>New Zealand</fullName>
+                <default>false</default>
+                <label>New Zealand</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

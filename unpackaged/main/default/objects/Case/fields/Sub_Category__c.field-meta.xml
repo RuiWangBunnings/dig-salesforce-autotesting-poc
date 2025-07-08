@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <description>This field is used for Retail Customer Support Team, It is dependent on Sub Category.</description>
+    <label>Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cards</fullName>
+                <default>false</default>
+                <label>Cards</label>
+            </value>
+            <value>
+                <fullName>Contact Details</fullName>
+                <default>false</default>
+                <label>Contact Details</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Limit</fullName>
+                <default>false</default>
+                <label>Limit</label>
+            </value>
+            <value>
+                <fullName>Account Payment</fullName>
+                <default>false</default>
+                <label>Account Payment</label>
+            </value>
+            <value>
+                <fullName>134Trade</fullName>
+                <default>false</default>
+                <label>134Trade</label>
+            </value>
+            <value>
+                <fullName>App feedback</fullName>
+                <default>false</default>
+                <label>App feedback</label>
+            </value>
+            <value>
+                <fullName>App navigation/troubleshooting</fullName>
+                <default>false</default>
+                <label>App navigation/troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Pin reset</fullName>
+                <default>false</default>
+                <label>Pin reset</label>
+            </value>
+            <value>
+                <fullName>Remove device</fullName>
+                <default>false</default>
+                <label>Remove device</label>
+            </value>
+            <value>
+                <fullName>Trade website</fullName>
+                <default>false</default>
+                <label>Trade website</label>
+            </value>
+            <value>
+                <fullName>Change of Mind</fullName>
+                <default>false</default>
+                <label>Change of Mind</label>
+            </value>
+            <value>
+                <fullName>Failed Promise</fullName>
+                <default>false</default>
+                <label>Failed Promise</label>
+            </value>
+            <value>
+                <fullName>Damaged Goods</fullName>
+                <default>false</default>
+                <label>Damaged Goods</label>
+            </value>
+            <value>
+                <fullName>ETA</fullName>
+                <default>false</default>
+                <label>ETA</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Incorrect Email Address</fullName>
+                <default>false</default>
+                <label>Incorrect Email Address</label>
+            </value>
+            <value>
+                <fullName>Invoice Request</fullName>
+                <default>false</default>
+                <label>Invoice Request</label>
+            </value>
+            <value>
+                <fullName>Missing Goods</fullName>
+                <default>false</default>
+                <label>Missing Goods</label>
+            </value>
+            <value>
+                <fullName>Order Edit</fullName>
+                <default>false</default>
+                <label>Order Edit</label>
+            </value>
+            <value>
+                <fullName>Warranty Claim</fullName>
+                <default>false</default>
+                <label>Warranty Claim</label>
+            </value>
+            <value>
+                <fullName>Negative</fullName>
+                <default>false</default>
+                <label>Negative</label>
+            </value>
+            <value>
+                <fullName>Positive</fullName>
+                <default>false</default>
+                <label>Positive</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>TM/Customer</fullName>
+                <default>false</default>
+                <label>TM/Customer</label>
+            </value>
+            <value>
+                <fullName>General Stock Enquiry</fullName>
+                <default>false</default>
+                <label>General Stock Enquiry</label>
+            </value>
+            <value>
+                <fullName>Inaccurate Inventory</fullName>
+                <default>false</default>
+                <label>Inaccurate Inventory</label>
+            </value>
+            <value>
+                <fullName>User Advice</fullName>
+                <default>false</default>
+                <label>User Advice</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Spare Parts</fullName>
+                <default>false</default>
+                <label>Spare Parts</label>
+            </value>
+            <value>
+                <fullName>Specifications</fullName>
+                <default>false</default>
+                <label>Specifications</label>
+            </value>
+            <value>
+                <fullName>In Store</fullName>
+                <default>false</default>
+                <label>In Store</label>
+            </value>
+            <value>
+                <fullName>Website/Online</fullName>
+                <default>false</default>
+                <label>Website/Online</label>
+            </value>
+            <value>
+                <fullName>Clearance</fullName>
+                <default>false</default>
+                <label>Clearance</label>
+            </value>
+            <value>
+                <fullName>Price Discrepancy</fullName>
+                <default>false</default>
+                <label>Price Discrepancy</label>
+            </value>
+            <value>
+                <fullName>Price Guarantee</fullName>
+                <default>false</default>
+                <label>Price Guarantee</label>
+            </value>
+            <value>
+                <fullName>Receipt Search</fullName>
+                <default>false</default>
+                <label>Receipt Search</label>
+            </value>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+            <value>
+                <fullName>Click &amp; Collect</fullName>
+                <default>false</default>
+                <label>Click &amp; Collect</label>
+            </value>
+            <value>
+                <fullName>Express Click &amp; Collect</fullName>
+                <default>false</default>
+                <label>Express Click &amp; Collect</label>
+            </value>
+            <value>
+                <fullName>Same Day Delivery</fullName>
+                <default>false</default>
+                <label>Same Day Delivery</label>
+            </value>
+            <value>
+                <fullName>Special Order</fullName>
+                <default>false</default>
+                <label>Special Order</label>
+            </value>
+            <value>
+                <fullName>Item Not Available Online</fullName>
+                <default>false</default>
+                <label>Item Not Available Online</label>
+            </value>
+            <value>
+                <fullName>Riskified</fullName>
+                <default>false</default>
+                <label>Riskified</label>
+            </value>
+            <value>
+                <fullName>Website Error</fullName>
+                <default>false</default>
+                <label>Website Error</label>
+            </value>
+            <value>
+                <fullName>Collection Authorisation</fullName>
+                <default>false</default>
+                <label>Collection Authorisation</label>
+            </value>
+            <value>
+                <fullName>Edit Contact Details</fullName>
+                <default>false</default>
+                <label>Edit Contact Details</label>
+            </value>
+            <value>
+                <fullName>Extend Collection Timeframe</fullName>
+                <default>false</default>
+                <label>Extend Collection Timeframe</label>
+            </value>
+            <value>
+                <fullName>Product Edit</fullName>
+                <default>false</default>
+                <label>Product Edit</label>
+            </value>
+            <value>
+                <fullName>Transfer Between Stores</fullName>
+                <default>false</default>
+                <label>Transfer Between Stores</label>
+            </value>
+            <value>
+                <fullName>General Enquiry</fullName>
+                <default>false</default>
+                <label>General Enquiry</label>
+            </value>
+            <value>
+                <fullName>Unable to Process</fullName>
+                <default>false</default>
+                <label>Unable to Process</label>
+            </value>
+            <value>
+                <fullName>NuDetect</fullName>
+                <default>false</default>
+                <label>NuDetect</label>
+            </value>
+            <value>
+                <fullName>Unable to Process Order</fullName>
+                <default>false</default>
+                <label>Unable to Process Order</label>
+            </value>
+            <value>
+                <fullName>Bags/Receipt Checks</fullName>
+                <default>false</default>
+                <label>Bags/Receipt Checks</label>
+            </value>
+            <value>
+                <fullName>Facial Recognition</fullName>
+                <default>false</default>
+                <label>Facial Recognition</label>
+            </value>
+            <value>
+                <fullName>Pets in Store</fullName>
+                <default>false</default>
+                <label>Pets in Store</label>
+            </value>
+            <value>
+                <fullName>Employment Enquiry</fullName>
+                <default>false</default>
+                <label>Employment Enquiry</label>
+            </value>
+            <value>
+                <fullName>Privacy</fullName>
+                <default>false</default>
+                <label>Privacy</label>
+            </value>
+            <value>
+                <fullName>Property Enquiry/Suggestion</fullName>
+                <default>false</default>
+                <label>Property Enquiry/Suggestion</label>
+            </value>
+            <value>
+                <fullName>Returns</fullName>
+                <default>false</default>
+                <label>Returns</label>
+            </value>
+            <value>
+                <fullName>Sustainability</fullName>
+                <default>false</default>
+                <label>Sustainability</label>
+            </value>
+            <value>
+                <fullName>Operating Hours</fullName>
+                <default>false</default>
+                <label>Operating Hours</label>
+            </value>
+            <value>
+                <fullName>Available Services</fullName>
+                <default>false</default>
+                <label>Available Services</label>
+            </value>
+            <value>
+                <fullName>DIY Workshops</fullName>
+                <default>false</default>
+                <label>DIY Workshops</label>
+            </value>
+            <value>
+                <fullName>Sausage Sizzle</fullName>
+                <default>false</default>
+                <label>Sausage Sizzle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Eligibility</fullName>
+                <default>false</default>
+                <label>Eligibility</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>Feedback/Enquiry</fullName>
+                <default>false</default>
+                <label>Feedback/Enquiry</label>
+            </value>
+            <value>
+                <fullName>Unlink</fullName>
+                <default>false</default>
+                <label>Unlink</label>
+            </value>
+            <value>
+                <fullName>Advertisement Error</fullName>
+                <default>false</default>
+                <label>Advertisement Error</label>
+            </value>
+            <value>
+                <fullName>Black Fri/Cyber Mon</fullName>
+                <default>false</default>
+                <label>Black Fri/Cyber Mon</label>
+            </value>
+            <value>
+                <fullName>Bluey</fullName>
+                <default>false</default>
+                <label>Bluey</label>
+            </value>
+            <value>
+                <fullName>OnePass Error</fullName>
+                <default>false</default>
+                <label>OnePass Error</label>
+            </value>
+            <value>
+                <fullName>OnePass Privacy Concerns</fullName>
+                <default>false</default>
+                <label>OnePass Privacy Concerns</label>
+            </value>
+            <value>
+                <fullName>Warehouse Party</fullName>
+                <default>false</default>
+                <label>Warehouse Party</label>
+            </value>
+            <value>
+                <fullName>Redemption Offers</fullName>
+                <default>false</default>
+                <label>Redemption Offers</label>
+            </value>
+            <value>
+                <fullName>Scams</fullName>
+                <default>false</default>
+                <label>Scams</label>
+            </value>
+            <value>
+                <fullName>Senate Enquiry</fullName>
+                <default>false</default>
+                <label>Senate Enquiry</label>
+            </value>
+            <value>
+                <fullName>The Kitchen Collective</fullName>
+                <default>false</default>
+                <label>The Kitchen Collective</label>
+            </value>
+            <value>
+                <fullName>Pride Enquiries</fullName>
+                <default>false</default>
+                <label>Pride Enquiries</label>
+            </value>
+            <value>
+                <fullName>Store Warranty</fullName>
+                <default>false</default>
+                <label>Store Warranty</label>
+            </value>
+            <value>
+                <fullName>Supplier Warranty</fullName>
+                <default>false</default>
+                <label>Supplier Warranty</label>
+            </value>
+            <value>
+                <fullName>More Information Required</fullName>
+                <default>false</default>
+                <label>More Information Required</label>
+            </value>
+            <value>
+                <fullName>Refer to Supplier</fullName>
+                <default>false</default>
+                <label>Refer to Supplier</label>
+            </value>
+            <value>
+                <fullName>Stock Availability</fullName>
+                <default>false</default>
+                <label>Stock Availability</label>
+            </value>
+            <value>
+                <fullName>Product Specifications</fullName>
+                <default>false</default>
+                <label>Product Specifications</label>
+            </value>
+            <value>
+                <fullName>Manual Request</fullName>
+                <default>false</default>
+                <label>Manual Request</label>
+            </value>
+            <value>
+                <fullName>Sponsorship Request</fullName>
+                <default>false</default>
+                <label>Sponsorship Request</label>
+            </value>
+            <value>
+                <fullName>Become a Supplier</fullName>
+                <default>false</default>
+                <label>Become a Supplier</label>
+            </value>
+            <value>
+                <fullName>Supplier Response</fullName>
+                <default>false</default>
+                <label>Supplier Response</label>
+            </value>
+            <value>
+                <fullName>Process Information</fullName>
+                <default>false</default>
+                <label>Process Information</label>
+            </value>
+            <value>
+                <fullName>Manual Form</fullName>
+                <default>false</default>
+                <label>Manual Form</label>
+            </value>
+            <value>
+                <fullName>BOT Report</fullName>
+                <default>false</default>
+                <label>BOT Report</label>
+            </value>
+            <value>
+                <fullName>Pricing and availabilty</fullName>
+                <default>false</default>
+                <label>Pricing and availabilty</label>
+            </value>
+            <value>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+                <label>Breakdown</label>
+            </value>
+            <value>
+                <fullName>Free of charge</fullName>
+                <default>false</default>
+                <label>Free of charge</label>
+            </value>
+            <value>
+                <fullName>General product information</fullName>
+                <default>false</default>
+                <label>General product information</label>
+            </value>
+            <value>
+                <fullName>Blutide</fullName>
+                <default>false</default>
+                <label>Blutide</label>
+            </value>
+            <value>
+                <fullName>Briggs &amp; Stratton</fullName>
+                <default>false</default>
+                <label>Briggs &amp; Stratton</label>
+            </value>
+            <value>
+                <fullName>Gap</fullName>
+                <default>false</default>
+                <label>Gap</label>
+            </value>
+            <value>
+                <fullName>Makita</fullName>
+                <default>false</default>
+                <label>Makita</label>
+            </value>
+            <value>
+                <fullName>Spiro Sent</fullName>
+                <default>false</default>
+                <label>Spiro Sent</label>
+            </value>
+            <value>
+                <fullName>Bosch</fullName>
+                <default>false</default>
+                <label>Bosch</label>
+            </value>
+            <value>
+                <fullName>Edco</fullName>
+                <default>false</default>
+                <label>Edco</label>
+            </value>
+            <value>
+                <fullName>Logan Arms</fullName>
+                <default>false</default>
+                <label>Logan Arms</label>
+            </value>
+            <value>
+                <fullName>Kinetic</fullName>
+                <default>false</default>
+                <label>Kinetic</label>
+            </value>
+            <value>
+                <fullName>Ozito</fullName>
+                <default>false</default>
+                <label>Ozito</label>
+            </value>
+            <value>
+                <fullName>TTI</fullName>
+                <default>false</default>
+                <label>TTI</label>
+            </value>
+            <value>
+                <fullName>New Enquiry</fullName>
+                <default>false</default>
+                <label>New Enquiry</label>
+            </value>
+            <value>
+                <fullName>Drake report</fullName>
+                <default>false</default>
+                <label>Drake report</label>
+            </value>
+            <value>
+                <fullName>Additional information</fullName>
+                <default>false</default>
+                <label>Additional information</label>
+            </value>
+            <value>
+                <fullName>COS do not replies</fullName>
+                <default>false</default>
+                <label>COS do not replies</label>
+            </value>
+            <value>
+                <fullName>Order error</fullName>
+                <default>false</default>
+                <label>Order error</label>
+            </value>
+            <value>
+                <fullName>Missing items</fullName>
+                <default>false</default>
+                <label>Missing items</label>
+            </value>
+            <value>
+                <fullName>Cancel/refund</fullName>
+                <default>false</default>
+                <label>Cancel/refund</label>
+            </value>
+            <value>
+                <fullName>Product information</fullName>
+                <default>false</default>
+                <label>Product information</label>
+            </value>
+            <value>
+                <fullName>Item Status</fullName>
+                <default>false</default>
+                <label>Item Status</label>
+            </value>
+            <value>
+                <fullName>Supplier contact information</fullName>
+                <default>false</default>
+                <label>Supplier contact information</label>
+            </value>
+            <value>
+                <fullName>Payment Issue</fullName>
+                <default>false</default>
+                <label>Payment Issue</label>
+            </value>
+            <value>
+                <fullName>Process query</fullName>
+                <default>false</default>
+                <label>Process query</label>
+            </value>
+            <value>
+                <fullName>COS replies</fullName>
+                <default>false</default>
+                <label>COS replies</label>
+            </value>
+            <value>
+                <fullName>Payment received</fullName>
+                <default>false</default>
+                <label>Payment received</label>
+            </value>
+            <value>
+                <fullName>Order enquiry</fullName>
+                <default>false</default>
+                <label>Order enquiry</label>
+            </value>
+            <value>
+                <fullName>Banking issue</fullName>
+                <default>false</default>
+                <label>Banking issue</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enquiry</controllingFieldValue>
+            <valueName>Pricing and availabilty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enquiry</controllingFieldValue>
+            <valueName>Breakdown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enquiry</controllingFieldValue>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <valueName>Free of charge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Status</controllingFieldValue>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <controllingFieldValue>SP Store enquiry</controllingFieldValue>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>ETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product information</controllingFieldValue>
+            <valueName>General product information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Enquiry</controllingFieldValue>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <controllingFieldValue>SP Store enquiry</controllingFieldValue>
+            <controllingFieldValue>Team Assist</controllingFieldValue>
+            <controllingFieldValue>Customer support</controllingFieldValue>
+            <valueName>New Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Enquiry</controllingFieldValue>
+            <valueName>Drake report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <controllingFieldValue>SP Store enquiry</controllingFieldValue>
+            <valueName>Additional information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <controllingFieldValue>SP Store enquiry</controllingFieldValue>
+            <valueName>Order error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <valueName>Missing items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <valueName>Cancel/refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer enquiry</controllingFieldValue>
+            <valueName>COS replies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General customer enquiry</controllingFieldValue>
+            <valueName>Product information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buyers &amp; Buyers assistants</controllingFieldValue>
+            <valueName>Item Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Buyers &amp; Buyers assistants</controllingFieldValue>
+            <valueName>Supplier contact information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banking</controllingFieldValue>
+            <controllingFieldValue>Istash enquiry</controllingFieldValue>
+            <valueName>Payment Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website Functionality</controllingFieldValue>
+            <controllingFieldValue>Advertising</controllingFieldValue>
+            <controllingFieldValue>CS Team</controllingFieldValue>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Store Process</controllingFieldValue>
+            <controllingFieldValue>Store Team</controllingFieldValue>
+            <valueName>Negative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Website Functionality</controllingFieldValue>
+            <controllingFieldValue>Advertising</controllingFieldValue>
+            <controllingFieldValue>CS Team</controllingFieldValue>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <controllingFieldValue>Store Process</controllingFieldValue>
+            <controllingFieldValue>Store Team</controllingFieldValue>
+            <valueName>Positive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Team Assist</controllingFieldValue>
+            <valueName>Process query</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety</controllingFieldValue>
+            <valueName>TM/Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock Availability</controllingFieldValue>
+            <valueName>General Stock Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stock Availability</controllingFieldValue>
+            <valueName>Inaccurate Inventory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Istash enquiry</controllingFieldValue>
+            <valueName>Payment received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Istash enquiry</controllingFieldValue>
+            <valueName>Order enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>User Advice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>Spare Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>Specifications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Istash Accounts Receivable</controllingFieldValue>
+            <valueName>Banking issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Information</controllingFieldValue>
+            <valueName>In Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Incorrect Information</controllingFieldValue>
+            <valueName>Website/Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Price Enquiry</controllingFieldValue>
+            <valueName>Clearance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Price Enquiry</controllingFieldValue>
+            <valueName>Price Discrepancy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Price Enquiry</controllingFieldValue>
+            <valueName>Price Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transaction</controllingFieldValue>
+            <valueName>Receipt Search</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ETA</controllingFieldValue>
+            <valueName>Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ETA</controllingFieldValue>
+            <valueName>Click &amp; Collect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ETA</controllingFieldValue>
+            <valueName>Express Click &amp; Collect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ETA</controllingFieldValue>
+            <valueName>Same Day Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ETA</controllingFieldValue>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <controllingFieldValue>Location</controllingFieldValue>
+            <valueName>Special Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Order</controllingFieldValue>
+            <valueName>Item Not Available Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Order</controllingFieldValue>
+            <valueName>Riskified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manual Order</controllingFieldValue>
+            <valueName>Website Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Edit</controllingFieldValue>
+            <valueName>Collection Authorisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Edit</controllingFieldValue>
+            <valueName>Edit Contact Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Edit</controllingFieldValue>
+            <valueName>Extend Collection Timeframe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Edit</controllingFieldValue>
+            <valueName>Product Edit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Edit</controllingFieldValue>
+            <valueName>Transfer Between Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>Cards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>Contact Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>Limit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>Account Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account - Internal Transfer</controllingFieldValue>
+            <valueName>134Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support</controllingFieldValue>
+            <valueName>App feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support</controllingFieldValue>
+            <valueName>App navigation/troubleshooting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support</controllingFieldValue>
+            <valueName>Pin reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support</controllingFieldValue>
+            <valueName>Remove device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tech Support</controllingFieldValue>
+            <valueName>Trade website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancel/Refund</controllingFieldValue>
+            <valueName>Change of Mind</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancel/Refund</controllingFieldValue>
+            <valueName>Failed Promise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Damaged Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <controllingFieldValue>Failed Payment</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Incorrect Email Address</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Invoice Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Missing Goods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Order Edit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order Issue</controllingFieldValue>
+            <valueName>Warranty Claim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AfterPay</controllingFieldValue>
+            <controllingFieldValue>Failed Payment</controllingFieldValue>
+            <controllingFieldValue>Gift Card</controllingFieldValue>
+            <controllingFieldValue>ZipPay/PayPal</controllingFieldValue>
+            <valueName>General Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AfterPay</controllingFieldValue>
+            <controllingFieldValue>ZipPay/PayPal</controllingFieldValue>
+            <valueName>Unable to Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Failed Payment</controllingFieldValue>
+            <valueName>NuDetect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gift Card</controllingFieldValue>
+            <controllingFieldValue>Riskified</controllingFieldValue>
+            <valueName>Unable to Process Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entry Policy</controllingFieldValue>
+            <valueName>Bags/Receipt Checks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entry Policy</controllingFieldValue>
+            <valueName>Facial Recognition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Entry Policy</controllingFieldValue>
+            <valueName>Pets in Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Employment</controllingFieldValue>
+            <valueName>Employment Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Privacy</controllingFieldValue>
+            <valueName>Privacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property</controllingFieldValue>
+            <valueName>Property Enquiry/Suggestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Returns</controllingFieldValue>
+            <valueName>Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sustainability</controllingFieldValue>
+            <valueName>Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store</controllingFieldValue>
+            <valueName>Operating Hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store</controllingFieldValue>
+            <valueName>Available Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Store Vibe</controllingFieldValue>
+            <valueName>DIY Workshops</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In-Store Vibe</controllingFieldValue>
+            <valueName>Sausage Sizzle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flybuys</controllingFieldValue>
+            <valueName>Eligibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flybuys</controllingFieldValue>
+            <controllingFieldValue>OnePass</controllingFieldValue>
+            <valueName>Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OnePass</controllingFieldValue>
+            <valueName>Feedback/Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OnePass</controllingFieldValue>
+            <valueName>Unlink</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Advertisement Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Black Fri/Cyber Mon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Bluey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>OnePass Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>OnePass Privacy Concerns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Warehouse Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Redemption Offers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Scams</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Senate Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>The Kitchen Collective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Pride Enquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <valueName>Store Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <valueName>Supplier Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Warranty</controllingFieldValue>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>More Information Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Refer to Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Location</controllingFieldValue>
+            <valueName>Stock Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Documentation</controllingFieldValue>
+            <valueName>Product Specifications</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Documentation</controllingFieldValue>
+            <valueName>Manual Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Sponsorship Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Become a Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier</controllingFieldValue>
+            <valueName>Supplier Response</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store TM</controllingFieldValue>
+            <valueName>Process Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>Manual Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer</controllingFieldValue>
+            <valueName>BOT Report</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

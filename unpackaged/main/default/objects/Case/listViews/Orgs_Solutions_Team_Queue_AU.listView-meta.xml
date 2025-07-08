@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Orgs_Solutions_Team_Queue_AU</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_COS_Num__c</columns>
+    <columns>Age__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>UPDATEDBY_USER.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>DO NOT USE</label>
+    <queue>DNU_Orgs_Solutions_Team_Queue_AU</queue>
+    <sharedTo>
+        <role>AU_NSW_Orgs_AM</role>
+        <role>AU_NSW_Orgs_Coordinator</role>
+        <role>AU_QLD_Orgs_AM</role>
+        <role>AU_QLD_Orgs_Coordinator</role>
+        <role>AU_VIC_Orgs_AM</role>
+        <role>AU_VIC_Orgs_Coordinator</role>
+        <role>AU_WA_Orgs_AM</role>
+        <role>AU_WA_Orgs_Coordinator</role>
+        <role>Builders_CSC_Team_Leader_VIC</role>
+        <roleAndSubordinates>AU_Business_Improvement_Coordinator</roleAndSubordinates>
+    </sharedTo>
+</ListView>

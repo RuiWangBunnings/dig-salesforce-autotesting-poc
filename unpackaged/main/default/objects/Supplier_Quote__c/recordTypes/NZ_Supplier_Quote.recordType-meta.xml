@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Supplier_Quote</fullName>
+    <active>true</active>
+    <label>NZ Supplier Quote</label>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Could not meet requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Job on hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted too late</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repriced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Take_Off_Category__c</picklist>
+        <values>
+            <fullName>Final Fit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame and Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lock Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply %26 Install</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

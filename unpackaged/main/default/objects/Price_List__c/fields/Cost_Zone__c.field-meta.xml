@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Zone__c</fullName>
+    <description>Unrestricted list of cost zones</description>
+    <label>Cost Zone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALL</fullName>
+                <default>false</default>
+                <label>ALL</label>
+            </value>
+            <value>
+                <fullName>AU CZ 1</fullName>
+                <default>false</default>
+                <label>AU CZ 1</label>
+            </value>
+            <value>
+                <fullName>AU CZ 2</fullName>
+                <default>false</default>
+                <label>AU CZ 2</label>
+            </value>
+            <value>
+                <fullName>AU CZ 3</fullName>
+                <default>false</default>
+                <label>AU CZ 3</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 1</fullName>
+                <default>false</default>
+                <label>NZ CZ 1</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 2</fullName>
+                <default>false</default>
+                <label>NZ CZ 2</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 3</fullName>
+                <default>false</default>
+                <label>NZ CZ 3</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 4</fullName>
+                <default>false</default>
+                <label>NZ CZ 4</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 5</fullName>
+                <default>false</default>
+                <label>NZ CZ 5</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 6</fullName>
+                <default>false</default>
+                <label>NZ CZ 6</label>
+            </value>
+            <value>
+                <fullName>NZ CZ 7</fullName>
+                <default>false</default>
+                <label>NZ CZ 7</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

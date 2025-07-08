@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member_Call_Validation</fullName>
+    <active>true</active>
+    <description>Team Member Call % can only be populated if store member role is Trade Specialist.</description>
+    <errorConditionFormula>AND(
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name)),
+!ISPICKVAL(Role__c , &#39;Trade Specialist&#39;) ,
+!ISPICKVAL(Team_Member_Call__c, &#39;&#39;)   
+)</errorConditionFormula>
+    <errorMessage>Team Member Call % can only be populated if store member role is Trade Specialist.</errorMessage>
+</ValidationRule>

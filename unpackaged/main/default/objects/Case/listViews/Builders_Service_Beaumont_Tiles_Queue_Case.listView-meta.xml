@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Builders_Service_Beaumont_Tiles_Queue_Case</fullName>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Queue</filterScope>
+    <label>CST Beaumont Tiles Queue</label>
+    <queue>Builders_Service_Beaumont_Tiles_Queue</queue>
+    <sharedTo>
+        <group>Builders_Service_Beaumont_Tiles_Queue</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_active_status</fullName>
+    <active>true</active>
+    <errorConditionFormula>TEXT(Contact.Status__c)  &lt;&gt;  &#39;Active&#39;</errorConditionFormula>
+    <errorDisplayField>ContactId</errorDisplayField>
+    <errorMessage>Only active contacts allowed</errorMessage>
+</ValidationRule>
