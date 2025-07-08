@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Apprentice Follow up</fullName>
+        <default>false</default>
+        <label>Apprentice Follow up</label>
+    </customValue>
+    <customValue>
+        <fullName>Building Relationship</fullName>
+        <default>false</default>
+        <label>Building Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>Engagement Call</fullName>
+        <default>false</default>
+        <label>Engagement Call</label>
+    </customValue>
+    <customValue>
+        <fullName>In Store Vibe</fullName>
+        <default>false</default>
+        <label>In Store Vibe</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Review</fullName>
+        <default>false</default>
+        <label>Business Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Cold Call</fullName>
+        <default>false</default>
+        <label>Cold Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Engagement</fullName>
+        <default>false</default>
+        <label>Customer Engagement</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape Call</fullName>
+        <default>false</default>
+        <label>Landscape Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Quote/Order</fullName>
+        <default>false</default>
+        <label>Quote/Order</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplier Joint Call</fullName>
+        <default>false</default>
+        <label>Supplier Joint Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Reducing and Lapsing Call</fullName>
+        <default>false</default>
+        <label>Reducing and Lapsing Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Call</fullName>
+        <default>false</default>
+        <label>Technology Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Churned Customer Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Churned Customer Call</label>
+    </customValue>
+    <description>Defined task sub types</description>
+    <masterLabel>Task Sub Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

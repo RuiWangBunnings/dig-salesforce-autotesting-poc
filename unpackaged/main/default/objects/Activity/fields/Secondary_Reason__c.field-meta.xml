@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Reason__c</fullName>
+    <label>Secondary Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Business has closed due to covid</fullName>
+                <default>false</default>
+                <label>Business has closed due to covid</label>
+            </value>
+            <value>
+                <fullName>Covid has slowed the business, anticipating return soon</fullName>
+                <default>false</default>
+                <label>Covid has slowed the business, anticipating return soon</label>
+            </value>
+            <value>
+                <fullName>Delivery Service</fullName>
+                <default>false</default>
+                <label>Delivery Service</label>
+            </value>
+            <value>
+                <fullName>Disconnected phone</fullName>
+                <default>false</default>
+                <label>Disconnected phone</label>
+            </value>
+            <value>
+                <fullName>Don’t feel valued by Bunnings</fullName>
+                <default>false</default>
+                <label>Don’t feel valued by Bunnings</label>
+            </value>
+            <value>
+                <fullName>Finished project</fullName>
+                <default>false</default>
+                <label>Finished project</label>
+            </value>
+            <value>
+                <fullName>Have better relationships elsewhere</fullName>
+                <default>false</default>
+                <label>Have better relationships elsewhere</label>
+            </value>
+            <value>
+                <fullName>Inadequate quality</fullName>
+                <default>false</default>
+                <label>Inadequate quality</label>
+            </value>
+            <value>
+                <fullName>Insufficient stock</fullName>
+                <default>false</default>
+                <label>Insufficient stock</label>
+            </value>
+            <value>
+                <fullName>Lost my card</fullName>
+                <default>false</default>
+                <label>Lost my card</label>
+            </value>
+            <value>
+                <fullName>Not good enough service/expertise</fullName>
+                <default>false</default>
+                <label>Not good enough service/expertise</label>
+            </value>
+            <value>
+                <fullName>Not operating this business anymore</fullName>
+                <default>false</default>
+                <label>Not operating this business anymore</label>
+            </value>
+            <value>
+                <fullName>Not the best price</fullName>
+                <default>false</default>
+                <label>Not the best price</label>
+            </value>
+            <value>
+                <fullName>Not the right product selection</fullName>
+                <default>false</default>
+                <label>Not the right product selection</label>
+            </value>
+            <value>
+                <fullName>Shopping with a different account</fullName>
+                <default>false</default>
+                <label>Shopping with a different account</label>
+            </value>
+            <value>
+                <fullName>Still shopping, but I don’t scan my card</fullName>
+                <default>false</default>
+                <label>Still shopping, but I don’t scan my card</label>
+            </value>
+            <value>
+                <fullName>Too slow to get what they need</fullName>
+                <default>false</default>
+                <label>Too slow to get what they need</label>
+            </value>
+            <value>
+                <fullName>Unable to contact</fullName>
+                <default>false</default>
+                <label>Unable to contact</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Need fewer supplies</fullName>
+                <default>false</default>
+                <label>Need fewer supplies</label>
+            </value>
+            <value>
+                <fullName>Issue with Bunnings</fullName>
+                <default>false</default>
+                <label>Issue with Bunnings</label>
+            </value>
+            <value>
+                <fullName>Card and account issues</fullName>
+                <default>false</default>
+                <label>Card and account issues</label>
+            </value>
+            <value>
+                <fullName>Unable to understand reason due to language barrier</fullName>
+                <default>false</default>
+                <label>Unable to understand reason due to language barrier</label>
+            </value>
+            <value>
+                <fullName>Not willing to discuss reason for decline</fullName>
+                <default>false</default>
+                <label>Not willing to discuss reason for decline</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

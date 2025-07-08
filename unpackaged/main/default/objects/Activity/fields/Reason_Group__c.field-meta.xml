@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Group__c</fullName>
+    <description>Use to group LifeCycle Call Reason</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(CONTAINS(Subject, &quot;Reducing&quot;), CONTAINS(Subject, &quot;Lapsing&quot;)), &quot;Reducing&quot;,
+IF(CONTAINS(Subject, &quot;Growing&quot;), &quot;Growing&quot;, IF(CONTAINS(Subject, &quot;Maintaining&quot;), &quot;Maintaining&quot;, &quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Reason Group</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

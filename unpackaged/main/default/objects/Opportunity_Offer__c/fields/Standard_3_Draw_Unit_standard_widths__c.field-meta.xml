@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_3_Draw_Unit_standard_widths__c</fullName>
+    <description>Standard 3 Draw Unit - standard widths</description>
+    <label>Standard 3 Draw Unit - standard widths</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>458mm</fullName>
+                <default>false</default>
+                <label>458mm</label>
+            </value>
+            <value>
+                <fullName>608mm</fullName>
+                <default>false</default>
+                <label>608mm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

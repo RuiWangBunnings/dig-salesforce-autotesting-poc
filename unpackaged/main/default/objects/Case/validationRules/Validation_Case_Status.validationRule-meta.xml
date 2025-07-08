@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Case_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(Status),
+    ISPICKVAL(PRIORVALUE(Status), &quot;New&quot;),
+    OR(
+        ISPICKVAL(Status, &quot;Awaiting Info&quot;),
+        ISPICKVAL(Status, &quot;Closed&quot;)
+    ),
+    OR( 
+        RecordType.DeveloperName = &quot;Retail_Customer_Support&quot;,
+        RecordType.DeveloperName = &quot;Retail_Spare_Parts_Support&quot;
+    )
+)</errorConditionFormula>
+    <errorMessage>You must move the Case to &#39;In Progress&#39; before setting it to &#39;Awaiting Info&#39; or &#39;Closed&#39;</errorMessage>
+</ValidationRule>

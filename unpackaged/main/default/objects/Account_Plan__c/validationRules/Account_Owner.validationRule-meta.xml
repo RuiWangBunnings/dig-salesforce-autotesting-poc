@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Owner</fullName>
+    <active>true</active>
+    <description>Account owner is different from the logged in user</description>
+    <errorConditionFormula>AND(Account__r.OwnerId &lt;&gt; OwnerId, AND(
+NOT(OR($Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;CPQ Integration User&quot;,
+$Profile.Name = &quot;Integrations User&quot;, $Profile.Name = &quot;Sales Manager&quot;)))
+)</errorConditionFormula>
+    <errorMessage>An Account Plan can only be created by the Account owner.</errorMessage>
+</ValidationRule>

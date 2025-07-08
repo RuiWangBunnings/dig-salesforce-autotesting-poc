@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assign_by_Post_Code__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag for Lead if it is assigned by Post Code</description>
+    <label>Assign by Postcode?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Garage_Ceiling_Spec__c</fullName>
+    <label>Garage Ceiling Spec</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Garage_Ceilings__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>450mm Gyprock Only</fullName>
+                <default>false</default>
+                <label>450mm Gyprock Only</label>
+            </value>
+            <value>
+                <fullName>Supaceil 10mm</fullName>
+                <default>false</default>
+                <label>Supaceil 10mm</label>
+            </value>
+            <value>
+                <fullName>Not Plastered</fullName>
+                <default>false</default>
+                <label>Not Plastered</label>
+            </value>
+            <value>
+                <fullName>Battens Required</fullName>
+                <default>false</default>
+                <label>Battens Required</label>
+            </value>
+            <value>
+                <fullName>Direct Fix to Truss</fullName>
+                <default>false</default>
+                <label>Direct Fix to Truss</label>
+            </value>
+            <value>
+                <fullName>Laser Levelled on Clips</fullName>
+                <default>false</default>
+                <label>Laser Levelled on Clips</label>
+            </value>
+            <value>
+                <fullName>Cornice by CSR</fullName>
+                <default>false</default>
+                <label>Cornice by CSR</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <valueName>450mm Gyprock Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Not Plastered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Battens Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Direct Fix to Truss</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Laser Levelled on Clips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>450 Centres</controllingFieldValue>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Cornice by CSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>600 Centres</controllingFieldValue>
+            <valueName>Supaceil 10mm</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

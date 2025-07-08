@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Completed_Date__c</fullName>
+    <description>Field Timestamped when the event status is set to completed for the first time.</description>
+    <label>Event Completed Date</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

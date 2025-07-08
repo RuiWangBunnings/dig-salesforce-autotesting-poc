@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offer_and_Estimate_Amount</fullName>
+    <columns>Offer__c</columns>
+    <columns>Estimated_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Offer and Estimate Amount</label>
+</ListView>

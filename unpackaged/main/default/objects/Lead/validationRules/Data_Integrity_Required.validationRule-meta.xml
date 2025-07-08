@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Integrity_Required</fullName>
+    <active>true</active>
+    <description>Leads must have either Phone, Mobile, or Email</description>
+    <errorConditionFormula>AND(
+ISBLANK( Phone ),ISBLANK( MobilePhone ),ISBLANK( Email )
+)</errorConditionFormula>
+    <errorMessage>Please capture one of the following fields: Phone, Mobile, or Email</errorMessage>
+</ValidationRule>

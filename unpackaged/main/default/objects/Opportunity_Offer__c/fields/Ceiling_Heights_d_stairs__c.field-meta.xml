@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ceiling_Heights_d_stairs__c</fullName>
+    <label>Ceiling Heights d/stairs</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2.40m</fullName>
+                <default>false</default>
+                <label>2.40m</label>
+            </value>
+            <value>
+                <fullName>2.50m</fullName>
+                <default>false</default>
+                <label>2.50m</label>
+            </value>
+            <value>
+                <fullName>2.70m</fullName>
+                <default>false</default>
+                <label>2.70m</label>
+            </value>
+            <value>
+                <fullName>3.00m</fullName>
+                <default>false</default>
+                <label>3.00m</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

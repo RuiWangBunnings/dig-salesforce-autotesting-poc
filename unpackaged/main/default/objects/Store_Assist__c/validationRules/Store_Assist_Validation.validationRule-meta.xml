@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Assist_Validation</fullName>
+    <active>true</active>
+    <description>Stops anyone but the Account Owner or exempt users from creating/editing store assists</description>
+    <errorConditionFormula>AND(
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Assisted_Sale_Profile_Access__c , $Profile.Name)),
+$User.Id != Assisted_Sale__r.Account__r.Owner.Id 
+)</errorConditionFormula>
+    <errorMessage>Only the Account Owner or an ASM/SSM can manage these records</errorMessage>
+</ValidationRule>

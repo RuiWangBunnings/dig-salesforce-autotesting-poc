@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Account_Group</fullName>
+    <active>true</active>
+    <label>NZ Account Group</label>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 10 Existing %28Expand%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 10 New %28Grow%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 10 Tail %28Lapsed%2FReactivate%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Air_Grill_Type__c</fullName>
+    <label>Return Air Grill Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Plastic Grille Filtered</fullName>
+                <default>false</default>
+                <label>Plastic Grille Filtered</label>
+            </value>
+            <value>
+                <fullName>Plastic Grille Plain</fullName>
+                <default>false</default>
+                <label>Plastic Grille Plain</label>
+            </value>
+            <value>
+                <fullName>Egg Crate Filtered</fullName>
+                <default>false</default>
+                <label>Egg Crate Filtered</label>
+            </value>
+            <value>
+                <fullName>Egg Crate Plain</fullName>
+                <default>false</default>
+                <label>Egg Crate Plain</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soffit_Size__c</fullName>
+    <label>Soffit Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Soffit_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>600 x 4.5</fullName>
+                <default>false</default>
+                <label>600 x 4.5</label>
+            </value>
+            <value>
+                <fullName>1200 x 4.5</fullName>
+                <default>false</default>
+                <label>1200 x 4.5</label>
+            </value>
+            <value>
+                <fullName>4.5mm</fullName>
+                <default>false</default>
+                <label>4.5mm</label>
+            </value>
+            <value>
+                <fullName>6.0mm</fullName>
+                <default>false</default>
+                <label>6.0mm</label>
+            </value>
+            <value>
+                <fullName>7.5mm</fullName>
+                <default>false</default>
+                <label>7.5mm</label>
+            </value>
+            <value>
+                <fullName>2 edge</fullName>
+                <default>false</default>
+                <label>2 edge</label>
+            </value>
+            <value>
+                <fullName>4 edge</fullName>
+                <default>false</default>
+                <label>4 edge</label>
+            </value>
+            <value>
+                <fullName>Square edge</fullName>
+                <default>false</default>
+                <label>Square edge</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eclipsa</controllingFieldValue>
+            <valueName>600 x 4.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eclipsa</controllingFieldValue>
+            <valueName>1200 x 4.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eclipsa</controllingFieldValue>
+            <controllingFieldValue>Hardieflex</controllingFieldValue>
+            <controllingFieldValue>HardieGroove</controllingFieldValue>
+            <controllingFieldValue>HardieSoffit</controllingFieldValue>
+            <controllingFieldValue>Villaboard</controllingFieldValue>
+            <controllingFieldValue>Other - Specify</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardieflex</controllingFieldValue>
+            <controllingFieldValue>HardieSoffit</controllingFieldValue>
+            <valueName>4.5mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hardieflex</controllingFieldValue>
+            <valueName>6.0mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HardieGroove</controllingFieldValue>
+            <valueName>7.5mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Villaboard</controllingFieldValue>
+            <valueName>2 edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Villaboard</controllingFieldValue>
+            <valueName>4 edge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Villaboard</controllingFieldValue>
+            <valueName>Square edge</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

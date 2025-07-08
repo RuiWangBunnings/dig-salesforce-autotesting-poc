@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Buy_Line_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>External ID of the special buy line item</description>
+    <externalId>true</externalId>
+    <label>Special Buy Line ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

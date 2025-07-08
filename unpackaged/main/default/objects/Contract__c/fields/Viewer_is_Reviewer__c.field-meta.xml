@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Viewer_is_Reviewer__c</fullName>
+    <description>This field is a flag used for reporting. Returns True if the current user is the Reviewer</description>
+    <formula>$User.Id = Reviewer__r.Id ||
+$User.Id =  Original_Reviewer__r.Id</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Viewer is Reviewer</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

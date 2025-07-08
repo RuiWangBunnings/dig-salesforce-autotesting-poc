@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AAC_Nasahi_Panel__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>VIC ONLY</inlineHelpText>
+    <label>AAC - Nasahi Panel</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

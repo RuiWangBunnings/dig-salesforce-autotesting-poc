@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_user_mandator</fullName>
+    <active>true</active>
+    <description>Make user field mandatory as this cannot be made master detail</description>
+    <errorConditionFormula>ISNULL(Team_Member__c) || ISBLANK(Team_Member__c)</errorConditionFormula>
+    <errorDisplayField>Team_Member__c</errorDisplayField>
+    <errorMessage>Cannot be left blank</errorMessage>
+</ValidationRule>

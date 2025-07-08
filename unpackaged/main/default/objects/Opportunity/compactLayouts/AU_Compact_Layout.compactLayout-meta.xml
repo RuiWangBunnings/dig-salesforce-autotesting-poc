@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AU_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>AccountId</fields>
+    <fields>Credit_Limit__c</fields>
+    <fields>Amount</fields>
+    <fields>Pending_Order_Amount__c</fields>
+    <fields>Order_Fulfilment_Amount__c</fields>
+    <fields>Create_COS__c</fields>
+    <label>AU Compact Layout</label>
+</CompactLayout>

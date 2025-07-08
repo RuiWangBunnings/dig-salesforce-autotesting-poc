@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>This field is used in conjunction with custom metadata type (Sales Rep Category Mapping) and user&#39;s Bunnings Job Role, Location Code field to determine the Sales Rep Id for the store member TS.</description>
+    <label>Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>true</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Landscape</fullName>
+                <default>false</default>
+                <label>Landscape</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

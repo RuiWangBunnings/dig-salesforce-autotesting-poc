@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_User_is_Opp_Owner__c</fullName>
+    <description>Temporary Formula used in List view filtering. Update when the &quot;Enable quotes without parent opportunities&quot; feature reaches General Availability and Quote Owner values can be correctly assigned.</description>
+    <formula>$User.Id = Opportunity.Owner.Id</formula>
+    <label>Current User is Opp Owner</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

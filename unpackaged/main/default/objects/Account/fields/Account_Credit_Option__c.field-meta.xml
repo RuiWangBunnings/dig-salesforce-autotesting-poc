@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Credit_Option__c</fullName>
+    <description>Options on Credit on the Account</description>
+    <label>Account Credit Option</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SoftLimit</fullName>
+                <default>false</default>
+                <label>SoftLimit</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>HardLimit</fullName>
+                <default>false</default>
+                <label>HardLimit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

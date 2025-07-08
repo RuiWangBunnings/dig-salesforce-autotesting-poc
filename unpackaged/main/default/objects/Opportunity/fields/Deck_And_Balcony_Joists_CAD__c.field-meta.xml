@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deck_And_Balcony_Joists_CAD__c</fullName>
+    <label>Deck And Balcony Joists CAD</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - LVL (Default)</fullName>
+                <default>false</default>
+                <label>Yes - LVL (Default)</label>
+            </value>
+            <value>
+                <fullName>Yes - MGP 10 H3</fullName>
+                <default>false</default>
+                <label>Yes - MGP 10 H3</label>
+            </value>
+            <value>
+                <fullName>Yes - KDHW</fullName>
+                <default>false</default>
+                <label>Yes - KDHW</label>
+            </value>
+            <value>
+                <fullName>Yes - Other</fullName>
+                <default>false</default>
+                <label>Yes - Other</label>
+            </value>
+            <value>
+                <fullName>Yes - LVL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yes - LVL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

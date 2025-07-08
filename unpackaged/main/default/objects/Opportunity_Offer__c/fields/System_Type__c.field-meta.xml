@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>System_Type__c</fullName>
+    <label>System Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gas Ducted Heating</fullName>
+                <default>false</default>
+                <label>Gas Ducted Heating</label>
+            </value>
+            <value>
+                <fullName>Ducted Reverse Cycle (Electric/Split)</fullName>
+                <default>false</default>
+                <label>Ducted Reverse Cycle (Electric/Split)</label>
+            </value>
+            <value>
+                <fullName>Ducted Evaporative Cooling</fullName>
+                <default>false</default>
+                <label>Ducted Evaporative Cooling</label>
+            </value>
+            <value>
+                <fullName>Gas Ducted with Add-On Refrige</fullName>
+                <default>false</default>
+                <label>Gas Ducted with Add-On Refrige</label>
+            </value>
+            <value>
+                <fullName>Hi-wall Split System</fullName>
+                <default>false</default>
+                <label>Hi-wall Split System</label>
+            </value>
+            <value>
+                <fullName>Multi System</fullName>
+                <default>false</default>
+                <label>Multi System</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

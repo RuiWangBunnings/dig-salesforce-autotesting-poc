@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Cycle_Attempts__c</fullName>
+    <description>The maximum attempt number for a call cycle task, if set to 1 meaning only 1 reschedule is allowed. Used in conjunction with Activity.Call_Cycle_Attempt__c.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The maximum attempt number for a call cycle task, if set to 1 meaning only 1 reschedule is allowed.</inlineHelpText>
+    <label>Call Cycle Attempts</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

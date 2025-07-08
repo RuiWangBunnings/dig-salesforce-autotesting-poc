@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CUSTOMER_SPECIFIC_SPECIAL_BUYS</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Deal_Owner_1__c</columns>
+    <columns>Special_Buy_Header_ID__c</columns>
+    <columns>Special_Buy_Type__c</columns>
+    <columns>States__c</columns>
+    <columns>Supplier_Name__c</columns>
+    <columns>Supplier_Number__c</columns>
+    <columns>Country__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Special_Buy_Type__c</field>
+        <operation>equals</operation>
+        <value>Customer Specific</value>
+    </filters>
+    <label>CUSTOMER SPECIFIC SPECIAL BUYS</label>
+</ListView>

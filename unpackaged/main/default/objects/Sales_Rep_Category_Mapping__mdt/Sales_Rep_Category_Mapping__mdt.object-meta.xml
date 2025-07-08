@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used to determine the category of the sales rep record (multiple records per store) to map to trade specialist&#39;s sales rep id.</description>
+    <label>Sales Rep Category Mapping</label>
+    <pluralLabel>Sales Rep Category Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

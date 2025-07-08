@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <label>Outcome</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No answer</fullName>
+                <default>false</default>
+                <label>No answer</label>
+            </value>
+            <value>
+                <fullName>Left voicemail</fullName>
+                <default>false</default>
+                <label>Left voicemail</label>
+            </value>
+            <value>
+                <fullName>Wrong number</fullName>
+                <default>false</default>
+                <label>Wrong number</label>
+            </value>
+            <value>
+                <fullName>Busy</fullName>
+                <default>false</default>
+                <label>Busy</label>
+            </value>
+            <value>
+                <fullName>Requested Call Back</fullName>
+                <default>false</default>
+                <label>Requested Call Back</label>
+            </value>
+            <value>
+                <fullName>Customer Onboarded</fullName>
+                <default>false</default>
+                <label>Customer Onboarded</label>
+            </value>
+            <value>
+                <fullName>Successful</fullName>
+                <default>false</default>
+                <label>Successful</label>
+            </value>
+            <value>
+                <fullName>On Leave</fullName>
+                <default>false</default>
+                <label>On Leave</label>
+            </value>
+            <value>
+                <fullName>Connected</fullName>
+                <default>false</default>
+                <label>Connected</label>
+            </value>
+            <value>
+                <fullName>Unable to Contact Email Sent</fullName>
+                <default>false</default>
+                <label>Unable to Contact Email Sent</label>
+            </value>
+            <value>
+                <fullName>Do not call</fullName>
+                <default>false</default>
+                <label>Do not call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

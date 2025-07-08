@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accepted_Price_Submissions</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Opportunity_ID__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Pricing_Applied__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.NZ_Estimate_Opportunity,Opportunity.NZ_Farm_Shed_Opportunity,Opportunity.NZ_Schedule_Opportunity</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </filters>
+    <filters>
+        <field>Pricing_Applied__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Accepted Price Submissions</label>
+    <sharedTo>
+        <roleAndSubordinates>NZ_Commercial</roleAndSubordinates>
+    </sharedTo>
+</ListView>

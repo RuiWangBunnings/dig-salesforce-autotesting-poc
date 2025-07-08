@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Overdue_Organisations_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Review_Date__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Organisations_Lead</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Open - Not Contacted</value>
+    </filters>
+    <filters>
+        <field>Review_Date__c</field>
+        <operation>lessThan</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>My Overdue Organisations Leads</label>
+    <sharedTo>
+        <roleAndSubordinates>AU_Head_of_Organisation_Solutions</roleAndSubordinates>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Company</fullName>
+        <default>false</default>
+        <label>Company</label>
+    </customValue>
+    <customValue>
+        <fullName>Partnership</fullName>
+        <default>false</default>
+        <label>Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole Trader</fullName>
+        <default>false</default>
+        <label>Sole Trader</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorporated Club/Association</fullName>
+        <default>false</default>
+        <label>Incorporated Club/Association</label>
+    </customValue>
+    <customValue>
+        <fullName>Government / School</fullName>
+        <default>false</default>
+        <label>Government / School</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Primary</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Primary</label>
+    </customValue>
+    <customValue>
+        <fullName>Legacy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Legacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorporated club / association</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Incorporated club / association</label>
+    </customValue>
+    <customValue>
+        <fullName>Secondary</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Secondary</label>
+    </customValue>
+    <description>Defined business entities</description>
+    <masterLabel>Business Entity Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

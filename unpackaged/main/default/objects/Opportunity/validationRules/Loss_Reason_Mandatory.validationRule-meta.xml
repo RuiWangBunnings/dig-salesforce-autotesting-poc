@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name)),
+NOT(OR(Record_Type_Name__c = $CustomMetadata.Opportunity_Record_Type__mdt.Estimate.Record_Type_Name__c, 
+Record_Type_Name__c = $CustomMetadata.Opportunity_Record_Type__mdt.Farm_Shed.Record_Type_Name__c,
+Record_Type_Name__c = $CustomMetadata.Opportunity_Record_Type__mdt.Organisation_Tender.Record_Type_Name__c,
+Record_Type_Name__c = $CustomMetadata.Opportunity_Record_Type__mdt.Schedule.Record_Type_Name__c)),
+ISPICKVAL(StageName , &quot;Closed Lost&quot;),
+ISBLANK(TEXT(Loss_Reason__c)))</errorConditionFormula>
+    <errorDisplayField>Loss_Reason__c</errorDisplayField>
+    <errorMessage>Please enter a Loss Reason</errorMessage>
+</ValidationRule>

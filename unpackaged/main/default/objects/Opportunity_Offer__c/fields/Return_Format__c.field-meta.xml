@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Format__c</fullName>
+    <label>Return Format</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Break Down Not Required</fullName>
+                <default>false</default>
+                <label>Break Down Not Required</label>
+            </value>
+            <value>
+                <fullName>Break Down by Unit / House Individually</fullName>
+                <default>false</default>
+                <label>Break Down by Unit / House Individually</label>
+            </value>
+            <value>
+                <fullName>Break Down by Type Only</fullName>
+                <default>false</default>
+                <label>Break Down by Type Only</label>
+            </value>
+            <value>
+                <fullName>See Notes</fullName>
+                <default>false</default>
+                <label>See Notes</label>
+            </value>
+            <value>
+                <fullName>NO - Break Down Not Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NO - Break Down Not Required</label>
+            </value>
+            <value>
+                <fullName>YES - Break Down by Type Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YES - Break Down by Type Only</label>
+            </value>
+            <value>
+                <fullName>YES - Break Down by Unit / House Individually</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YES - Break Down by Unit / House Individually</label>
+            </value>
+            <value>
+                <fullName>YES - See Notes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YES - See Notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

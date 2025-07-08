@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RCM_Profiles__c</fullName>
+    <description>Allowed Team Member Profiles when Role is RCM (In Store Member and Operations Region objects)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Allowed Team Member Profiles when Role is RCM (In Store Member and Operations Region objects)</inlineHelpText>
+    <label>RCM Profiles</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

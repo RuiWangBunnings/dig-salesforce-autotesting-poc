@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending__c</fullName>
+    <description>This field displays as ticked checkbox if Approval Date is blank and displays as unticked checkbox if Approval Date is not blank.</description>
+    <formula>IF( 
+AND(ISPICKVAL(Account_Status__c,&#39;Active&#39;),
+ISBLANK( Approval_Date__c ))
+ , TRUE, FALSE)</formula>
+    <label>Pending</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

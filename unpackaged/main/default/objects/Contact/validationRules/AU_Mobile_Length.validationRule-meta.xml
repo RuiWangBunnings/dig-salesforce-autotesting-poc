@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AU_Mobile_Length</fullName>
+    <active>true</active>
+    <description>CCRM-549 For Aus contact record types, the Mobile field can only be entered as a 10 digit number starting with 04</description>
+    <errorConditionFormula>IF(
+Contains(Account.Secondary_Segment__r.Name, &quot;Export&quot;), False,
+IF(AND(
+CONTAINS( $Label.Record_Types_AU_CRM_Contact , RecordType.DeveloperName),
+!ISBLANK( MobilePhone ),
+      OR(
+       NOT(REGEX( MobilePhone , &quot;\\d{10}?&quot;)),
+       Left(MobilePhone, 2)!= &quot;04&quot;
+        )
+      ), True,
+False
+))</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>The Mobile field can only be entered as a 10 digit number starting with 04</errorMessage>
+</ValidationRule>

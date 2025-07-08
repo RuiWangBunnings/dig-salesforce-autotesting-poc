@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delegated_Approver_Profile_Exemption__c</fullName>
+    <description>Profiles of which users are allowed to change other user&#39;s delegated approver.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Profiles of which users are allowed to change other user&#39;s delegated approver.</inlineHelpText>
+    <label>Delegated Approver Profile Exemption</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

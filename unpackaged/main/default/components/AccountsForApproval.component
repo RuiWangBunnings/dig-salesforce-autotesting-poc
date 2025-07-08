@@ -1,0 +1,74 @@
+<!--
+  @File Name          : AccountsForApproval.component
+  @Description        : 
+  @Author             : John Paul Peñaflor
+  @Group              : 
+  @Last Modified By   : John Paul Peñaflor
+  @Last Modified On   : 7/17/2020, 12:43:26 AM
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    7/10/2020   John Paul Peñaflor     Initial Version
+-->
+<apex:component access="global" controller="AccountsPriceListsFamilyTree">
+    
+    <apex:attribute name="accountIdValue" type="String" description="This is the Id of the account" assignTo="{!accountId}" access="global" />
+    
+    <apex:outputPanel rendered="{!currentPriceLists.size > 0}">
+        <p><b>Active Price Lists:</b></p>
+        <apex:repeat value="{!currentPriceLists}" var="cpl">
+            <ul> 
+                <li>{!cpl.Price_List_Name__c }</li>
+            </ul>
+        </apex:repeat>
+    </apex:outputPanel>
+        
+    <apex:outputPanel rendered="{!priceLists.size > 0}">
+        <p><b>Proposed Price Lists:</b></p>
+        <apex:repeat value="{!priceLists}" var="pl">
+            <ul> 
+                <li>{!pl.Price_List_Name__c }</li>
+            </ul>
+        </apex:repeat>
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!forRemovalPriceList.size > 0}">
+        <p><b>For Removal Price Lists:</b></p>
+        <apex:repeat value="{!forRemovalPriceList}" var="pl">
+            <ul> 
+                <li>{!pl.Price_List_Name__c }</li>
+            </ul>
+        </apex:repeat>
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!AND(account.Country__c == 'New Zealand', activeFamTreeDisc.size > 0)}">
+        <p><b>Active Family Tree Discounts</b></p>
+         <apex:repeat value="{!activeFamTreeDisc}" var="ftd">
+            <ul> 
+                <li>{!ftd.Name}</li>                                            
+            </ul>         
+        </apex:repeat>
+    </apex:outputPanel>
+    
+    <apex:outputPanel rendered="{!AND(account.Country__c == 'New Zealand', famTreeDisc.size > 0)}">
+        <p><b>Proposed Family Tree Discounts</b></p>
+         <apex:repeat value="{!famTreeDisc}" var="ftd">
+            <ul> 
+                <li>{!ftd.Name}</li>                                            
+            </ul>         
+        </apex:repeat>
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!AND(account.Country__c == 'New Zealand', forRemovalFamilyTreeDiscount.size > 0)}">
+        <p><b>For Removal Family Tree Discounts</b></p>
+         <apex:repeat value="{!forRemovalFamilyTreeDiscount}" var="ftd">
+            <ul> 
+                <li>{!ftd.Name}</li>                                            
+            </ul>         
+        </apex:repeat>
+    </apex:outputPanel>
+
+    <apex:outputPanel rendered="{!prospectPricing != ''}">
+        <apex:outputText value="{!prospectPricing}" escape="false"/>
+    </apex:outputPanel>
+    
+</apex:component>

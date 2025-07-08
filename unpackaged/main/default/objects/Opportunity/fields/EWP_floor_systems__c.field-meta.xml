@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EWP_floor_systems__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>EWP floor systems offer</description>
+    <label>EWP floor systems</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

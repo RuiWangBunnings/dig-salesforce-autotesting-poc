@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Categories__c</fullName>
+    <label>Supplier Categories</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prenail</fullName>
+                <default>false</default>
+                <label>Prenail</label>
+            </value>
+            <value>
+                <fullName>Prenail Only</fullName>
+                <default>false</default>
+                <label>Prenail Only</label>
+            </value>
+            <value>
+                <fullName>PS1</fullName>
+                <default>false</default>
+                <label>PS1</label>
+            </value>
+            <value>
+                <fullName>Roof</fullName>
+                <default>false</default>
+                <label>Roof</label>
+            </value>
+            <value>
+                <fullName>External Joinery</fullName>
+                <default>false</default>
+                <label>External Joinery</label>
+            </value>
+            <value>
+                <fullName>Insulation</fullName>
+                <default>false</default>
+                <label>Insulation</label>
+            </value>
+            <value>
+                <fullName>Interior Doors</fullName>
+                <default>false</default>
+                <label>Interior Doors</label>
+            </value>
+            <value>
+                <fullName>Reinforcing Steel</fullName>
+                <default>false</default>
+                <label>Reinforcing Steel</label>
+            </value>
+            <value>
+                <fullName>Cladding</fullName>
+                <default>false</default>
+                <label>Cladding</label>
+            </value>
+            <value>
+                <fullName>Clever Living</fullName>
+                <default>false</default>
+                <label>Clever Living</label>
+            </value>
+            <value>
+                <fullName>Stairs</fullName>
+                <default>false</default>
+                <label>Stairs</label>
+            </value>
+            <value>
+                <fullName>Schedule</fullName>
+                <default>false</default>
+                <label>Schedule</label>
+            </value>
+            <value>
+                <fullName>Internal Joinery</fullName>
+                <default>false</default>
+                <label>Internal Joinery</label>
+            </value>
+            <value>
+                <fullName>Garage Door</fullName>
+                <default>false</default>
+                <label>Garage Door</label>
+            </value>
+            <value>
+                <fullName>Structural Steel</fullName>
+                <default>false</default>
+                <label>Structural Steel</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Plumbing</fullName>
+                <default>false</default>
+                <label>Plumbing</label>
+            </value>
+            <value>
+                <fullName>Door Hardware</fullName>
+                <default>false</default>
+                <label>Door Hardware</label>
+            </value>
+            <value>
+                <fullName>Farm Shed</fullName>
+                <default>false</default>
+                <label>Farm Shed</label>
+            </value>
+            <value>
+                <fullName>Mid Floor</fullName>
+                <default>false</default>
+                <label>Mid Floor</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous / Other</fullName>
+                <default>false</default>
+                <label>Miscellaneous / Other</label>
+            </value>
+            <value>
+                <fullName>QS</fullName>
+                <default>false</default>
+                <label>QS</label>
+            </value>
+            <value>
+                <fullName>Kitchen / Laundry</fullName>
+                <default>false</default>
+                <label>Kitchen / Laundry</label>
+            </value>
+            <value>
+                <fullName>Fascia / Downpipes / Spouting</fullName>
+                <default>false</default>
+                <label>Fascia / Downpipes / Spouting</label>
+            </value>
+            <value>
+                <fullName>Balustrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Balustrade</label>
+            </value>
+            <value>
+                <fullName>Benchtop</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Benchtop</label>
+            </value>
+            <value>
+                <fullName>Deck</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Deck</label>
+            </value>
+            <value>
+                <fullName>Downpipes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Downpipes</label>
+            </value>
+            <value>
+                <fullName>Drainage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Drainage</label>
+            </value>
+            <value>
+                <fullName>Electrical</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electrical</label>
+            </value>
+            <value>
+                <fullName>Fascia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fascia</label>
+            </value>
+            <value>
+                <fullName>Fencing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fencing</label>
+            </value>
+            <value>
+                <fullName>Internal Finishings</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Finishings</label>
+            </value>
+            <value>
+                <fullName>Internal Linings</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Linings</label>
+            </value>
+            <value>
+                <fullName>Spouting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spouting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

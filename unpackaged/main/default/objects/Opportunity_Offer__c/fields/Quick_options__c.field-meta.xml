@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quick_options__c</fullName>
+    <label>Quick options</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pine &amp; MDF stair for paint and carpet</fullName>
+                <default>false</default>
+                <label>Pine &amp; MDF stair for paint and carpet</label>
+            </value>
+            <value>
+                <fullName>Pine &amp; MDF stair for paint and overlayed flooring</fullName>
+                <default>false</default>
+                <label>Pine &amp; MDF stair for paint and overlayed flooring</label>
+            </value>
+            <value>
+                <fullName>Flooded Gum stair for polish</fullName>
+                <default>false</default>
+                <label>Flooded Gum stair for polish</label>
+            </value>
+            <value>
+                <fullName>European Beech stair for polish</fullName>
+                <default>false</default>
+                <label>European Beech stair for polish</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

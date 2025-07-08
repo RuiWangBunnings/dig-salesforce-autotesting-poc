@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Supply_Install_Opportunity</fullName>
+    <active>false</active>
+    <description>VR to prevent creation of Supply &amp; Install opportunity from standard New button</description>
+    <errorConditionFormula>Record_Type_Name__c = &#39;Supply_Install_Opportunity&#39; &amp;&amp;  Created_from_WOB__c = false &amp;&amp;   NOT( CONTAINS(   $CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Supply_Install_Profile_Exemption__c , $Profile.Name))</errorConditionFormula>
+    <errorMessage>Please use the Whole of Build button on an Account to create Supply &amp; Install opportunities.</errorMessage>
+</ValidationRule>

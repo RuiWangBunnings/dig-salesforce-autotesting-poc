@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Default_TS_Auto_Selection_Exemption__c</fullName>
+    <description>List of profiles that can able to manually select the next available Default Trade specialist. CCRM15-417</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>List of profiles that can able to manually select the next available Default Trade specialist. CCRM15-417</inlineHelpText>
+    <label>Default TS Auto Selection Exemption</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

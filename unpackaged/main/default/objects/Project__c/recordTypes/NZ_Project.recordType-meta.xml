@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Project</fullName>
+    <active>true</active>
+    <description>Projects in New Zealand</description>
+    <label>NZ Project</label>
+    <picklistValues>
+        <picklist>Build_Stage__c</picklist>
+        <values>
+            <fullName>Exterior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame %26 Truss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interior Fitout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Construction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closure_Reason__c</picklist>
+        <values>
+            <fullName>Construction Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Pursuing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Cancelled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Development_Type__c</picklist>
+        <values>
+            <fullName>Alteration %26 Addition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refurbishment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>House_Type__c</picklist>
+        <values>
+            <fullName>Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Rise Build</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Dwelling site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi Level residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi Detached Townhouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Dwelling site</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Could not meet requirements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Job on Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Type__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source__c</picklist>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Visit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specialty_Classification__c</picklist>
+        <values>
+            <fullName>NDIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social and Affordable Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialist Disability Accommodation %28SDA%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Builder Appointed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post Tender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tender</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

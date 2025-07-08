@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CASH</fullName>
+        <default>false</default>
+        <label>Cash</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CREDIT</fullName>
+        <default>false</default>
+        <label>Credit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>30DAY</fullName>
+        <default>false</default>
+        <label>30 Day</label>
+    </standardValue>
+</StandardValueSet>

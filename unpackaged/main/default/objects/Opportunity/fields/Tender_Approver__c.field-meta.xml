@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tender_Approver__c</fullName>
+    <label>Tender Approver</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daniel Trainer</fullName>
+                <default>false</default>
+                <label>Daniel Trainer</label>
+            </value>
+            <value>
+                <fullName>Karin Mullenger</fullName>
+                <default>false</default>
+                <label>Karin Mullenger</label>
+            </value>
+            <value>
+                <fullName>Sharon Doalman</fullName>
+                <default>false</default>
+                <label>Sharon Doalman</label>
+            </value>
+            <value>
+                <fullName>Bec Caccaviello</fullName>
+                <default>false</default>
+                <label>Bec Caccaviello</label>
+            </value>
+            <value>
+                <fullName>Michael Mazzarolo</fullName>
+                <default>false</default>
+                <label>Michael Mazzarolo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

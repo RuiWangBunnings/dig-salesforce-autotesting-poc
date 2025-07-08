@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_List_Definition__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Setting visbility based on the definition of the pice list</description>
+    <label>Price List Definition</label>
+    <referenceTo>Price_List_Definition__c</referenceTo>
+    <relationshipLabel>Pricing Assignment Visibility</relationshipLabel>
+    <relationshipName>Pricing_Assignment_Visbility</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

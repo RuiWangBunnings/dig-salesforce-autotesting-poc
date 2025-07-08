@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Call_Reason_is_Mandatory</fullName>
+    <active>true</active>
+    <description>Do not call reason is mandatory if Do not Call checkbox is ticked.</description>
+    <errorConditionFormula>AND(Do_Not_Call__c = TRUE,  ISBLANK(TEXT(Do_Not_Call_Reason__c)))</errorConditionFormula>
+    <errorMessage>Please choose Do Not Call Reason.</errorMessage>
+</ValidationRule>

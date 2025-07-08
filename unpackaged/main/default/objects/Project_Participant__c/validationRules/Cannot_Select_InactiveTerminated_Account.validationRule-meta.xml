@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Select_InactiveTerminated_Account</fullName>
+    <active>true</active>
+    <description>Ensures an Inactive/Terminated Account cannot be associated to the opportunity</description>
+    <errorConditionFormula>AND(
+NOT( Account__r.RecordType.Name = &quot;Person Account&quot;),
+!ISNULL(  Account__c  ),
+OR(
+ISNEW(),
+ISCHANGED(Account__c )),
+OR(
+ISPICKVAL(Account__r.Account_Status__c,&quot;Inactive&quot;),
+ISPICKVAL(Account__r.Account_Status__c , &quot;Terminated&quot;)
+),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorDisplayField>Account__c</errorDisplayField>
+    <errorMessage>You cannot relate an Inactive or Terminated Account</errorMessage>
+</ValidationRule>

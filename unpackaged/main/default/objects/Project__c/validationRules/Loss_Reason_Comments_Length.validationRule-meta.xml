@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Comments_Length</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that users enter a minimum of 10 characters into Loss Reason Comments.</description>
+    <errorConditionFormula>AND (
+OR(
+   ISPICKVAL(Status__c , &#39;Closed - Lost&#39; ),
+   NOT(IsBlank(Text((Loss_Reason__c))))
+  ),
+LEN( Loss_Reason_Comments__c ) &lt;10
+)</errorConditionFormula>
+    <errorDisplayField>Loss_Reason_Comments__c</errorDisplayField>
+    <errorMessage>Loss Reason Comments must be a minimum of 10 characters long.</errorMessage>
+</ValidationRule>

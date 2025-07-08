@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Selection_Cladding__c</fullName>
+    <label>Product Selection</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cladding</fullName>
+                <default>false</default>
+                <label>Cladding</label>
+            </value>
+            <value>
+                <fullName>Cladding &amp; Render</fullName>
+                <default>false</default>
+                <label>Cladding &amp; Render</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

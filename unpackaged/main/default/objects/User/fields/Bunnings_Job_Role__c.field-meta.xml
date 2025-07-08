@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bunnings_Job_Role__c</fullName>
+    <description>Bunnings Job Role from the source system, used to determine what Sales Rep ID field on Store object to assign to the trade specialist user.</description>
+    <externalId>false</externalId>
+    <label>Bunnings Job Role</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

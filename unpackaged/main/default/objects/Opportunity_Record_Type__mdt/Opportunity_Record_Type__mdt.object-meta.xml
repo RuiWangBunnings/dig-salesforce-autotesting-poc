@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is created as part of CCRM-6890 &amp; 6892. To keep Opportunity Record Types used in Closed Won &amp; Closed Lost scenarios as configurable.</description>
+    <label>Opportunity Record Type</label>
+    <pluralLabel>Opportunity Record Types</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

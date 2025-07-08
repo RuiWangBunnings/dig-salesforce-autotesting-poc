@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shower_Screen_Style__c</fullName>
+    <label>Shower Screen Style</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&quot;Semi-Frameless Shower Screen</fullName>
+                <default>false</default>
+                <label>&quot;Semi-Frameless Shower Screen</label>
+            </value>
+            <value>
+                <fullName>Frameless Shower Screen</fullName>
+                <default>false</default>
+                <label>Frameless Shower Screen</label>
+            </value>
+            <value>
+                <fullName>Bath Screens&quot;</fullName>
+                <default>false</default>
+                <label>Bath Screens&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

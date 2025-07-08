@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Account_from_being_changed</fullName>
+    <active>true</active>
+    <description>This rule stops people changing the Primary Account relationship on AU AR Contact and NZ AR Contact records.</description>
+    <errorConditionFormula>AND(
+ISCHANGED( AccountId ),
+NOT($RecordType.Name = &quot;AU CRM Contact&quot;),
+NOT($RecordType.Name = &quot;NZ CRM Contact&quot;),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>You cannot change an AR Contacts Primary Account. Please contact the Credit Team.</errorMessage>
+</ValidationRule>

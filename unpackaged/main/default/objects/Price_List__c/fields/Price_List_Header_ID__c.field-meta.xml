@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Price_List_Header_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>External ID Reference for Price List</description>
+    <externalId>true</externalId>
+    <label>Price List Header ID</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

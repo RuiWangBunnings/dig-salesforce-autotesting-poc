@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_Contract_Destination_Project</fullName>
+    <active>false</active>
+    <description>Source object must be Contract__c and Destination object must be Project__c</description>
+    <errorConditionFormula>OR(
+Source_Object__r.DeveloperName != &#39;Contract&#39;,
+Destination_Object__r.DeveloperName != &#39;Project&#39;
+)</errorConditionFormula>
+    <errorMessage>Source object must be Contract__c and Destination object must be Project__c</errorMessage>
+</ValidationRule>

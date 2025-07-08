@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_TradeSpecialist_Role</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that only the Integration User can select the Role &quot;Trade Specialist&quot;.</description>
+    <errorConditionFormula>(ISNEW()&amp;&amp;
+TEXT(Role__c) = &quot;Trade Specialist&quot;)&amp;&amp;
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))||
+(ISCHANGED(Role__c)&amp;&amp;
+TEXT(Role__c) = &quot;Trade Specialist&quot;&amp;&amp;
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name)))</errorConditionFormula>
+    <errorDisplayField>Role__c</errorDisplayField>
+    <errorMessage>This value can only be set via Integration. Please select another.</errorMessage>
+</ValidationRule>

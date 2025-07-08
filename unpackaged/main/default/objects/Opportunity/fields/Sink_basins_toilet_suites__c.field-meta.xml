@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sink_basins_toilet_suites__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Sink, basins &amp; toilet suites offer</description>
+    <label>Sink, basins &amp; toilet suites</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

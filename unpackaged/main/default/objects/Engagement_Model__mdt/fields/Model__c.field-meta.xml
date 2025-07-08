@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Model</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Top X from Customer Engagement Model</fullName>
+                <default>true</default>
+                <label>Top X from Customer Engagement Model</label>
+            </value>
+            <value>
+                <fullName>Top X frequent contact – to call every second month</fullName>
+                <default>false</default>
+                <label>Top X frequent contact – to call every second month</label>
+            </value>
+            <value>
+                <fullName>Top X less frequent – to call every 4th month</fullName>
+                <default>false</default>
+                <label>Top X less frequent – to call every 4th month</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Quoter</fullName>
+        <default>false</default>
+        <label>Quoter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDM</fullName>
+        <default>false</default>
+        <label>BDM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supply &amp; Install</fullName>
+        <default>false</default>
+        <label>Supply &amp; Install</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Related Account Owner</fullName>
+        <default>false</default>
+        <label>Related Account Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Landscape Specialist</fullName>
+        <default>false</default>
+        <label>Landscape Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Category Specialist</fullName>
+        <default>false</default>
+        <label>Category Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Segment Specialist</fullName>
+        <default>false</default>
+        <label>Segment Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BSS</fullName>
+        <default>false</default>
+        <label>BSS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

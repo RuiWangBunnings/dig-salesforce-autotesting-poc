@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Review_Percent_GP__c</fullName>
+    <defaultValue>10</defaultValue>
+    <description>When a contract line item&#39;s GP is lower than The Percent GP, the alert is displayed</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>When a contract line item&#39;s GP is lower than The Percent GP, the alert is displayed</inlineHelpText>
+    <label>Contract Review Percent GP</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

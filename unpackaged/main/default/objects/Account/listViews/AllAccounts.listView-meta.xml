@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Power_Pass_Account_Number__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Credit_Limit__c</columns>
+    <columns>Account_Status__c</columns>
+    <columns>Pending__c</columns>
+    <columns>Spend_Band__c</columns>
+    <columns>R12_Sales__c</columns>
+    <columns>Assigned_Store__c</columns>
+    <columns>Account_State__c</columns>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Inactive,Terminated</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.AU_Apprentice,Account.NZ_Apprentice</value>
+    </filters>
+    <label>All Accounts</label>
+    <sharedTo>
+        <group>Rightshore</group>
+        <roleAndSubordinates>CEO</roleAndSubordinates>
+    </sharedTo>
+</ListView>

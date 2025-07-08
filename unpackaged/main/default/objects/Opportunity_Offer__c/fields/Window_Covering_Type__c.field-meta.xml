@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Window_Covering_Type__c</fullName>
+    <label>Window Covering Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Roller Blinds</fullName>
+                <default>false</default>
+                <label>Roller Blinds</label>
+            </value>
+            <value>
+                <fullName>Vertical Blinds</fullName>
+                <default>false</default>
+                <label>Vertical Blinds</label>
+            </value>
+            <value>
+                <fullName>Roman Blinds</fullName>
+                <default>false</default>
+                <label>Roman Blinds</label>
+            </value>
+            <value>
+                <fullName>Panel Tracks</fullName>
+                <default>false</default>
+                <label>Panel Tracks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

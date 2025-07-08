@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Reason_Expanded__c</fullName>
+    <label>Main Reason Expanded</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Main_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Work slowing because of external impacts (e.g COVID, fires, floods, economic downturn)</fullName>
+                <default>false</default>
+                <label>Work slowing because of external impacts (e.g COVID, fires, floods, economic downturn)</label>
+            </value>
+            <value>
+                <fullName>Taking personal leave from work</fullName>
+                <default>false</default>
+                <label>Taking personal leave from work</label>
+            </value>
+            <value>
+                <fullName>Not operating this business anymore</fullName>
+                <default>false</default>
+                <label>Not operating this business anymore</label>
+            </value>
+            <value>
+                <fullName>Finished project / job</fullName>
+                <default>false</default>
+                <label>Finished project / job</label>
+            </value>
+            <value>
+                <fullName>Hardware needs are reducing so shopping less</fullName>
+                <default>false</default>
+                <label>Hardware needs are reducing so shopping less</label>
+            </value>
+            <value>
+                <fullName>Sub-contracting and not using personal PowerPass account as much</fullName>
+                <default>false</default>
+                <label>Sub-contracting and not using personal PowerPass account as much</label>
+            </value>
+            <value>
+                <fullName>Retired or slowing down for retirement</fullName>
+                <default>false</default>
+                <label>Retired or slowing down for retirement</label>
+            </value>
+            <value>
+                <fullName>Relocated / moved away</fullName>
+                <default>false</default>
+                <label>Relocated / moved away</label>
+            </value>
+            <value>
+                <fullName>Bunnings has insufficient stock</fullName>
+                <default>false</default>
+                <label>Bunnings has insufficient stock</label>
+            </value>
+            <value>
+                <fullName>Location of store</fullName>
+                <default>false</default>
+                <label>Location of store</label>
+            </value>
+            <value>
+                <fullName>Bunnings is not competitive on price (Price)</fullName>
+                <default>false</default>
+                <label>Bunnings is not competitive on price (Price)</label>
+            </value>
+            <value>
+                <fullName>Not the right product selection (Range)</fullName>
+                <default>false</default>
+                <label>Not the right product selection (Range)</label>
+            </value>
+            <value>
+                <fullName>Delivery</fullName>
+                <default>false</default>
+                <label>Delivery</label>
+            </value>
+            <value>
+                <fullName>Special orders (CSO)</fullName>
+                <default>false</default>
+                <label>Special orders (CSO)</label>
+            </value>
+            <value>
+                <fullName>Store experience</fullName>
+                <default>false</default>
+                <label>Store experience</label>
+            </value>
+            <value>
+                <fullName>Online experience</fullName>
+                <default>false</default>
+                <label>Online experience</label>
+            </value>
+            <value>
+                <fullName>Forgetting to scan card</fullName>
+                <default>false</default>
+                <label>Forgetting to scan card</label>
+            </value>
+            <value>
+                <fullName>Needs a new / additional card</fullName>
+                <default>false</default>
+                <label>Needs a new / additional card</label>
+            </value>
+            <value>
+                <fullName>Shopping with a different account</fullName>
+                <default>false</default>
+                <label>Shopping with a different account</label>
+            </value>
+            <value>
+                <fullName>Issue with credit</fullName>
+                <default>false</default>
+                <label>Issue with credit</label>
+            </value>
+            <value>
+                <fullName>Issue with PowerPass app</fullName>
+                <default>false</default>
+                <label>Issue with PowerPass app</label>
+            </value>
+            <value>
+                <fullName>Other - please specify</fullName>
+                <default>false</default>
+                <label>Other - please specify</label>
+            </value>
+            <value>
+                <fullName>Others - please specify</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Others - please specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <valueName>Forgetting to scan card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <valueName>Needs a new / additional card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <valueName>Shopping with a different account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <valueName>Issue with credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <valueName>Issue with PowerPass app</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Card and account issues</controllingFieldValue>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Other - please specify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Work slowing because of external impacts (e.g COVID, fires, floods, economic downturn)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Taking personal leave from work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Not operating this business anymore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Finished project / job</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Hardware needs are reducing so shopping less</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Sub-contracting and not using personal PowerPass account as much</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Retired or slowing down for retirement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Need fewer supplies</controllingFieldValue>
+            <valueName>Relocated / moved away</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Bunnings has insufficient stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Location of store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Bunnings is not competitive on price (Price)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Not the right product selection (Range)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Special orders (CSO)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Store experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Issue with Bunnings</controllingFieldValue>
+            <valueName>Online experience</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

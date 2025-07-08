@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bulk Account Transfer</fullName>
+                <default>true</default>
+                <label>Bulk Account Transfer</label>
+            </value>
+            <value>
+                <fullName>Single Account Transfer</fullName>
+                <default>false</default>
+                <label>Single Account Transfer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

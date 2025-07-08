@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Can_Only_Set_Status_To_Accepted_or_Lost</fullName>
+    <active>true</active>
+    <description>Non Quote Office User can ONLY update the supplier quote status to Accepted or Lost</description>
+    <errorConditionFormula>AND(
+RecordType.DeveloperName=&quot;NZ_Supplier_Quote&quot;,
+ISCHANGED(Status__c),
+NOT(CONTAINS(&quot;System Administrator, NZ Quote Office, Integrations User&quot;, $Profile.Name)),
+CONTAINS(&quot;Estimate Opportunity, Farm Shed Opportunity, NZ Standard Opportunity, Schedule Opportunity&quot;, Opportunity__r.RecordType.Name),
+NOT(CONTAINS(&quot;Accepted, Lost&quot;, TEXT(Status__c)))
+)</errorConditionFormula>
+    <errorDisplayField>Account_Record_Type__c</errorDisplayField>
+    <errorMessage>Please contact the Quote Office to request an update to the supplier quote status.</errorMessage>
+</ValidationRule>

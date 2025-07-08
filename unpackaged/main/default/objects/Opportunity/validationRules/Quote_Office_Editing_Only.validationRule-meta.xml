@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Office_Editing_Only</fullName>
+    <active>true</active>
+    <description>This record isn&#39;t available for editing for non-quote office profiles while in Qualifying or Proposal In Progress Stages</description>
+    <errorConditionFormula>(
+ (
+   (
+   (NOT(ISCHANGED(StageName))) &amp;&amp;
+   (ISPICKVAL(StageName, &quot;Qualifying&quot;) ||
+   (ISPICKVAL(StageName, &quot;Proposal In Progress&quot;))
+   )
+
+||
+
+  (
+  ISCHANGED(StageName) &amp;&amp;
+  (ISPICKVAL(PRIORVALUE(StageName),&quot;Qualifying&quot;) ||
+  ISPICKVAL(PRIORVALUE(StageName),&quot;Proposal In Progress&quot;)))
+  )
+ )
+
+&amp;&amp;
+
+NOT(OR($Profile.Name = &quot;System Administrator&quot;, $Profile.Name = &quot;NZ Quote Office&quot;, $Profile.Name = &quot;Integrations User&quot;))
+&amp;&amp;
+NOT(ISNEW())
+
+&amp;&amp;
+
+(
+(RecordType.DeveloperName = &quot;NZ_Estimate_Opportunity&quot;) ||
+(RecordType.DeveloperName = &quot;NZ_Farm_Shed_Opportunity&quot;) ||
+(RecordType.DeveloperName = &quot;NZ_Schedule_Opportunity&quot;)
+)) &amp;&amp;
+NOT(ISCHANGED(OwnerId))</errorConditionFormula>
+    <errorDisplayField>AAC_Nasahi_Panel__c</errorDisplayField>
+    <errorMessage>You cannot edit the opportunity while it is in Qualifying or Proposal in Progress stages. Please contact the Quote Office to discuss any changes required.</errorMessage>
+</ValidationRule>

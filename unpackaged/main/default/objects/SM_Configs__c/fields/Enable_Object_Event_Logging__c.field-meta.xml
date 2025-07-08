@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enable_Object_Event_Logging__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>A flag that can be set to enable/disable object event (Object_Event__e) logging.</description>
+    <inlineHelpText>Check to enable object event logging.</inlineHelpText>
+    <label>Integ: Enable Object Event Logging</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

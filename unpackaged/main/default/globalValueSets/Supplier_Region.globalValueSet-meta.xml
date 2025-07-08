@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Area 1 - Northland</fullName>
+        <default>false</default>
+        <label>Area 1 - Northland</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 1, 2, 3 - Auckland</fullName>
+        <default>false</default>
+        <label>Area 1, 2, 3 - Auckland</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 4</fullName>
+        <default>false</default>
+        <label>Area 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 5</fullName>
+        <default>false</default>
+        <label>Area 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 6</fullName>
+        <default>false</default>
+        <label>Area 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 7</fullName>
+        <default>false</default>
+        <label>Area 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Area 8</fullName>
+        <default>false</default>
+        <label>Area 8</label>
+    </customValue>
+    <description>For NZ account and opportunity picklists</description>
+    <masterLabel>Supplier Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

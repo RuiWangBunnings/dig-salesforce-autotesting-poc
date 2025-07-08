@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overhang_if_Required_At_Front__c</fullName>
+    <label>Overhang if Required At Front</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>500mm</fullName>
+                <default>false</default>
+                <label>500mm</label>
+            </value>
+            <value>
+                <fullName>600mm</fullName>
+                <default>false</default>
+                <label>600mm</label>
+            </value>
+            <value>
+                <fullName>700mm</fullName>
+                <default>false</default>
+                <label>700mm</label>
+            </value>
+            <value>
+                <fullName>800mm</fullName>
+                <default>false</default>
+                <label>800mm</label>
+            </value>
+            <value>
+                <fullName>900mm</fullName>
+                <default>false</default>
+                <label>900mm</label>
+            </value>
+            <value>
+                <fullName>1000mm</fullName>
+                <default>false</default>
+                <label>1000mm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

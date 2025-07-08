@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Request_Trigger_Insert__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Use to turn on/off INSERT logic in AccountRequestTrigger.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Use to turn on/off INSERT logic in AccountRequestTrigger.</inlineHelpText>
+    <label>Account Request Trigger Insert</label>
+    <type>Checkbox</type>
+</CustomField>

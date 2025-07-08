@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tender_Due_Date_should_be_populated</fullName>
+    <active>true</active>
+    <description>“Tender Due Date” is required if “Project Status” field = ‘Tender</description>
+    <errorConditionFormula>AND
+(ISPICKVAL(Status__c, &#39;Tender&#39;), 
+ISBLANK( Tender_Due_Date__c ),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c,$Profile.Name))
+ )</errorConditionFormula>
+    <errorDisplayField>Tender_Due_Date__c</errorDisplayField>
+    <errorMessage>Please enter a due date</errorMessage>
+</ValidationRule>

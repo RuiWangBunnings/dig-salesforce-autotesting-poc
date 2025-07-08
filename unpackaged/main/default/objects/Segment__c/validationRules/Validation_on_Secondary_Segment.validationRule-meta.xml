@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Secondary_Segment</fullName>
+    <active>true</active>
+    <description>This rule ensures that only System Admin and Integration Users can change the Secondary Segment field.</description>
+    <errorConditionFormula>AND(ISCHANGED( Name ),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name)))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You cannot update the Secondary Segment. Please contact your System Administrator.</errorMessage>
+</ValidationRule>

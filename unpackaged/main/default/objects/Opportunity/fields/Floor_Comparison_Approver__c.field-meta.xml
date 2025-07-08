@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Floor_Comparison_Approver__c</fullName>
+    <label>Floor Comparison Approver</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daniel Trainer</fullName>
+                <default>false</default>
+                <label>Daniel Trainer</label>
+            </value>
+            <value>
+                <fullName>Richard Harris</fullName>
+                <default>false</default>
+                <label>Richard Harris</label>
+            </value>
+            <value>
+                <fullName>Luke Taylor</fullName>
+                <default>false</default>
+                <label>Luke Taylor</label>
+            </value>
+            <value>
+                <fullName>Wade Kill</fullName>
+                <default>false</default>
+                <label>Wade Kill</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultApprovalRequestEmailSetting__c</fullName>
+    <description>Upon user provisioning via OKTA, the User field &quot;Receive Approval Request Emails&quot; will be defaulted to the selected value.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Upon user provisioning via OKTA, the User field &quot;Receive Approval Request Emails&quot; will be defaulted to the selected value.</inlineHelpText>
+    <label>Default Approval Request Email Setting</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>If I am an approver or delegated approver</fullName>
+                <default>true</default>
+                <label>If I am an approver or delegated approver</label>
+            </value>
+            <value>
+                <fullName>Only if I am an approver</fullName>
+                <default>false</default>
+                <label>Only if I am an approver</label>
+            </value>
+            <value>
+                <fullName>Only if I am a delegated approver</fullName>
+                <default>false</default>
+                <label>Only if I am a delegated approver</label>
+            </value>
+            <value>
+                <fullName>Never</fullName>
+                <default>false</default>
+                <label>Never</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

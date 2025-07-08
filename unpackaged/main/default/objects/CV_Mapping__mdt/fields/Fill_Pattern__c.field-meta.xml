@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fill_Pattern__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Fill Pattern</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>verticalStripes</fullName>
+                <default>true</default>
+                <label>verticalStripes</label>
+            </value>
+            <value>
+                <fullName>ascDiagonalStripes</fullName>
+                <default>false</default>
+                <label>ascDiagonalStripes</label>
+            </value>
+            <value>
+                <fullName>descDiagonalStripes</fullName>
+                <default>false</default>
+                <label>descDiagonalStripes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Sales_Rep_ID__c</fullName>
+    <description>If the leagcy sales rep id is assigned then it is considered as sales rep number else newly generated auto number sales rep id from Salesforce is used</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Sales_Rep_Legacy_ID__c),  Name , Sales_Rep_Legacy_ID__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Sales Rep ID</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

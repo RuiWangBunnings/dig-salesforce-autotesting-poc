@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wet_Wall_Lining_Rating__c</fullName>
+    <label>Wet Wall Lining Rating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Wet_Wall_Lining__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Aqualine 10mm</fullName>
+                <default>false</default>
+                <label>Aqualine 10mm</label>
+            </value>
+            <value>
+                <fullName>Aqualine 13mm</fullName>
+                <default>false</default>
+                <label>Aqualine 13mm</label>
+            </value>
+            <value>
+                <fullName>Aquaboard 10mm</fullName>
+                <default>false</default>
+                <label>Aquaboard 10mm</label>
+            </value>
+            <value>
+                <fullName>Aquaboard 13mm</fullName>
+                <default>false</default>
+                <label>Aquaboard 13mm</label>
+            </value>
+            <value>
+                <fullName>Hardiglaze</fullName>
+                <default>false</default>
+                <label>Hardiglaze</label>
+            </value>
+            <value>
+                <fullName>Villaboard</fullName>
+                <default>false</default>
+                <label>Villaboard</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Aqualine 10mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Aqualine 13mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Aquaboard 10mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Aquaboard 13mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Hardiglaze</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Villaboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

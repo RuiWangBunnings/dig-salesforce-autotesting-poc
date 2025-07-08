@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Share_Of_Wallet__c</fullName>
+    <description>The share of wallet of the previous month.</description>
+    <inlineHelpText>This field shows the Share of Wallet for the previous month.</inlineHelpText>
+    <label>Monthly Share Of Wallet</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

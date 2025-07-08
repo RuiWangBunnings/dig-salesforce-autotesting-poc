@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Call_Reason__c</fullName>
+    <description>Dependent picklist on Do not Call Checkbox</description>
+    <label>Do Not Call Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Do_Not_Call__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Requested</fullName>
+                <default>false</default>
+                <label>Customer Requested</label>
+            </value>
+            <value>
+                <fullName>Incorrect Details</fullName>
+                <default>false</default>
+                <label>Incorrect Details</label>
+            </value>
+            <value>
+                <fullName>Secondary Account</fullName>
+                <default>false</default>
+                <label>Secondary Account</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Customer Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Incorrect Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Secondary Account</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

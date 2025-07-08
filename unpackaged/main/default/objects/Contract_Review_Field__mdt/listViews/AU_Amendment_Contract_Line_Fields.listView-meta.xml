@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AU_Amendment_Contract_Line_Fields</fullName>
+    <columns>MasterLabel</columns>
+    <columns>Cost_Zone__c</columns>
+    <columns>Country__c</columns>
+    <columns>Field_Name__c</columns>
+    <columns>Field_Order__c</columns>
+    <columns>Field_Type__c</columns>
+    <columns>Label__c</columns>
+    <columns>Editable__c</columns>
+    <columns>Is_Retail__c</columns>
+    <columns>Additional_Field_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Table_Type__c</field>
+        <operation>equals</operation>
+        <value>Contract Line</value>
+    </filters>
+    <filters>
+        <field>Contract_Type__c</field>
+        <operation>equals</operation>
+        <value>Amendment</value>
+    </filters>
+    <filters>
+        <field>Country__c</field>
+        <operation>equals</operation>
+        <value>Australia</value>
+    </filters>
+    <label>AU Amendment Contract Line Fields</label>
+</ListView>
