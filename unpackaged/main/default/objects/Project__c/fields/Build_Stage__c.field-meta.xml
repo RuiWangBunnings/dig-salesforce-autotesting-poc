@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Build_Stage__c</fullName>
+    <description>The Stage of the Project eg. Council Approval</description>
+    <label>Build Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-Construction</fullName>
+                <default>false</default>
+                <label>Pre-Construction</label>
+            </value>
+            <value>
+                <fullName>Slab</fullName>
+                <default>false</default>
+                <label>Slab</label>
+            </value>
+            <value>
+                <fullName>Frame/Brickwork</fullName>
+                <default>false</default>
+                <label>Frame/Brickwork</label>
+            </value>
+            <value>
+                <fullName>Lock Up</fullName>
+                <default>false</default>
+                <label>Lock Up</label>
+            </value>
+            <value>
+                <fullName>Fix</fullName>
+                <default>false</default>
+                <label>Fix</label>
+            </value>
+            <value>
+                <fullName>Fit Out</fullName>
+                <default>false</default>
+                <label>Fit Out</label>
+            </value>
+            <value>
+                <fullName>Council Approval</fullName>
+                <default>false</default>
+                <label>Council Approval</label>
+            </value>
+            <value>
+                <fullName>Builder appointed</fullName>
+                <default>false</default>
+                <label>Builder appointed</label>
+            </value>
+            <value>
+                <fullName>Tender</fullName>
+                <default>false</default>
+                <label>Tender</label>
+            </value>
+            <value>
+                <fullName>Post tender</fullName>
+                <default>false</default>
+                <label>Post tender</label>
+            </value>
+            <value>
+                <fullName>Greenfield</fullName>
+                <default>false</default>
+                <label>Greenfield</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Floor</fullName>
+                <default>false</default>
+                <label>Floor</label>
+            </value>
+            <value>
+                <fullName>Frame &amp; Truss</fullName>
+                <default>false</default>
+                <label>Frame &amp; Truss</label>
+            </value>
+            <value>
+                <fullName>Exterior</fullName>
+                <default>false</default>
+                <label>Exterior</label>
+            </value>
+            <value>
+                <fullName>Interior Fitout</fullName>
+                <default>false</default>
+                <label>Interior Fitout</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Frame</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Frame</label>
+            </value>
+            <value>
+                <fullName>Landscape</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Landscape</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

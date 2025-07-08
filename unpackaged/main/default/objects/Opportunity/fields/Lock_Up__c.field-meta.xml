@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Up__c</fullName>
+    <description>Checked if any Lock Up offers are checked</description>
+    <formula>OR
+(Aluminium_windows__c = TRUE,
+Lock_Up_Brick_Hardware__c = TRUE,
+Brick_sand__c = TRUE,
+Brick_supply__c = TRUE,
+Electrical_rough_in__c = TRUE,
+Ext_lock_up_materials_lower__c = TRUE,
+Lock_Up_Cladding__c = TRUE,
+Eaves_soffit__c = TRUE,
+External_door_furniture__c = TRUE,
+External_doors__c = TRUE,
+Cavity_sliding_door_units__c = TRUE,
+External_lock_up_materials__c = TRUE,
+Heating_cooling_rough_in__c = TRUE,
+Internal_lockup_materials__c = TRUE,
+Metal_roof__c = TRUE,
+Rendering__c = TRUE,
+Roof_tiles__c = TRUE,
+Scaffolding__c = TRUE,
+Wall_wrap__c = TRUE,
+Shower_bases__c = TRUE,
+Baths__c = TRUE,
+Lock_Up_Plasterboard__c = TRUE,
+Skylights__c = TRUE,
+Lock_Up_Insulation__c = TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Lock Up</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

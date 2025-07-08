@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apprentice__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Field hidden for users. Used only by Integration / System Admin to create apprentice accounts.</inlineHelpText>
+    <label>Apprentice</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

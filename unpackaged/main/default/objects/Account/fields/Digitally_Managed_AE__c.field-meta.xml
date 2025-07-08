@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digitally_Managed_AE__c</fullName>
+    <description>Predictive Model from Account Extension</description>
+    <externalId>false</externalId>
+    <formula>TEXT(Account_Extension__r.Digitally_Managed__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Predictive Model from Account Extension</inlineHelpText>
+    <label>Digitally Managed</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

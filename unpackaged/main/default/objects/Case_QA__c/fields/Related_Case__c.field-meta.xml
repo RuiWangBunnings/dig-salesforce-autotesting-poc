@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Case__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field will look up to case for which case assessment is currently being done.</description>
+    <label>Related Case</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Case QAs</relationshipLabel>
+    <relationshipName>Case_QAs</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Cost_Zone_mandatory</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that if the Contract Request Subtype = New Contract, at least one value must be selected for Contract State.</description>
+    <errorConditionFormula>(ISPICKVAL( Subtype__c , &quot;New Contract&quot;) ||
+ISPICKVAL( Subtype__c , &quot;New Project Contract&quot;))
+&amp;&amp;
+ISBLANK(Cost_Zones__c)</errorConditionFormula>
+    <errorDisplayField>Cost_Zones__c</errorDisplayField>
+    <errorMessage>Please select at least 1 value for Cost Zone(s)</errorMessage>
+</ValidationRule>

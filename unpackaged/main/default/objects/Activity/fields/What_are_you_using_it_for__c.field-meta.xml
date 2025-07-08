@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_are_you_using_it_for__c</fullName>
+    <label>What are you using it for?</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Take Offs</fullName>
+                <default>false</default>
+                <label>Take Offs</label>
+            </value>
+            <value>
+                <fullName>Estimating</fullName>
+                <default>false</default>
+                <label>Estimating</label>
+            </value>
+            <value>
+                <fullName>Quoting (Customer quote production)</fullName>
+                <default>false</default>
+                <label>Quoting (Customer quote production)</label>
+            </value>
+            <value>
+                <fullName>Purchase order</fullName>
+                <default>false</default>
+                <label>Purchase order</label>
+            </value>
+            <value>
+                <fullName>Scheduling</fullName>
+                <default>false</default>
+                <label>Scheduling</label>
+            </value>
+            <value>
+                <fullName>Cost Tracking</fullName>
+                <default>false</default>
+                <label>Cost Tracking</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

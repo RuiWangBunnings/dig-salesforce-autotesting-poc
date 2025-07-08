@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Australia</fullName>
+    <active>true</active>
+    <label>Australia</label>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Area BDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCS Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SSM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

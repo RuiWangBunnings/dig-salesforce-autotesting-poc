@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Data_to_CPS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>this checkbox will fire the Apex Web Service Callout to send the record to CPS for them to update.</description>
+    <label>Send Data to CPS</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

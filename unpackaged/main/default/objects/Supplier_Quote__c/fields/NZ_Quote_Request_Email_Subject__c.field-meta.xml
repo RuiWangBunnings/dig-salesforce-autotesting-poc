@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Quote_Request_Email_Subject__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+ISBLANK( Opportunity__r.Tender_Date__c),
+Opportunity__r.Opportunity_ID__c &amp; &quot; - &quot; &amp;  Supplier__r.Name &amp; &quot; - &quot; &amp;  Site_Address_Email_Template__c ,
+ TEXT(Opportunity__r.Tender_Date__c) &amp; &quot; &quot; &amp; Opportunity__r.Opportunity_ID__c &amp; &quot; - &quot; &amp;  Supplier__r.Name &amp; &quot; - &quot; &amp;  Site_Address_Email_Template__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NZ Quote Request - Email Subject</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

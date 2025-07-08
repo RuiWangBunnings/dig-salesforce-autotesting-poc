@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COS_ID__c</fullName>
+    <description>The contract COS ID</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a COS ID which contains the items for your contract or attach an Excel spreadsheet to the case once it has been created</inlineHelpText>
+    <label>COS ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

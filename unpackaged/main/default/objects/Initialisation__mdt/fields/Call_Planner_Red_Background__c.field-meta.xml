@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Planner_Red_Background__c</fullName>
+    <defaultValue>&#39;red&#39;</defaultValue>
+    <description>The background color for cells on 2nd page of call planner</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The background color for cells on 2nd page of call planner, must be a valid CSS color name or hex code that starts with #</inlineHelpText>
+    <label>Call Planner Red Background</label>
+    <length>20</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

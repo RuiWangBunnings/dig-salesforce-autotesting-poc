@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_transfer</fullName>
+    <active>false</active>
+    <description>Transfer can only take place post approval process / with exemption</description>
+    <errorConditionFormula>AND(
+NOT($RecordType.Name = &quot;Person Account&quot;),
+Bulk_Account_Transfer__c == false,
+ISCHANGED(OwnerId),
+!ISCHANGED(Transfer_approval_status__c),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorMessage>Process Blocked. Please use correct single or bulk account transfer process.</errorMessage>
+</ValidationRule>

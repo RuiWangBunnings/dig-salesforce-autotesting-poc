@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_to_Receive__c</fullName>
+    <description>Difference between Date Received and Date Requested</description>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name = &#39;NZ Supplier Quote&#39;,
+ Date_Received__c-Date_Requested__c,
+ IF( RecordType.Name = &#39;AU Supplier Quote&#39;,
+ /* business days calculations */
+ (5 * ( FLOOR( ( Date_Received__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( Date_Received__c - DATE( 1900, 1, 8), 7 ) ) )
+ -
+ (5 * ( FLOOR( ( Date_Requested__c - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( Date_Requested__c - DATE( 1900, 1, 8), 7 ) ) )
+ ,
+ null
+ ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Days to Receive</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Item_ID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Will hold contract line number (to be used as the external identifier)</description>
+    <externalId>true</externalId>
+    <label>Contract Item ID</label>
+    <length>255</length>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

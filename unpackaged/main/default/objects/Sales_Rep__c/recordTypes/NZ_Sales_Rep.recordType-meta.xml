@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Sales_Rep</fullName>
+    <active>true</active>
+    <label>NZ Sales Rep</label>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Default</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Landscape</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>ASM - Lower NI %26 SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASM - Upper NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Managed - NZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>State__c</picklist>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subregion__c</picklist>
+        <values>
+            <fullName>ASM - Lower NI %26 SI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASM - Upper NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Managed - NZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade NZ - Area 8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

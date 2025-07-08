@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Comment_Mandatory</fullName>
+    <active>true</active>
+    <description>When a Lead Status is Closed - Not Converted a Loss Reason and Comment must be entered.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status , &quot;Closed - Not Converted&quot;),
+ISBLANK(Loss_Reason_Comments__c))</errorConditionFormula>
+    <errorMessage>Please enter in a Loss Reason Comment</errorMessage>
+</ValidationRule>

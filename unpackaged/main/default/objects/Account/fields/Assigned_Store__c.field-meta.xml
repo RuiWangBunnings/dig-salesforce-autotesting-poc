@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Store__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Assigned Store of a trade Specialist User</description>
+    <label>Assigned Store</label>
+    <referenceTo>Store__c</referenceTo>
+    <relationshipLabel>Accounts (Assigned Store)</relationshipLabel>
+    <relationshipName>Accounts3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

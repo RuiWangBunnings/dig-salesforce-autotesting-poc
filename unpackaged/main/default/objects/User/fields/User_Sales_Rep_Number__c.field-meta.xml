@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>User_Sales_Rep_Number__c</fullName>
+    <description>To be deleted</description>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(UserRole.DeveloperName, &#39;SRN_&#39;, &#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>User Sales Rep Number</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

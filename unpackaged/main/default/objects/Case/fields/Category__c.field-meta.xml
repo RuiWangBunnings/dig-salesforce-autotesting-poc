@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>This is created for Retail Customer Support Team to manage the categorisation of the case. This field is dependent on Type field</description>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account - Internal Transfer</fullName>
+                <default>false</default>
+                <label>Account - Internal Transfer</label>
+            </value>
+            <value>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+                <label>Tech Support</label>
+            </value>
+            <value>
+                <fullName>Cancel/Refund</fullName>
+                <default>false</default>
+                <label>Cancel/Refund</label>
+            </value>
+            <value>
+                <fullName>Order Issue</fullName>
+                <default>false</default>
+                <label>Order Issue</label>
+            </value>
+            <value>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+                <label>Advertising</label>
+            </value>
+            <value>
+                <fullName>CS Team</fullName>
+                <default>false</default>
+                <label>CS Team</label>
+            </value>
+            <value>
+                <fullName>Product</fullName>
+                <default>false</default>
+                <label>Product</label>
+            </value>
+            <value>
+                <fullName>Store Process</fullName>
+                <default>false</default>
+                <label>Store Process</label>
+            </value>
+            <value>
+                <fullName>Store Team</fullName>
+                <default>false</default>
+                <label>Store Team</label>
+            </value>
+            <value>
+                <fullName>Website Functionality</fullName>
+                <default>false</default>
+                <label>Website Functionality</label>
+            </value>
+            <value>
+                <fullName>Safety</fullName>
+                <default>false</default>
+                <label>Safety</label>
+            </value>
+            <value>
+                <fullName>Stock Availability</fullName>
+                <default>false</default>
+                <label>Stock Availability</label>
+            </value>
+            <value>
+                <fullName>Product Enquiry</fullName>
+                <default>false</default>
+                <label>Product Enquiry</label>
+            </value>
+            <value>
+                <fullName>Incorrect Information</fullName>
+                <default>false</default>
+                <label>Incorrect Information</label>
+            </value>
+            <value>
+                <fullName>Price Enquiry</fullName>
+                <default>false</default>
+                <label>Price Enquiry</label>
+            </value>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>ETA</fullName>
+                <default>false</default>
+                <label>ETA</label>
+            </value>
+            <value>
+                <fullName>Manual Order</fullName>
+                <default>false</default>
+                <label>Manual Order</label>
+            </value>
+            <value>
+                <fullName>Order Edit</fullName>
+                <default>false</default>
+                <label>Order Edit</label>
+            </value>
+            <value>
+                <fullName>AfterPay</fullName>
+                <default>false</default>
+                <label>AfterPay</label>
+            </value>
+            <value>
+                <fullName>Failed Payment</fullName>
+                <default>false</default>
+                <label>Failed Payment</label>
+            </value>
+            <value>
+                <fullName>Gift Card</fullName>
+                <default>false</default>
+                <label>Gift Card</label>
+            </value>
+            <value>
+                <fullName>Riskified</fullName>
+                <default>false</default>
+                <label>Riskified</label>
+            </value>
+            <value>
+                <fullName>ZipPay/PayPal</fullName>
+                <default>false</default>
+                <label>ZipPay/PayPal</label>
+            </value>
+            <value>
+                <fullName>Entry Policy</fullName>
+                <default>false</default>
+                <label>Entry Policy</label>
+            </value>
+            <value>
+                <fullName>Employment</fullName>
+                <default>false</default>
+                <label>Employment</label>
+            </value>
+            <value>
+                <fullName>Privacy</fullName>
+                <default>false</default>
+                <label>Privacy</label>
+            </value>
+            <value>
+                <fullName>Property</fullName>
+                <default>false</default>
+                <label>Property</label>
+            </value>
+            <value>
+                <fullName>Returns</fullName>
+                <default>false</default>
+                <label>Returns</label>
+            </value>
+            <value>
+                <fullName>Sustainability</fullName>
+                <default>false</default>
+                <label>Sustainability</label>
+            </value>
+            <value>
+                <fullName>Store</fullName>
+                <default>false</default>
+                <label>Store</label>
+            </value>
+            <value>
+                <fullName>In-Store Vibe</fullName>
+                <default>false</default>
+                <label>In-Store Vibe</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Flybuys</fullName>
+                <default>false</default>
+                <label>Flybuys</label>
+            </value>
+            <value>
+                <fullName>OnePass</fullName>
+                <default>false</default>
+                <label>OnePass</label>
+            </value>
+            <value>
+                <fullName>Hot Topic</fullName>
+                <default>false</default>
+                <label>Hot Topic</label>
+            </value>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Spare Part</fullName>
+                <default>false</default>
+                <label>Spare Part</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Store TM</fullName>
+                <default>false</default>
+                <label>Store TM</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Enquiry</fullName>
+                <default>false</default>
+                <label>Enquiry</label>
+            </value>
+            <value>
+                <fullName>Order Status</fullName>
+                <default>false</default>
+                <label>Order Status</label>
+            </value>
+            <value>
+                <fullName>Product information</fullName>
+                <default>false</default>
+                <label>Product information</label>
+            </value>
+            <value>
+                <fullName>New Enquiry</fullName>
+                <default>false</default>
+                <label>New Enquiry</label>
+            </value>
+            <value>
+                <fullName>Customer enquiry</fullName>
+                <default>false</default>
+                <label>Customer enquiry</label>
+            </value>
+            <value>
+                <fullName>General customer enquiry</fullName>
+                <default>false</default>
+                <label>General customer enquiry</label>
+            </value>
+            <value>
+                <fullName>SP Store enquiry</fullName>
+                <default>false</default>
+                <label>SP Store enquiry</label>
+            </value>
+            <value>
+                <fullName>Buyers &amp; Buyers assistants</fullName>
+                <default>false</default>
+                <label>Buyers &amp; Buyers assistants</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Team Assist</fullName>
+                <default>false</default>
+                <label>Team Assist</label>
+            </value>
+            <value>
+                <fullName>Customer support</fullName>
+                <default>false</default>
+                <label>Customer support</label>
+            </value>
+            <value>
+                <fullName>Istash enquiry</fullName>
+                <default>false</default>
+                <label>Istash enquiry</label>
+            </value>
+            <value>
+                <fullName>Istash Accounts Receivable</fullName>
+                <default>false</default>
+                <label>Istash Accounts Receivable</label>
+            </value>
+            <value>
+                <fullName>ACM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ACM</label>
+            </value>
+            <value>
+                <fullName>Absco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Absco</label>
+            </value>
+            <value>
+                <fullName>Adeval/Garth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Adeval/Garth</label>
+            </value>
+            <value>
+                <fullName>Adventure Operations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Adventure Operations</label>
+            </value>
+            <value>
+                <fullName>Allegion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Allegion</label>
+            </value>
+            <value>
+                <fullName>Amalgamated Hardware</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Amalgamated Hardware</label>
+            </value>
+            <value>
+                <fullName>Ames/Cyclone</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ames/Cyclone</label>
+            </value>
+            <value>
+                <fullName>Aquatec</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aquatec</label>
+            </value>
+            <value>
+                <fullName>Arlec</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Arlec</label>
+            </value>
+            <value>
+                <fullName>Assa Abloy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Assa Abloy</label>
+            </value>
+            <value>
+                <fullName>Bedford</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bedford</label>
+            </value>
+            <value>
+                <fullName>Bosch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bosch</label>
+            </value>
+            <value>
+                <fullName>Breville</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Breville</label>
+            </value>
+            <value>
+                <fullName>Briggs &amp; Stratton</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Briggs &amp; Stratton</label>
+            </value>
+            <value>
+                <fullName>Caroma</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Caroma</label>
+            </value>
+            <value>
+                <fullName>DATS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DATS</label>
+            </value>
+            <value>
+                <fullName>Daytek</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Daytek</label>
+            </value>
+            <value>
+                <fullName>Edco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Edco</label>
+            </value>
+            <value>
+                <fullName>Everhard</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Everhard</label>
+            </value>
+            <value>
+                <fullName>Fiskars</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fiskars</label>
+            </value>
+            <value>
+                <fullName>Fiskars/Horticom</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fiskars/Horticom</label>
+            </value>
+            <value>
+                <fullName>Fitzone</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fitzone</label>
+            </value>
+            <value>
+                <fullName>Flurida</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flurida</label>
+            </value>
+            <value>
+                <fullName>Foreno</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Foreno</label>
+            </value>
+            <value>
+                <fullName>GAF control</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GAF control</label>
+            </value>
+            <value>
+                <fullName>GSM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GSM</label>
+            </value>
+            <value>
+                <fullName>Gale Pacific</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gale Pacific</label>
+            </value>
+            <value>
+                <fullName>Genesis</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Genesis</label>
+            </value>
+            <value>
+                <fullName>Harco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Harco</label>
+            </value>
+            <value>
+                <fullName>Harkness and Young</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Harkness and Young</label>
+            </value>
+            <value>
+                <fullName>Hartman Group</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hartman Group</label>
+            </value>
+            <value>
+                <fullName>Heingier</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Heingier</label>
+            </value>
+            <value>
+                <fullName>Holman</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Holman</label>
+            </value>
+            <value>
+                <fullName>Honda</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Honda</label>
+            </value>
+            <value>
+                <fullName>Husqvarna</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Husqvarna</label>
+            </value>
+            <value>
+                <fullName>Hyclor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hyclor</label>
+            </value>
+            <value>
+                <fullName>IXL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IXL</label>
+            </value>
+            <value>
+                <fullName>Install &amp; Fix</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Install &amp; Fix</label>
+            </value>
+            <value>
+                <fullName>KCI/Solventum</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>KCI/Solventum</label>
+            </value>
+            <value>
+                <fullName>Karcher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Karcher</label>
+            </value>
+            <value>
+                <fullName>Kincrome</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kincrome</label>
+            </value>
+            <value>
+                <fullName>Kinetic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kinetic</label>
+            </value>
+            <value>
+                <fullName>Makita</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Makita</label>
+            </value>
+            <value>
+                <fullName>Masport</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Masport</label>
+            </value>
+            <value>
+                <fullName>Mayo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mayo</label>
+            </value>
+            <value>
+                <fullName>Maze</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Maze</label>
+            </value>
+            <value>
+                <fullName>Mercator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mercator</label>
+            </value>
+            <value>
+                <fullName>Monaco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monaco</label>
+            </value>
+            <value>
+                <fullName>Newell/Coleman</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Newell/Coleman</label>
+            </value>
+            <value>
+                <fullName>Newline</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Newline</label>
+            </value>
+            <value>
+                <fullName>Nilfisk</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nilfisk</label>
+            </value>
+            <value>
+                <fullName>Ozito</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ozito</label>
+            </value>
+            <value>
+                <fullName>Pacific Trends</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pacific Trends</label>
+            </value>
+            <value>
+                <fullName>Parmco</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parmco</label>
+            </value>
+            <value>
+                <fullName>Pillar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pillar</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Residentia Group</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Residentia Group</label>
+            </value>
+            <value>
+                <fullName>Riverlea</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Riverlea</label>
+            </value>
+            <value>
+                <fullName>Scandia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scandia</label>
+            </value>
+            <value>
+                <fullName>Silvan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Silvan</label>
+            </value>
+            <value>
+                <fullName>Sitro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sitro</label>
+            </value>
+            <value>
+                <fullName>Smart Home</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Smart Home</label>
+            </value>
+            <value>
+                <fullName>Spiro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spiro</label>
+            </value>
+            <value>
+                <fullName>Stanley B&amp;D</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stanley B&amp;D</label>
+            </value>
+            <value>
+                <fullName>Steelfort</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Steelfort</label>
+            </value>
+            <value>
+                <fullName>Stefani</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stefani</label>
+            </value>
+            <value>
+                <fullName>Swann</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Swann</label>
+            </value>
+            <value>
+                <fullName>Techtronic</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Techtronic</label>
+            </value>
+            <value>
+                <fullName>Tradeware</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tradeware</label>
+            </value>
+            <value>
+                <fullName>Wagner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wagner</label>
+            </value>
+            <value>
+                <fullName>Wagner/Paintworx</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wagner/Paintworx</label>
+            </value>
+            <value>
+                <fullName>Werner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Werner</label>
+            </value>
+            <value>
+                <fullName>Yotrio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yotrio</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Marketplace</controllingFieldValue>
+            <controllingFieldValue>Online Order</controllingFieldValue>
+            <valueName>Cancel/Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketplace</controllingFieldValue>
+            <controllingFieldValue>Online Order</controllingFieldValue>
+            <valueName>Order Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Customer Enquiry</controllingFieldValue>
+            <controllingFieldValue>Customer Enquiry</controllingFieldValue>
+            <valueName>Customer enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Advertising</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>CS Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Store Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Store Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Website Functionality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Internal Enquiry</controllingFieldValue>
+            <controllingFieldValue>Internal enquiry</controllingFieldValue>
+            <valueName>SP Store enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Internal Enquiry</controllingFieldValue>
+            <controllingFieldValue>Internal enquiry</controllingFieldValue>
+            <valueName>Buyers &amp; Buyers assistants</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Internal Enquiry</controllingFieldValue>
+            <controllingFieldValue>Internal enquiry</controllingFieldValue>
+            <valueName>Team Assist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Internal Enquiry</controllingFieldValue>
+            <controllingFieldValue>Internal enquiry</controllingFieldValue>
+            <valueName>Customer support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Stock Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Product Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Incorrect Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Price Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Transaction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Istash</controllingFieldValue>
+            <valueName>Istash enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NZ Istash</controllingFieldValue>
+            <valueName>Istash Accounts Receivable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Order</controllingFieldValue>
+            <valueName>ETA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Order</controllingFieldValue>
+            <valueName>Manual Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online Order</controllingFieldValue>
+            <valueName>Order Edit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Enquiry</controllingFieldValue>
+            <controllingFieldValue>NZ Supplier Enquiry</controllingFieldValue>
+            <valueName>Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Enquiry</controllingFieldValue>
+            <controllingFieldValue>NZ Supplier Enquiry</controllingFieldValue>
+            <valueName>Order Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Supplier Enquiry</controllingFieldValue>
+            <valueName>Product information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>AfterPay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>Failed Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>Gift Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>Riskified</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>ZipPay/PayPal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal enquiry</controllingFieldValue>
+            <valueName>Banking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Entry Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Employment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Privacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Property</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Returns</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Sustainability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>In-Store Vibe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Policy &amp; FAQ</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Enquiry</controllingFieldValue>
+            <valueName>New Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Enquiry</controllingFieldValue>
+            <valueName>General customer enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offers</controllingFieldValue>
+            <valueName>Flybuys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offers</controllingFieldValue>
+            <valueName>OnePass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hot Topic</controllingFieldValue>
+            <valueName>Hot Topic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Warranty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Spare Part</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Documentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Merch</controllingFieldValue>
+            <valueName>Store TM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Enquiry</controllingFieldValue>
+            <valueName>Miscellaneous</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Powerpass</controllingFieldValue>
+            <valueName>Account - Internal Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Powerpass</controllingFieldValue>
+            <valueName>Tech Support</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

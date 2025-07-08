@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Product_C__c</fullName>
+    <label>Target Product C</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cavity Units</fullName>
+                <default>false</default>
+                <label>Cavity Units</label>
+            </value>
+            <value>
+                <fullName>Cement Concrete Mortar</fullName>
+                <default>false</default>
+                <label>Cement Concrete Mortar</label>
+            </value>
+            <value>
+                <fullName>Concrete Products</fullName>
+                <default>false</default>
+                <label>Concrete Products</label>
+            </value>
+            <value>
+                <fullName>Decking</fullName>
+                <default>false</default>
+                <label>Decking</label>
+            </value>
+            <value>
+                <fullName>Door Furniture</fullName>
+                <default>false</default>
+                <label>Door Furniture</label>
+            </value>
+            <value>
+                <fullName>Door Jams</fullName>
+                <default>false</default>
+                <label>Door Jams</label>
+            </value>
+            <value>
+                <fullName>Doors</fullName>
+                <default>false</default>
+                <label>Doors</label>
+            </value>
+            <value>
+                <fullName>EPS</fullName>
+                <default>false</default>
+                <label>EPS</label>
+            </value>
+            <value>
+                <fullName>Exterior Claddings</fullName>
+                <default>false</default>
+                <label>Exterior Claddings</label>
+            </value>
+            <value>
+                <fullName>Fascia Boards</fullName>
+                <default>false</default>
+                <label>Fascia Boards</label>
+            </value>
+            <value>
+                <fullName>Fasteners</fullName>
+                <default>false</default>
+                <label>Fasteners</label>
+            </value>
+            <value>
+                <fullName>Feature Flooring</fullName>
+                <default>false</default>
+                <label>Feature Flooring</label>
+            </value>
+            <value>
+                <fullName>Formwork &amp; Reo</fullName>
+                <default>false</default>
+                <label>Formwork &amp; Reo</label>
+            </value>
+            <value>
+                <fullName>FOW Plumb</fullName>
+                <default>false</default>
+                <label>FOW Plumb</label>
+            </value>
+            <value>
+                <fullName>Framing Pine</fullName>
+                <default>false</default>
+                <label>Framing Pine</label>
+            </value>
+            <value>
+                <fullName>Internal Linings</fullName>
+                <default>false</default>
+                <label>Internal Linings</label>
+            </value>
+            <value>
+                <fullName>Joinery</fullName>
+                <default>false</default>
+                <label>Joinery</label>
+            </value>
+            <value>
+                <fullName>Kiln Dried Hardwood</fullName>
+                <default>false</default>
+                <label>Kiln Dried Hardwood</label>
+            </value>
+            <value>
+                <fullName>LVL Products</fullName>
+                <default>false</default>
+                <label>LVL Products</label>
+            </value>
+            <value>
+                <fullName>Metal Bracing</fullName>
+                <default>false</default>
+                <label>Metal Bracing</label>
+            </value>
+            <value>
+                <fullName>Metal Framing</fullName>
+                <default>false</default>
+                <label>Metal Framing</label>
+            </value>
+            <value>
+                <fullName>Nails</fullName>
+                <default>false</default>
+                <label>Nails</label>
+            </value>
+            <value>
+                <fullName>Prefab Frame</fullName>
+                <default>false</default>
+                <label>Prefab Frame</label>
+            </value>
+            <value>
+                <fullName>Prefab Trusses</fullName>
+                <default>false</default>
+                <label>Prefab Trusses</label>
+            </value>
+            <value>
+                <fullName>Render</fullName>
+                <default>false</default>
+                <label>Render</label>
+            </value>
+            <value>
+                <fullName>Roofing Products</fullName>
+                <default>false</default>
+                <label>Roofing Products</label>
+            </value>
+            <value>
+                <fullName>Screws</fullName>
+                <default>false</default>
+                <label>Screws</label>
+            </value>
+            <value>
+                <fullName>Sheet Bracing</fullName>
+                <default>false</default>
+                <label>Sheet Bracing</label>
+            </value>
+            <value>
+                <fullName>Sheet Flooring</fullName>
+                <default>false</default>
+                <label>Sheet Flooring</label>
+            </value>
+            <value>
+                <fullName>Stairs</fullName>
+                <default>false</default>
+                <label>Stairs</label>
+            </value>
+            <value>
+                <fullName>Structural Plywood</fullName>
+                <default>false</default>
+                <label>Structural Plywood</label>
+            </value>
+            <value>
+                <fullName>Stumps</fullName>
+                <default>false</default>
+                <label>Stumps</label>
+            </value>
+            <value>
+                <fullName>Texture</fullName>
+                <default>false</default>
+                <label>Texture</label>
+            </value>
+            <value>
+                <fullName>Tiles</fullName>
+                <default>false</default>
+                <label>Tiles</label>
+            </value>
+            <value>
+                <fullName>Tools</fullName>
+                <default>false</default>
+                <label>Tools</label>
+            </value>
+            <value>
+                <fullName>Underlays</fullName>
+                <default>false</default>
+                <label>Underlays</label>
+            </value>
+            <value>
+                <fullName>Water Storage</fullName>
+                <default>false</default>
+                <label>Water Storage</label>
+            </value>
+            <value>
+                <fullName>Windows</fullName>
+                <default>false</default>
+                <label>Windows</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

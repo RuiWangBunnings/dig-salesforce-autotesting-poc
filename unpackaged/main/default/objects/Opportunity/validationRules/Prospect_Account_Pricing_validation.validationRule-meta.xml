@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prospect_Account_Pricing_validation</fullName>
+    <active>true</active>
+    <description>This alerts users to assign pricing to the account if the account is a prospect and powerpass account number is empty.</description>
+    <errorConditionFormula>Account.RecordType.Name = &quot;NZ Prospect&quot;
+&amp;&amp;
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+&amp;&amp;
+ISPICKVAL(StageName,&quot;Closed Won&quot;)&amp;&amp;
+(RecordType.DeveloperName = &quot;NZ_Estimate_Opportunity&quot;||
+RecordType.DeveloperName = &quot;NZ_Farm_Shed_Opportunity&quot;||
+RecordType.DeveloperName = &quot;NZ_Schedule_Opportunity&quot;)</errorConditionFormula>
+    <errorMessage>The related account cannot be transacted against. To close this opportunity please ensure the related account is not a Prospect account.</errorMessage>
+</ValidationRule>

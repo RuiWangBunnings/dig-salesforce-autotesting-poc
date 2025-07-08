@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receive_Marketing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check = Yes - Receive marketing emails
+Uncheck = No Not to receive marketing emails</description>
+    <label>Receive Marketing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

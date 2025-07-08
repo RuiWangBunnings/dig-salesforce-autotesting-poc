@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frame_and_Truss__c</fullName>
+    <description>Checked when a Frame and Truss offer has been checked</description>
+    <formula>OR(
+ Fascia_and_gutter__c = TRUE,
+ EWP_floor_systems__c = TRUE,
+ Sheet_flooring__c = TRUE,
+ Pre_fab_floor_joists__c = TRUE,
+ Pre_fab_trusses__c = TRUE,
+ Pre_fab_wall_frames__c = TRUE, 
+ Stick_frame__c = TRUE,
+ Brick_hardware__c = TRUE,
+ Roof_timber__c = TRUE,
+ Metal_door_frames__c = TRUE,
+ Windows__c = TRUE,
+ Lintels__c = TRUE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Frame and Truss</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

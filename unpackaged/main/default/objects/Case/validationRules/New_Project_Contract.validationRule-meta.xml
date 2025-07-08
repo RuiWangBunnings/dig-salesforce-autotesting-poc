@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Project_Contract</fullName>
+    <active>true</active>
+    <description>Validation for Project Contract Case fields</description>
+    <errorConditionFormula>(ISBLANK( Contract_States__c ) ||
+ISBLANK( Cost_Zones__c ))&amp;&amp;
+
+ TEXT(Subtype__c) = &quot;New Project Contract&quot;</errorConditionFormula>
+    <errorMessage>Please make sure this Project Contract Case has the correct Contract State(s) and Cost Zone(s)</errorMessage>
+</ValidationRule>

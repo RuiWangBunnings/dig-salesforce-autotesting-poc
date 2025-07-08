@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_should_not_be_edited_by_other_user</fullName>
+    <active>false</active>
+    <description>Activities created with log a call should not be edited by other users</description>
+    <errorConditionFormula>NOT(ISNEW()) &amp;&amp;
+ISPICKVAL(Status, &quot;Completed&quot;)
+&amp;&amp;
+CreatedById &lt;&gt; $User.Id
+&amp;&amp;
+Owner:User.Id &lt;&gt; $User.Id
+&amp;&amp;
+NOT(
+OR (
+$Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;CPQ Integration User&quot;,
+$Profile.Name = &quot;Integrations User&quot;))</errorConditionFormula>
+    <errorMessage>You are not allowed to edit a completed task created/owned by another user.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Temporary_Business_Email__c</fullName>
+    <description>An temporary email used for onboarding call when there is no existing email for Account.</description>
+    <externalId>false</externalId>
+    <label>Temporary Business Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Email</type>
+    <unique>false</unique>
+</CustomField>

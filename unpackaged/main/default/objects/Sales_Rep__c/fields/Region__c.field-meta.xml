@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <label>Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NSW/ACT</fullName>
+                <default>false</default>
+                <label>NSW/ACT</label>
+            </value>
+            <value>
+                <fullName>QLD</fullName>
+                <default>false</default>
+                <label>QLD</label>
+            </value>
+            <value>
+                <fullName>SANTTAS</fullName>
+                <default>false</default>
+                <label>SANTTAS</label>
+            </value>
+            <value>
+                <fullName>VIC</fullName>
+                <default>false</default>
+                <label>VIC</label>
+            </value>
+            <value>
+                <fullName>WA</fullName>
+                <default>false</default>
+                <label>WA</label>
+            </value>
+            <value>
+                <fullName>Account Managed - NZ</fullName>
+                <default>false</default>
+                <label>Account Managed - NZ</label>
+            </value>
+            <value>
+                <fullName>ASM - Upper NI</fullName>
+                <default>false</default>
+                <label>ASM - Upper NI</label>
+            </value>
+            <value>
+                <fullName>ASM - Lower NI &amp; SI</fullName>
+                <default>false</default>
+                <label>ASM - Lower NI &amp; SI</label>
+            </value>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 1</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 1</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 2</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 2</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 3</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 3</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 4</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 4</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 5</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 5</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 6</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 6</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 7</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 7</label>
+            </value>
+            <value>
+                <fullName>Trade NZ - Area 8</fullName>
+                <default>false</default>
+                <label>Trade NZ - Area 8</label>
+            </value>
+            <value>
+                <fullName>CCS</fullName>
+                <default>false</default>
+                <label>CCS</label>
+            </value>
+            <value>
+                <fullName>Organisations</fullName>
+                <default>false</default>
+                <label>Organisations</label>
+            </value>
+            <value>
+                <fullName>B&amp;O</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>B&amp;O</label>
+            </value>
+            <value>
+                <fullName>B.D.M</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>B.D.M</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Parent_Account</fullName>
+    <active>true</active>
+    <description>This rule is to stop users from updating the account hierarchy, as it should always be inherited from the powerpass system</description>
+    <errorConditionFormula>AND(
+ISCHANGED( ParentId ),
+NOT($RecordType.Name = &quot;Person Account&quot;),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorDisplayField>ABN__c</errorDisplayField>
+    <errorMessage>The Parent Account field can only be set via Power Pass. If you think this is incorrect please request a Power Pass update.</errorMessage>
+</ValidationRule>

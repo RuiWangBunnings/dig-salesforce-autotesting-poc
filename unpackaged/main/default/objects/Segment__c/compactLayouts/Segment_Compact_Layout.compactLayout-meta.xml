@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segment_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Primary__c</fields>
+    <fields>Segment_Group__c</fields>
+    <fields>Segment_Growth_Target__c</fields>
+    <label>Segment Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,73 @@
+<apex:component access="global" controller="AssistedSalesTemplateController">
+    
+    <apex:attribute name="assistedSaleIDVal" type="String" description="This is the Id of the account" assignTo="{!assistedSaleId}" access="global" />
+    
+    <apex:outputPanel rendered="{!storeAssistList.size > 0}">
+        
+            <table style="width:100%;border: 1px solid black;border-collapse: collapse;">
+                <tr>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        Store Name
+                    </th>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        Start Date
+                    </th>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        End Date
+                    </th>
+                </tr>
+                <apex:repeat value="{!storeAssistList}" var="sa">
+                    <tr>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">  {!sa.Store__r.Name }
+                        </td>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                            <apex:outputText value="{0, date, dd-MM-yyyy}">
+                                <apex:Param value="{!sa.Start_Date__c}"/>
+                            </apex:OutputText>  
+                        </td>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                            <apex:outputText value="{0, date, dd-MM-yyyy}">
+                                <apex:Param value="{!sa.End_Date__c}"/>
+                            </apex:OutputText>  
+                        </td>
+                    </tr>
+                </apex:repeat>              
+            </table>
+        
+    </apex:outputPanel>
+        
+    <apex:outputPanel rendered="{!categoryAssistList.size > 0}">
+
+        <table style="width:100%;border: 1px solid black;border-collapse: collapse;">
+                <tr>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        Category
+                    </th>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        Start Date
+                    </th>
+                    <th style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                        End Date
+                    </th>
+                </tr>
+                <apex:repeat value="{!categoryAssistList}" var="ca">
+                    <tr>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">  {!ca.Category__r.Name}
+                        </td>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                            <apex:outputText value="{0, date, dd-MM-yyyy}">
+                                <apex:Param value="{!ca.Start_Date__c}" />
+                            </apex:OutputText>                      
+                        </td>
+                        <td style="border: 1px solid black;border-collapse: collapse;padding: 15px;text-align: left;">
+                            <apex:outputText value="{0, date, dd-MM-yyyy}">
+                                <apex:Param value="{!ca.End_Date__c}"/>
+                            </apex:OutputText>  
+                        </td>
+                    </tr>
+                </apex:repeat>              
+        </table>
+        
+    </apex:outputPanel>
+    
+</apex:component>

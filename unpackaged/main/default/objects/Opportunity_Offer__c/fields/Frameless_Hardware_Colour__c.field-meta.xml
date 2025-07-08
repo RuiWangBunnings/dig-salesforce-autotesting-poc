@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frameless_Hardware_Colour__c</fullName>
+    <label>Frameless Hardware Colour</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Polished Silver</fullName>
+                <default>false</default>
+                <label>Polished Silver</label>
+            </value>
+            <value>
+                <fullName>Brushed Brass</fullName>
+                <default>false</default>
+                <label>Brushed Brass</label>
+            </value>
+            <value>
+                <fullName>Gunmetal</fullName>
+                <default>false</default>
+                <label>Gunmetal</label>
+            </value>
+            <value>
+                <fullName>Matte Black</fullName>
+                <default>false</default>
+                <label>Matte Black</label>
+            </value>
+            <value>
+                <fullName>Brushed Nickel</fullName>
+                <default>false</default>
+                <label>Brushed Nickel</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

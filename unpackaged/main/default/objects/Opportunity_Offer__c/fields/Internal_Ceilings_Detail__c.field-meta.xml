@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Ceilings_Detail__c</fullName>
+    <label>Internal Ceilings Detail</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Laser Levelled on Clips</fullName>
+                <default>false</default>
+                <label>Laser Levelled on Clips</label>
+            </value>
+            <value>
+                <fullName>Direct Fit to Truss</fullName>
+                <default>false</default>
+                <label>Direct Fit to Truss</label>
+            </value>
+            <value>
+                <fullName>Other - Please Specify</fullName>
+                <default>false</default>
+                <label>Other - Please Specify</label>
+            </value>
+            <value>
+                <fullName>Battens Required</fullName>
+                <default>false</default>
+                <label>Battens Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

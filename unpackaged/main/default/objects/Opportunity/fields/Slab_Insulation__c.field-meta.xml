@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Slab_Insulation__c</fullName>
+    <label>Slab Insulation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Foundations__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Required - Different to Plan</fullName>
+                <default>false</default>
+                <label>Required - Different to Plan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Required - Different to Plan</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

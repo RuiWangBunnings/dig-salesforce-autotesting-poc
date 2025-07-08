@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Awaiting_Information_Reason__c</fullName>
+    <label>Awaiting Information Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Awaiting supplier quote</fullName>
+                <default>false</default>
+                <label>Awaiting supplier quote</label>
+            </value>
+            <value>
+                <fullName>Awaiting supplier info</fullName>
+                <default>false</default>
+                <label>Awaiting supplier info</label>
+            </value>
+            <value>
+                <fullName>Awaiting store info</fullName>
+                <default>false</default>
+                <label>Awaiting store info</label>
+            </value>
+            <value>
+                <fullName>Awaiting internal team info</fullName>
+                <default>false</default>
+                <label>Awaiting internal team info</label>
+            </value>
+            <value>
+                <fullName>Awaiting customer info</fullName>
+                <default>false</default>
+                <label>Awaiting customer info</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Awaiting Info</controllingFieldValue>
+            <valueName>Awaiting supplier quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Awaiting Info</controllingFieldValue>
+            <valueName>Awaiting supplier info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Awaiting Info</controllingFieldValue>
+            <valueName>Awaiting store info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Awaiting Info</controllingFieldValue>
+            <valueName>Awaiting internal team info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Awaiting Info</controllingFieldValue>
+            <valueName>Awaiting customer info</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

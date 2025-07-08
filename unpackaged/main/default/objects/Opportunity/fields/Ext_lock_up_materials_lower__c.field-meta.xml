@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ext_lock_up_materials_lower__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Ext lock up materials lower offer</description>
+    <label>Ext lock up materials lower</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CST_Windows_South_Case</fullName>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Queue</filterScope>
+    <label>CST Windows South</label>
+    <queue>CST_Windows_South</queue>
+    <sharedTo>
+        <group>CST_Windows_South_Queue</group>
+    </sharedTo>
+</ListView>

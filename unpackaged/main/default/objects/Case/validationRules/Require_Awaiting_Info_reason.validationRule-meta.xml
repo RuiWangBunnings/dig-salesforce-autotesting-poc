@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Awaiting_Info_reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status ,&#39;Awaiting Info&#39;),
+ISBLANK(TEXT(Awaiting_Information_Reason__c)),
+RecordType.DeveloperName = &#39;Trade_Assist&#39;)</errorConditionFormula>
+    <errorMessage>Awaiting information reason is mandatory when status is Awaiting Info.</errorMessage>
+</ValidationRule>

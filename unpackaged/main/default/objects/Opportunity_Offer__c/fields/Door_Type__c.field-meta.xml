@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Door_Type__c</fullName>
+    <label>Door Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Garage_Door_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aluminium Sectional Door</fullName>
+                <default>false</default>
+                <label>Aluminium Sectional Door</label>
+            </value>
+            <value>
+                <fullName>Aluminium Roller Shutter</fullName>
+                <default>false</default>
+                <label>Aluminium Roller Shutter</label>
+            </value>
+            <value>
+                <fullName>Grilles</fullName>
+                <default>false</default>
+                <label>Grilles</label>
+            </value>
+            <value>
+                <fullName>Steel Roller Shutte</fullName>
+                <default>false</default>
+                <label>Steel Roller Shutte</label>
+            </value>
+            <value>
+                <fullName>Sectional Door - Standard (Steel)</fullName>
+                <default>false</default>
+                <label>Sectional Door - Standard (Steel)</label>
+            </value>
+            <value>
+                <fullName>Sectional Door -Aluminium</fullName>
+                <default>false</default>
+                <label>Sectional Door -Aluminium</label>
+            </value>
+            <value>
+                <fullName>Roller Door  (Steel)</fullName>
+                <default>false</default>
+                <label>Roller Door  (Steel)</label>
+            </value>
+            <value>
+                <fullName>Special Tilt Door (Excluding WA)</fullName>
+                <default>false</default>
+                <label>Special Tilt Door (Excluding WA)</label>
+            </value>
+            <value>
+                <fullName>Special Timber door</fullName>
+                <default>false</default>
+                <label>Special Timber door</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Sectional Door - Standard (Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Sectional Door -Aluminium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Roller Door  (Steel)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Special Tilt Door (Excluding WA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Residential</controllingFieldValue>
+            <valueName>Special Timber door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Aluminium Sectional Door</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Aluminium Roller Shutter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Grilles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Steel Roller Shutte</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

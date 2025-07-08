@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SSM_Team_Member_Profiles</fullName>
+    <active>true</active>
+    <description>SSM - can be assigned to profiles: National Manager, NZ Sales Manager, Sales Manager</description>
+    <errorConditionFormula>ISPICKVAL(Role__c, &#39;SSM&#39;) &amp;&amp; !CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.SSM_Profiles__c,  Team_Member__r.Profile.Name)</errorConditionFormula>
+    <errorMessage>Role SSM can only be assigned to users of profiles: National Manager, NZ Sales Manager, Sales Manager</errorMessage>
+</ValidationRule>

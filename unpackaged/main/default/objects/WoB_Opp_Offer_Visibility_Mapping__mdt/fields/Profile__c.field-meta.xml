@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Profile__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Profile</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Manager</fullName>
+                <default>true</default>
+                <label>Account Manager</label>
+            </value>
+            <value>
+                <fullName>Commercial Joinery Sales</fullName>
+                <default>false</default>
+                <label>Commercial Joinery Sales</label>
+            </value>
+            <value>
+                <fullName>Light Commercial Manager</fullName>
+                <default>false</default>
+                <label>Light Commercial Manager</label>
+            </value>
+            <value>
+                <fullName>National Manager</fullName>
+                <default>false</default>
+                <label>National Manager</label>
+            </value>
+            <value>
+                <fullName>Organisations Sales</fullName>
+                <default>false</default>
+                <label>Organisations Sales</label>
+            </value>
+            <value>
+                <fullName>Organisations Sales Manage</fullName>
+                <default>false</default>
+                <label>Organisations Sales Manage</label>
+            </value>
+            <value>
+                <fullName>Sales Manager</fullName>
+                <default>false</default>
+                <label>Sales Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Person BDM</fullName>
+                <default>false</default>
+                <label>Sales Person BDM</label>
+            </value>
+            <value>
+                <fullName>Sales Person Contact Centre</fullName>
+                <default>false</default>
+                <label>Sales Person Contact Centre</label>
+            </value>
+            <value>
+                <fullName>Sales Support</fullName>
+                <default>false</default>
+                <label>Sales Support</label>
+            </value>
+            <value>
+                <fullName>Sales Support BDM FOW</fullName>
+                <default>false</default>
+                <label>Sales Support BDM FOW</label>
+            </value>
+            <value>
+                <fullName>Support - CUB</fullName>
+                <default>false</default>
+                <label>Support - CUB</label>
+            </value>
+            <value>
+                <fullName>Support Manager - Sales</fullName>
+                <default>false</default>
+                <label>Support Manager - Sales</label>
+            </value>
+            <value>
+                <fullName>Support Manager - Trade PA</fullName>
+                <default>false</default>
+                <label>Support Manager - Trade PA</label>
+            </value>
+            <value>
+                <fullName>Trade Specialist</fullName>
+                <default>false</default>
+                <label>Trade Specialist</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

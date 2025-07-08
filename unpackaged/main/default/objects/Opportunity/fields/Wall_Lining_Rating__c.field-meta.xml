@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wall_Lining_Rating__c</fullName>
+    <label>Wall Lining Rating</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Wall_Lining__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Gib 10mm</fullName>
+                <default>false</default>
+                <label>Gib 10mm</label>
+            </value>
+            <value>
+                <fullName>Gib 13mm</fullName>
+                <default>false</default>
+                <label>Gib 13mm</label>
+            </value>
+            <value>
+                <fullName>Elephant Board 10mm</fullName>
+                <default>false</default>
+                <label>Elephant Board 10mm</label>
+            </value>
+            <value>
+                <fullName>Elephant Board 13mm</fullName>
+                <default>false</default>
+                <label>Elephant Board 13mm</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Gib 10mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Gib 13mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Elephant Board 10mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Elephant Board 13mm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Different to Plan</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_do_you_transact__c</fullName>
+    <label>How do you transact?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tender each job</fullName>
+                <default>false</default>
+                <label>Tender each job</label>
+            </value>
+            <value>
+                <fullName>Supply agreement</fullName>
+                <default>false</default>
+                <label>Supply agreement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Tender</fullName>
+        <default>false</default>
+        <label>Tender</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Supply &amp; Install</fullName>
+        <default>false</default>
+        <label>Supply &amp; Install</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Export</fullName>
+        <default>false</default>
+        <label>Export</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Government Tender</fullName>
+        <default>false</default>
+        <label>Government Tender</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom</fullName>
+        <default>false</default>
+        <label>Custom</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Addition</fullName>
+        <default>false</default>
+        <label>Addition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Alteration</fullName>
+        <default>false</default>
+        <label>Alteration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deck</fullName>
+        <default>false</default>
+        <label>Deck</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Garage</fullName>
+        <default>false</default>
+        <label>Garage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>House</fullName>
+        <default>false</default>
+        <label>House</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Fit Out</fullName>
+        <default>false</default>
+        <label>Internal Fit Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-nail Only</fullName>
+        <default>false</default>
+        <label>Pre-nail Only</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Quote</fullName>
+        <default>false</default>
+        <label>Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EOI</fullName>
+        <default>false</default>
+        <label>EOI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clever Living</fullName>
+        <default>false</default>
+        <label>Clever Living</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PS1</fullName>
+        <default>false</default>
+        <label>PS1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Standard</fullName>
+        <default>false</default>
+        <label>Standard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Estimating</fullName>
+        <default>false</default>
+        <label>Estimating</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Detailing</fullName>
+        <default>false</default>
+        <label>Detailing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Volume Builder</fullName>
+        <default>false</default>
+        <label>Volume Builder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Projects (Multi Res)</fullName>
+        <default>false</default>
+        <label>Projects (Multi Res)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SME Builder</fullName>
+        <default>false</default>
+        <label>SME Builder</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Commercial</fullName>
+        <default>false</default>
+        <label>Commercial</label>
+    </standardValue>
+</StandardValueSet>

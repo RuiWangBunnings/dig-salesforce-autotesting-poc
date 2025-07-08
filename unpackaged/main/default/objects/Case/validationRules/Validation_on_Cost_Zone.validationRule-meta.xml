@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_on_Cost_Zone</fullName>
+    <active>true</active>
+    <description>This validation rule ensures that if Users select ALL for Cost Zone, no other options can be selected. Subtype must be New Contract.</description>
+    <errorConditionFormula>AND(
+INCLUDES(Cost_Zones__c  ,&#39;ALL&#39;),
+ OR(
+ ISPICKVAL( Subtype__c ,&#39;New Contract&#39;),
+ ISPICKVAL( Subtype__c ,&#39;New Project Contract&#39;)
+ ),
+OR(
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 1&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 2&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 3&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 4&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 5&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 6&#39;),
+INCLUDES( Cost_Zones__c ,&#39;NZ CZ 7&#39;),
+INCLUDES( Cost_Zones__c ,&#39;AU CZ 1&#39;),
+INCLUDES( Cost_Zones__c ,&#39;AU CZ 2&#39;),
+INCLUDES( Cost_Zones__c ,&#39;AU CZ 3&#39;)))</errorConditionFormula>
+    <errorDisplayField>Cost_Zones__c</errorDisplayField>
+    <errorMessage>You have selected All. You are not able to select additional Cost Zones.</errorMessage>
+</ValidationRule>

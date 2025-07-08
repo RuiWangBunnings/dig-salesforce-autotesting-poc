@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>V_of_C_Closure</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( RecordType.Name = &#39;Voice of Customer&#39;  &amp;&amp; isCHANGED(Status) 
+ &amp;&amp;  text(Status)= &#39;Complete&#39; &amp;&amp;  ISBLANK(Resolution__c) , true, false)</errorConditionFormula>
+    <errorDisplayField>Resolution__c</errorDisplayField>
+    <errorMessage>Please ensure a resolution is entered before closing this case.</errorMessage>
+</ValidationRule>

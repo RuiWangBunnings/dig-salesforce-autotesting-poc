@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Outcome__c</fullName>
+    <description>Field available for Call Cycle, Apprentice, and Contract Customer Review</description>
+    <label>Business Outcome</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Extend Apprenticeship</fullName>
+                <default>false</default>
+                <label>Extend Apprenticeship</label>
+            </value>
+            <value>
+                <fullName>Apprenticeship Ending</fullName>
+                <default>false</default>
+                <label>Apprenticeship Ending</label>
+            </value>
+            <value>
+                <fullName>Convert to full powerpass account</fullName>
+                <default>false</default>
+                <label>Convert to full powerpass account</label>
+            </value>
+            <value>
+                <fullName>Increase Spend</fullName>
+                <default>false</default>
+                <label>Increase Spend</label>
+            </value>
+            <value>
+                <fullName>Maintain Spend</fullName>
+                <default>false</default>
+                <label>Maintain Spend</label>
+            </value>
+            <value>
+                <fullName>Decrease Spend</fullName>
+                <default>false</default>
+                <label>Decrease Spend</label>
+            </value>
+            <value>
+                <fullName>Will not return to Bunnings</fullName>
+                <default>false</default>
+                <label>Will not return to Bunnings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

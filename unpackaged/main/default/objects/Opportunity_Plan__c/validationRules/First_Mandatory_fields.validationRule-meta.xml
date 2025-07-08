@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Mandatory_fields</fullName>
+    <active>false</active>
+    <description>Mandatory fields based on picklist values.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Current_Tile_Supplier__c , &#39;Beaumont Tiles&#39;),
+    ISBLANK(Which_store__c),
+    ISBLANK(Key_contact__c)
+)</errorConditionFormula>
+    <errorDisplayField>Current_Tile_Supplier__c</errorDisplayField>
+    <errorMessage>Current Tile Supplier field value is Beaumont Tiles, Please populate Which store or Key contact fields.</errorMessage>
+</ValidationRule>

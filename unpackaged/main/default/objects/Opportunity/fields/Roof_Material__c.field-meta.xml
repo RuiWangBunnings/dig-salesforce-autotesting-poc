@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Roof_Material__c</fullName>
+    <label>Roof Material</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Concrete Tile</fullName>
+                <default>false</default>
+                <label>Concrete Tile</label>
+            </value>
+            <value>
+                <fullName>Sheet Steel</fullName>
+                <default>false</default>
+                <label>Sheet Steel</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Zincalume</fullName>
+                <default>false</default>
+                <label>Zincalume</label>
+            </value>
+            <value>
+                <fullName>Coloursteel</fullName>
+                <default>false</default>
+                <label>Coloursteel</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

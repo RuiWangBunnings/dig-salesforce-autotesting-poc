@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Dry_Areas__c</fullName>
+    <label>Internal Dry Areas</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3600x900x19mm Y/T Flooring</fullName>
+                <default>false</default>
+                <label>3600x900x19mm Y/T Flooring</label>
+            </value>
+            <value>
+                <fullName>3600x900x22mm Red Tongue</fullName>
+                <default>false</default>
+                <label>3600x900x22mm Red Tongue</label>
+            </value>
+            <value>
+                <fullName>3600x900x19mm Termiflor</fullName>
+                <default>false</default>
+                <label>3600x900x19mm Termiflor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

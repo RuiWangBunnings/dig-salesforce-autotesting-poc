@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MTD_GP_Percent_Budget__c</fullName>
+    <formula>IF( OR(MTD_GP_Budget__c =0, MTD_Budget__c=0, ISBLANK(MTD_GP_Budget__c ), ISBLANK(MTD_Budget__c)),0,MTD_GP_Budget__c /  MTD_Budget__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>MTD GP % Budget</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

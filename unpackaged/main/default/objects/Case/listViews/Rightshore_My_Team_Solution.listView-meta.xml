@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rightshore_My_Team_Solution</fullName>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <filterScope>Queue</filterScope>
+    <label>Rightshore - My Team Solution</label>
+    <queue>Rightshore_My_Team_Solution</queue>
+    <sharedTo>
+        <group>Rightshore</group>
+    </sharedTo>
+</ListView>

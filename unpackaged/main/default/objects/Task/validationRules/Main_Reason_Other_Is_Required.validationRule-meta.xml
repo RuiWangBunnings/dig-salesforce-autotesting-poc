@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Main_Reason_Other_Is_Required</fullName>
+    <active>true</active>
+    <description>Main Reason Other is required when Main Reason is other.</description>
+    <errorConditionFormula>AND(ISPICKVAL( Main_Reason__c , &quot;Other&quot;),
+    ISBLANK( Main_Reason_Other__c ))</errorConditionFormula>
+    <errorDisplayField>Main_Reason_Other__c</errorDisplayField>
+    <errorMessage>Main Reason (Other) is required when Main Reason is Other</errorMessage>
+</ValidationRule>

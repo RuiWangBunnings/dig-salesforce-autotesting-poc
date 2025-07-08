@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Slab__c</fullName>
+    <description>Checked if any slab offers are ticked</description>
+    <formula>OR(
+ Concrete_slab_materials__c = TRUE,
+ Concrete_slab_pump__c = TRUE,
+ Form_work__c = TRUE,
+ Reinforcing_mesh__c = TRUE,
+ Waffle_pods__c = TRUE
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Slab</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

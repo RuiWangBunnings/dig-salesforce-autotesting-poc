@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_Root_Cause__c</fullName>
+    <description>Root cause reasons for Voice Of Customer</description>
+    <label>Issue Root Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ordered the Wrong Product</fullName>
+                <default>false</default>
+                <label>Ordered the Wrong Product</label>
+            </value>
+            <value>
+                <fullName>Ordered the Wrong Quantity</fullName>
+                <default>false</default>
+                <label>Ordered the Wrong Quantity</label>
+            </value>
+            <value>
+                <fullName>Keying Error</fullName>
+                <default>false</default>
+                <label>Keying Error</label>
+            </value>
+            <value>
+                <fullName>Picking Error</fullName>
+                <default>false</default>
+                <label>Picking Error</label>
+            </value>
+            <value>
+                <fullName>Missed Call-Up</fullName>
+                <default>false</default>
+                <label>Missed Call-Up</label>
+            </value>
+            <value>
+                <fullName>Delivery was Late</fullName>
+                <default>false</default>
+                <label>Delivery was Late</label>
+            </value>
+            <value>
+                <fullName>Delivered to Wrong Location</fullName>
+                <default>false</default>
+                <label>Delivered to Wrong Location</label>
+            </value>
+            <value>
+                <fullName>Goods Were Damaged</fullName>
+                <default>false</default>
+                <label>Goods Were Damaged</label>
+            </value>
+            <value>
+                <fullName>Communication Impact</fullName>
+                <default>false</default>
+                <label>Communication Impact</label>
+            </value>
+            <value>
+                <fullName>Pricing Impact</fullName>
+                <default>false</default>
+                <label>Pricing Impact</label>
+            </value>
+            <value>
+                <fullName>Couldn’t Meet Delivery Request</fullName>
+                <default>false</default>
+                <label>Couldn’t Meet Delivery Request</label>
+            </value>
+            <value>
+                <fullName>Quote Took too Long</fullName>
+                <default>false</default>
+                <label>Quote Took too Long</label>
+            </value>
+            <value>
+                <fullName>OMS Impact</fullName>
+                <default>false</default>
+                <label>OMS Impact</label>
+            </value>
+            <value>
+                <fullName>Process Not Followed</fullName>
+                <default>false</default>
+                <label>Process Not Followed</label>
+            </value>
+            <value>
+                <fullName>Positive Feedback</fullName>
+                <default>false</default>
+                <label>Positive Feedback</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

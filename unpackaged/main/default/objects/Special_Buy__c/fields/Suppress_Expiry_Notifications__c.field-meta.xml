@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppress_Expiry_Notifications__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Suppresses expiry notifications to account owners related to customer special buys related to this special buy</description>
+    <label>Suppress Expiry Notifications</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

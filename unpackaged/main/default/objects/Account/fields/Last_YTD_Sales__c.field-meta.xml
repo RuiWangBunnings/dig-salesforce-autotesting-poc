@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_YTD_Sales__c</fullName>
+    <description>The Last Year Year-To-Date Total sales of Account</description>
+    <formula>BLANKVALUE(Last_YTD_Sales_F_T__c, 0) + 
+BLANKVALUE(Last_YTD_Sales_Stores__c, 0) + 
+BLANKVALUE(Last_YTD_Sales_TC__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last YTD Sales</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

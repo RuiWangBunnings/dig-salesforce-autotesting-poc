@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Podium_Plaza_Decks_and_Terraces__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>Podium / Plaza Decks and Terraces</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

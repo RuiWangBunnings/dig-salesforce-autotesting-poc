@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Trade_Assist_Case</fullName>
+    <availability>online</availability>
+    <description>This is used for Trade Assist</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Trade Assist Case</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/lightning/o/Case/new?recordTypeId=012Mp000000Gc7lIAC&amp;defaultFieldValues=AccountId={!Account.Id},Account_Name__c={!Account.Name},Country__c={!Account.Country__c}</url>
+</WebLink>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Underlay_Required__c</fullName>
+    <label>Underlay Required</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Underlay Standard</fullName>
+                <default>false</default>
+                <label>Underlay Standard</label>
+            </value>
+            <value>
+                <fullName>Underlay Acoustic</fullName>
+                <default>false</default>
+                <label>Underlay Acoustic</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

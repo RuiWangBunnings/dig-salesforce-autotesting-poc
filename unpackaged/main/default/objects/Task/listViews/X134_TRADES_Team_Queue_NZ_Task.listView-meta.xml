@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X134_TRADES_Team_Queue_NZ_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>134 TRADES Team Queue NZ</label>
+    <queue>X134_TRADES_Team_Queue_NZ</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

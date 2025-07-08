@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_QS</fullName>
+    <columns>NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Supplier__c</columns>
+    <columns>Date_Requested__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Date_Received__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>Internal QS,External QS,Repricing</value>
+    </filters>
+    <label>Outstanding QS</label>
+    <sharedTo>
+        <roleAndSubordinates>NZ_Quote_Office_Manager</roleAndSubordinates>
+    </sharedTo>
+</ListView>

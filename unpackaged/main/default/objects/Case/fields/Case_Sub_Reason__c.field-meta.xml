@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sub_Reason__c</fullName>
+    <description>Voice Of Customer Case Sub Reasons</description>
+    <label>Case Sub Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delivery not on time</fullName>
+                <default>false</default>
+                <label>Delivery not on time</label>
+            </value>
+            <value>
+                <fullName>Incorrect product delivered</fullName>
+                <default>false</default>
+                <label>Incorrect product delivered</label>
+            </value>
+            <value>
+                <fullName>Missing items from delivery</fullName>
+                <default>false</default>
+                <label>Missing items from delivery</label>
+            </value>
+            <value>
+                <fullName>Missing delivery</fullName>
+                <default>false</default>
+                <label>Missing delivery</label>
+            </value>
+            <value>
+                <fullName>Damaged stock</fullName>
+                <default>false</default>
+                <label>Damaged stock</label>
+            </value>
+            <value>
+                <fullName>Delivered in wrong location</fullName>
+                <default>false</default>
+                <label>Delivered in wrong location</label>
+            </value>
+            <value>
+                <fullName>Unsatisfactory delivery outcome</fullName>
+                <default>false</default>
+                <label>Unsatisfactory delivery outcome</label>
+            </value>
+            <value>
+                <fullName>Damage to customer site/property</fullName>
+                <default>false</default>
+                <label>Damage to customer site/property</label>
+            </value>
+            <value>
+                <fullName>Incorrect product delivered &amp; installed on site</fullName>
+                <default>false</default>
+                <label>Incorrect product delivered &amp; installed on site</label>
+            </value>
+            <value>
+                <fullName>Order not ready for pick-up</fullName>
+                <default>false</default>
+                <label>Order not ready for pick-up</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

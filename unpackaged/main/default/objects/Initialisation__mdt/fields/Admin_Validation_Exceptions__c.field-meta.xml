@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Admin_Validation_Exceptions__c</fullName>
+    <description>Lists the Administrator and Integration profiles that are exempt from the restrictions on editing Account and Contact data</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Admin Validation Exceptions</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

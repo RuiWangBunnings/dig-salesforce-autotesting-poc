@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_details_mandatory</fullName>
+    <active>true</active>
+    <description>Ensures either Phone, Mobile or Email is populated before a user can save.</description>
+    <errorConditionFormula>AND(
+ISBLANK(Email),
+ISBLANK(Phone),
+ISBLANK(MobilePhone),
+NOT(CONTAINS($CustomMetadata.Initialisation__mdt.CCRM_Initialisation.Admin_Validation_Exceptions__c, $Profile.Name))
+)</errorConditionFormula>
+    <errorMessage>Please capture one of the following fields: Phone, Mobile, or Email.</errorMessage>
+</ValidationRule>

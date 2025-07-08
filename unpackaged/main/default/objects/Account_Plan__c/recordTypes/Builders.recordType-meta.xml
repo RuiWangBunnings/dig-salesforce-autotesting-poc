@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Builders</fullName>
+    <active>true</active>
+    <label>Builders</label>
+    <picklistValues>
+        <picklist>Call_Cycle_Frequency__c</picklist>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Product_A__c</picklist>
+        <values>
+            <fullName>Cavity Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cement Concrete Mortar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Jams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exterior Claddings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOW Plumb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fascia Boards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fasteners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formwork %26 Reo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Framing Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Linings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiln Dried Hardwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LVL Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Trusses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Render</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Plywood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underlays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Product_B__c</picklist>
+        <values>
+            <fullName>Cavity Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cement Concrete Mortar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Jams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exterior Claddings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOW Plumb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fascia Boards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fasteners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formwork %26 Reo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Framing Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Linings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiln Dried Hardwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LVL Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Trusses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Render</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Plywood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underlays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Product_C__c</picklist>
+        <values>
+            <fullName>Cavity Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cement Concrete Mortar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Furniture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Door Jams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exterior Claddings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOW Plumb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fascia Boards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fasteners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formwork %26 Reo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Framing Pine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Linings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiln Dried Hardwood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LVL Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Framing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nails</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab Trusses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Render</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roofing Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Screws</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Bracing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheet Flooring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Plywood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underlays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windows</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Segment_A__c</picklist>
+        <values>
+            <fullName>Ancillary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beaumont Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fit Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lock Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab F%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slab</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Target_Segment_B__c</picklist>
+        <values>
+            <fullName>Ancillary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beaumont Tiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fit Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lock Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prefab F%26T</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26I</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slab</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

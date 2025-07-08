@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edited_by_assignedto_only</fullName>
+    <active>false</active>
+    <description>Only assigned to can update the task if not created</description>
+    <errorConditionFormula>Owner:User.Id &lt;&gt; $User.Id</errorConditionFormula>
+    <errorMessage>Assigned user are only allowed to update the task</errorMessage>
+</ValidationRule>

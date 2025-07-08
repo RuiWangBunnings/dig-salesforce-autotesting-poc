@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Semi_frameless_Shower_Screen_Type__c</fullName>
+    <label>Semi-frameless Shower Screen Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Semi-frameless 6mm Pivot Telescopic door</fullName>
+                <default>false</default>
+                <label>Semi-frameless 6mm Pivot Telescopic door</label>
+            </value>
+            <value>
+                <fullName>Sliding custom semi frameless 6mm shower screen</fullName>
+                <default>false</default>
+                <label>Sliding custom semi frameless 6mm shower screen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

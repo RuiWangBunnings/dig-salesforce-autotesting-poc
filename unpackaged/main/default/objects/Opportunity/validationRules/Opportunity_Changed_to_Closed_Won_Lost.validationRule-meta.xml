@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Changed_to_Closed_Won_Lost</fullName>
+    <active>false</active>
+    <description>Checks if Opportunity Stage set to Closed Won/Lost and has Open COS Quotes (Superseded by CCRM-6892)</description>
+    <errorConditionFormula>ISCHANGED(StageName) &amp;&amp; ( TEXT(PRIORVALUE(StageName)) &lt;&gt; &quot;Closed Won&quot; &amp;&amp; TEXT(PRIORVALUE(StageName)) &lt;&gt; &quot;Closed Lost&quot;) &amp;&amp; (TEXT(StageName) = &quot;Closed Won&quot; || TEXT(StageName) = &quot;Closed Lost&quot;) &amp;&amp;  (Number_of_Open_COS_Quote__c &lt;&gt; 0) &amp;&amp; ($Profile.Name &lt;&gt; &quot;System Administrator&quot; &amp;&amp; $Profile.Name &lt;&gt; &quot;Integrations User&quot;)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>There is/are Open COS Quote/s related to this opportunity.</errorMessage>
+</ValidationRule>

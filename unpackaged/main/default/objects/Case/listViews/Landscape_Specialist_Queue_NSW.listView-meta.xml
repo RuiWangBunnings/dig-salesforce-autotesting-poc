@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Landscape_Specialist_Queue_NSW</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Opportunity__c</columns>
+    <columns>Opportunity_COS_Num__c</columns>
+    <columns>Age__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>State_opportunity__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>State_opportunity__c</field>
+        <operation>equals</operation>
+        <value>NSW</value>
+    </filters>
+    <label>Landscape Specialist Queue NSW</label>
+    <queue>Landscape_Specialist_Queue</queue>
+    <sharedTo>
+        <role>Commercial_System_Coordinator</role>
+        <roleAndSubordinates>AU_Business_Improvement_Coordinator</roleAndSubordinates>
+    </sharedTo>
+</ListView>

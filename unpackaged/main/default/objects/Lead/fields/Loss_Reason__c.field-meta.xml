@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason__c</fullName>
+    <label>Loss Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unable to meet requirements</fullName>
+                <default>false</default>
+                <label>Unable to meet requirements</label>
+            </value>
+            <value>
+                <fullName>Lost to competitor</fullName>
+                <default>false</default>
+                <label>Lost to competitor</label>
+            </value>
+            <value>
+                <fullName>Customer job on hold</fullName>
+                <default>false</default>
+                <label>Customer job on hold</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Declined (Do not contact)</fullName>
+                <default>false</default>
+                <label>Declined (Do not contact)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

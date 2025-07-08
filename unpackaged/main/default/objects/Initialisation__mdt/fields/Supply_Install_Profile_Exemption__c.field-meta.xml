@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supply_Install_Profile_Exemption__c</fullName>
+    <description>SFSUP-702: S&amp;I Profiles to raise S&amp;I opportunity type outside of WoB form</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Supply &amp; Install Profile Exemption</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

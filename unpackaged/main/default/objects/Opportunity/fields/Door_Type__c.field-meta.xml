@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Door_Type__c</fullName>
+    <label>Door Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Interior_Doors__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>MDF Paint 3mm skin</fullName>
+                <default>false</default>
+                <label>MDF Paint 3mm skin</label>
+            </value>
+            <value>
+                <fullName>4mm Polycore - HNZ</fullName>
+                <default>false</default>
+                <label>4mm Polycore - HNZ</label>
+            </value>
+            <value>
+                <fullName>Pressed Panel</fullName>
+                <default>false</default>
+                <label>Pressed Panel</label>
+            </value>
+            <value>
+                <fullName>V-Groove</fullName>
+                <default>false</default>
+                <label>V-Groove</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>MDF Paint 3mm skin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>4mm Polycore - HNZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>Pressed Panel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>V-Groove</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Required - Specify</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

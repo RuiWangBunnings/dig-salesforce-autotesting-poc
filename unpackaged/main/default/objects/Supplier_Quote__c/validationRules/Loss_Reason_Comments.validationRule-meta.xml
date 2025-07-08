@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loss_Reason_Comments</fullName>
+    <active>true</active>
+    <description>Loss Reason Comments - Make mandatory if Loss Reason = Other</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Loss_Reason__c  , &quot;Other&quot;),
+ISBLANK(Loss_Reason_Comments__c),
+RecordType.DeveloperName = &quot;AU_Supplier_Quote&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Loss_Reason_Comments__c</errorDisplayField>
+    <errorMessage>Please provide Loss Reason Comments</errorMessage>
+</ValidationRule>

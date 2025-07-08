@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PL_FTD_Summary__c</fullName>
+    <description>A summary of PLs and FTDs for NZ prospect</description>
+    <label>PL/FTD Summary</label>
+    <length>131072</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

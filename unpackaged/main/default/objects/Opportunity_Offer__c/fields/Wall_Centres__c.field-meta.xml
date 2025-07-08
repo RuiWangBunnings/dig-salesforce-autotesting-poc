@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wall_Centres__c</fullName>
+    <label>Wall Centres</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>450mm Stud Centre</fullName>
+                <default>false</default>
+                <label>450mm Stud Centre</label>
+            </value>
+            <value>
+                <fullName>600mm Stud Centre</fullName>
+                <default>false</default>
+                <label>600mm Stud Centre</label>
+            </value>
+            <value>
+                <fullName>Other - Please Specify</fullName>
+                <default>false</default>
+                <label>Other - Please Specify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

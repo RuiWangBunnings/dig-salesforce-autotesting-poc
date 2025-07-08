@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Timber_Fascia_Size__c</fullName>
+    <label>Timber Fascia Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Timber_Fascia_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>As Per Plan</fullName>
+                <default>false</default>
+                <label>As Per Plan</label>
+            </value>
+            <value>
+                <fullName>135 x 18</fullName>
+                <default>false</default>
+                <label>135 x 18</label>
+            </value>
+            <value>
+                <fullName>135 x 18.5</fullName>
+                <default>false</default>
+                <label>135 x 18.5</label>
+            </value>
+            <value>
+                <fullName>135 x 28</fullName>
+                <default>false</default>
+                <label>135 x 28</label>
+            </value>
+            <value>
+                <fullName>135 x 30</fullName>
+                <default>false</default>
+                <label>135 x 30</label>
+            </value>
+            <value>
+                <fullName>180 x 16</fullName>
+                <default>false</default>
+                <label>180 x 16</label>
+            </value>
+            <value>
+                <fullName>180 x 18</fullName>
+                <default>false</default>
+                <label>180 x 18</label>
+            </value>
+            <value>
+                <fullName>180 x 18.5</fullName>
+                <default>false</default>
+                <label>180 x 18.5</label>
+            </value>
+            <value>
+                <fullName>180 x 28</fullName>
+                <default>false</default>
+                <label>180 x 28</label>
+            </value>
+            <value>
+                <fullName>180 x 30</fullName>
+                <default>false</default>
+                <label>180 x 30</label>
+            </value>
+            <value>
+                <fullName>230 x 16</fullName>
+                <default>false</default>
+                <label>230 x 16</label>
+            </value>
+            <value>
+                <fullName>230 x 18</fullName>
+                <default>false</default>
+                <label>230 x 18</label>
+            </value>
+            <value>
+                <fullName>230 x 28</fullName>
+                <default>false</default>
+                <label>230 x 28</label>
+            </value>
+            <value>
+                <fullName>230 x 30</fullName>
+                <default>false</default>
+                <label>230 x 30</label>
+            </value>
+            <value>
+                <fullName>280 x 18</fullName>
+                <default>false</default>
+                <label>280 x 18</label>
+            </value>
+            <value>
+                <fullName>280 x 30</fullName>
+                <default>false</default>
+                <label>280 x 30</label>
+            </value>
+            <value>
+                <fullName>Other - Specify</fullName>
+                <default>false</default>
+                <label>Other - Specify</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>As Per Plan</controllingFieldValue>
+            <valueName>As Per Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>135 x 18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>135 x 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>180 x 18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>180 x 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>230 x 18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>230 x 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>280 x 18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <valueName>280 x 30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RAD PP</controllingFieldValue>
+            <controllingFieldValue>MPRO PP</controllingFieldValue>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <controllingFieldValue>Axent</controllingFieldValue>
+            <controllingFieldValue>Other - Specify</controllingFieldValue>
+            <valueName>Other - Specify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <valueName>135 x 18.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <valueName>135 x 28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <valueName>180 x 18.5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <valueName>180 x 28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cedar</controllingFieldValue>
+            <valueName>230 x 28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Axent</controllingFieldValue>
+            <valueName>180 x 16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Axent</controllingFieldValue>
+            <valueName>230 x 16</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

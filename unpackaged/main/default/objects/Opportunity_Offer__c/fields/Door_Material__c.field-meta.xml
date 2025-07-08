@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Door_Material__c</fullName>
+    <label>Door Material</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>9mm White melamine</fullName>
+                <default>false</default>
+                <label>9mm White melamine</label>
+            </value>
+            <value>
+                <fullName>Silver mirror</fullName>
+                <default>false</default>
+                <label>Silver mirror</label>
+            </value>
+            <value>
+                <fullName>White glass</fullName>
+                <default>false</default>
+                <label>White glass</label>
+            </value>
+            <value>
+                <fullName>Onyx grey/black mirror</fullName>
+                <default>false</default>
+                <label>Onyx grey/black mirror</label>
+            </value>
+            <value>
+                <fullName>Other specify</fullName>
+                <default>false</default>
+                <label>Other specify</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

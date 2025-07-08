@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interior_Finishings__c</fullName>
+    <label>Interior Finishings</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Required - Specify</fullName>
+                <default>false</default>
+                <label>Required - Specify</label>
+            </value>
+            <value>
+                <fullName>As Per Default Template</fullName>
+                <default>true</default>
+                <label>As Per Default Template</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

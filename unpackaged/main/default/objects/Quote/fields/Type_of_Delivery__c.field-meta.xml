@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Delivery__c</fullName>
+    <label>Type of Delivery</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PickedbyCustomer</fullName>
+                <default>false</default>
+                <label>Picked by Customer</label>
+            </value>
+            <value>
+                <fullName>CustomertoCollect</fullName>
+                <default>false</default>
+                <label>Customer to Collect</label>
+            </value>
+            <value>
+                <fullName>DeliverytoCustomer</fullName>
+                <default>false</default>
+                <label>Delivery to Customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

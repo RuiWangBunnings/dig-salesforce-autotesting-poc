@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TECH_WOB_Has_FandT_Quote_Requirements__c</fullName>
+    <formula>Prefab_Prenail_Wall_Frames__c || Floor_System__c || Floor_Trusses__c || Roof_Trusses__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TECH WOB Has FandT Quote Requirements</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

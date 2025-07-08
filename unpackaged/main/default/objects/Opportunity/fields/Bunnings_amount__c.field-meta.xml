@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bunnings_amount__c</fullName>
+    <description>Used in reporting</description>
+    <label>Bunnings $</label>
+    <summarizedField>Supplier_Quote__c.Total_value_excluding_GST__c</summarizedField>
+    <summaryFilterItems>
+        <field>Supplier_Quote__c.Account_Record_Type__c</field>
+        <operation>equals</operation>
+        <value>Bunnings</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Supplier_Quote__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

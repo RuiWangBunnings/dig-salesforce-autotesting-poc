@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Request</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>PowerPass_Account_Number__c</columns>
+    <columns>Transfer_to__c</columns>
+    <columns>New_Owner__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>New_Owner_Name__c</columns>
+    <columns>Previous_Owner__c</columns>
+    <columns>Non_TS_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Requests</label>
+</ListView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Special_Buys</fullName>
+    <active>true</active>
+    <description>Special buys avaiable for New Zealand</description>
+    <label>NZ Special Buys</label>
+    <picklistValues>
+        <picklist>Country__c</picklist>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location_Type__c</picklist>
+        <values>
+            <fullName>All Retail Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Trade Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Specific</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Special_Buy_Type__c</picklist>
+        <values>
+            <fullName>Customer Specific</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>States__c</picklist>
+        <values>
+            <fullName>NI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
